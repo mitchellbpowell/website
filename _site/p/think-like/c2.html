@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>HTLCS:LP3 – Chapter 2 exercises | Mitchell Powell</title>
+<meta name="generator" content="Jekyll v3.8.6" />
+<meta property="og:title" content="HTLCS:LP3 – Chapter 2 exercises" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Some notes on the book" />
+<meta property="og:description" content="Some notes on the book" />
+<link rel="canonical" href="/p/think-like/c2.html" />
+<meta property="og:url" content="/p/think-like/c2.html" />
+<meta property="og:site_name" content="Mitchell Powell" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="HTLCS:LP3 – Chapter 2 exercises" />
+<script type="application/ld+json">
+{"@type":"WebPage","headline":"HTLCS:LP3 – Chapter 2 exercises","description":"Some notes on the book","url":"/p/think-like/c2.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Mitchell Powell" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Mitchell Powell</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/">Home Page</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">HTLCS:LP3 -- Chapter 2 exercises</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="" itemprop="datePublished">
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><em>2019</em></p>
+
+<p>Below are exercises from chapter 2 of <em><a href="index.html">How to Think Like a Computer Scientist: Learning with Python 3</a></em>. The bits in italics are from the book; the code is my solutions.</p>
+
+<h1 id="2141--a-simple-exercise-with-variables">2.14.1 – A simple exercise with variables</h1>
+
+<p><em>Take the sentence:</em> All work and no play makes Jack a dull boy. <em>Store each word in a separate variable, then print out the sentence on one line using print.</em></p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1"># This isn't clever, but it works.</span>
+
+<span class="n">a</span> <span class="o">=</span> <span class="s2">"All"</span>
+<span class="n">b</span> <span class="o">=</span> <span class="s2">"work"</span>
+<span class="n">c</span> <span class="o">=</span> <span class="s2">"and"</span>
+<span class="n">d</span> <span class="o">=</span> <span class="s2">"no"</span>
+<span class="n">e</span> <span class="o">=</span> <span class="s2">"play"</span>
+<span class="n">f</span> <span class="o">=</span> <span class="s2">"makes"</span>
+<span class="n">g</span> <span class="o">=</span> <span class="s2">"Jack"</span>
+<span class="n">h</span> <span class="o">=</span> <span class="s2">"a"</span>
+<span class="n">i</span> <span class="o">=</span> <span class="s2">"dull"</span>
+<span class="n">j</span> <span class="o">=</span> <span class="s2">"boy"</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"{} {} {} {} {} {} {} {} {} {}."</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">e</span><span class="p">,</span> <span class="n">f</span><span class="p">,</span> <span class="n">g</span><span class="p">,</span> <span class="n">h</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">))</span></code></pre></figure>
+
+<h1 id="2145--compound-interest">2.14.5 – Compound interest</h1>
+
+<p><em>The formula for computing the final amount if one is earning compound interest is given on Wikipedia as</em></p>
+
+<p><img src="../../i/1.png" alt="A = P(1 +(r/n))^nt" /></p>
+
+<p><em>Where,</em></p>
+
+<ul>
+  <li><em>P = principal amount (initial investment)</em></li>
+  <li><em>r = annual nominal interest rate (as a decimal)</em></li>
+  <li><em>n = number of times the interest rate is compounded per year</em></li>
+  <li><em>t = number of years</em></li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">P</span> <span class="o">=</span> <span class="mi">10000</span>
+<span class="n">n</span> <span class="o">=</span> <span class="mi">12</span>
+<span class="n">r</span> <span class="o">=</span> <span class="o">.</span><span class="mi">08</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"How many years would you like to let your beautiful $10,000"</span><span class="p">)</span>
+<span class="n">t</span> <span class="o">=</span> <span class="n">int</span><span class="p">(</span><span class="n">input</span><span class="p">(</span><span class="s2">"investment grow at a rate of 8%, compounded monthly? </span><span class="se">\n</span><span class="s2">"</span><span class="p">))</span>
+
+<span class="c1"># Executes the formula shown in the exercise.</span>
+<span class="n">temp1</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">+</span> <span class="n">r</span> <span class="o">/</span> <span class="n">n</span>
+<span class="no">A</span> <span class="o">=</span> <span class="no">P</span> <span class="o">*</span> <span class="n">temp1</span> <span class="o">**</span> <span class="p">(</span><span class="n">n</span> <span class="o">*</span> <span class="n">t</span><span class="p">)</span>
+
+<span class="n">final_statement</span> <span class="o">=</span> <span class="s2">"You'll wind up with ${:,} after {} years."</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span>
+                                                              <span class="n">round</span><span class="p">(</span><span class="no">A</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="n">t</span>
+                                                                            <span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">final_statement</span><span class="p">)</span></code></pre></figure>
+
+<h1 id="2147-8--modular-math-with-clock-time">2.14.7, 8 – Modular math with clock time</h1>
+
+<p><em>You look at the clock and it is exactly 2pm. You set an alarm to go off in 51 hours. At what time does the alarm go off? (Hint: you could count on your fingers, but this is not what we’re after. If you are tempted to count on your fingers, change the 51 to 5100.)</em></p>
+
+<p><em>Write a Python program to solve the general version of the above problem. Ask the user for the time now (in hours), and ask for the number of hours to wait. Your program should output what the time will be on the clock when the alarm goes off.</em></p>
+
+<p>In the example problem, we’re asked what time it will be 51 hours from 2 pm. Since we find ourselves at the same time every 24 hours, we’re in the realm of modular math. 51 hours is <code class="highlighter-rouge">2 * 24 + 3</code> hours, so in 51 hours the time will be the same as it will be three hours after 2 pm. Thus, 5 pm.</p>
+
+<p>That’s easy enough, but if we want to generalize we’re going to need to handle somewhat two more wrinkles. First, there’s a modulo twelve system: e.g. two hours after 11 is 1. Second, we have to keep track of the switches from am to pm and vice versa.</p>
+
+<p>So if we wanted to know, for example, what time is 1000 hours after 2 pm, we’d need to find 1000 modulo 24, which is 16, and then to add 16 hours to 2 pm. This will involve taking a modulo 12. 16 + 2 = 18, and 18 modulo 12 is 6, so it’ll be 6 o’clock at the end of our time. And we’ll need to handle a switch from pm to am.</p>
+
+<p>This all might be easy to do for a human being working on scratch paper, but if we want to turn it into a program we’ll be juggling a fair number of moving parts. And we’ll also need to remember to account for the fact that 12 am is midnight and 12 pm is noon; and we could make a mistake anywhere in that process.</p>
+
+<p>Fortunately, there’s another time system that simplifies things for our purposes: the <a href="https://en.wikipedia.org/wiki/24-hour_clock">24-hour clock</a>, also known as ‘military time’. Civilian time goes through 12 am (midnight), 1 am, 2 am … 10 am, 11 am, 12 pm (noon), 1 pm, 2 pm … 10 pm, 11 pm, and 12 am again. That sequence, in military time, is simply 0, 1, 2, … 10, 11, 12, 13, 14 … 22, 23, and 0 again. If we do our work in military time, it’ll be a lot simpler mathematically.</p>
+
+<p>But we can’t expect our users to give the time in this unfamiliar format. We’ll use military time to do the actual math, but take inputs from the user in ‘ordinary time’, and give outputs in language they can understand.</p>
+
+<p>So we’ll need two functions: one to transform standard inputs that we’ll get from the user to military time, and one to transfer military time back into a form we can hand off to the user.</p>
+
+<p>We can do this like so:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1"># This program only works if you give it whole numbers of hours, </span>
+<span class="c1"># both for the current time and the time to wait.</span>
+
+<span class="k">def</span> <span class="nf">military_time</span><span class="p">(</span><span class="n">hour</span><span class="p">,</span> <span class="n">ampm</span><span class="p">):</span>
+    <span class="s2">"""Takes as 'hour' an integer from one to twelve, and as ampm
+    as the string 'am' or 'pm'. Returns an integer from 0 to 23 representing
+    the 'military time' equivalent of the 'civilian time' inputs."""</span>
+    <span class="k">if</span> <span class="n">hour</span> <span class="o">==</span> <span class="mi">12</span> <span class="n">and</span> <span class="n">ampm</span> <span class="o">==</span> <span class="s1">'am'</span><span class="p">:</span>
+        <span class="k">return</span> <span class="mi">0</span>
+    <span class="n">elif</span> <span class="n">hour</span> <span class="o">==</span> <span class="mi">12</span> <span class="n">and</span> <span class="n">ampm</span> <span class="o">==</span> <span class="s1">'pm'</span><span class="p">:</span>
+        <span class="k">return</span> <span class="mi">12</span>
+    <span class="n">elif</span> <span class="n">ampm</span> <span class="o">==</span> <span class="s1">'am'</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">hour</span>
+    <span class="n">elif</span> <span class="n">ampm</span> <span class="o">==</span> <span class="s1">'pm'</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">hour</span> <span class="o">+</span> <span class="mi">12</span>
+
+<span class="k">def</span> <span class="nf">civilian_time</span><span class="p">(</span><span class="n">mt</span><span class="p">):</span>
+    <span class="s2">"""Takes an integer from 0 through 23, representing a 'military time'.
+    Returns 'civilian' equivalent."""</span>
+    <span class="k">if</span> <span class="n">mt</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s2">"midnight"</span>
+    <span class="n">elif</span> <span class="n">mt</span> <span class="o">==</span> <span class="mi">12</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s2">"noon"</span>
+    <span class="n">elif</span> <span class="n">mt</span> <span class="o">&lt;</span> <span class="mi">12</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">str</span><span class="p">(</span><span class="n">mt</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" am"</span>
+    <span class="n">elif</span> <span class="n">mt</span> <span class="o">&gt;</span> <span class="mi">12</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">str</span><span class="p">(</span><span class="n">mt</span> <span class="o">-</span> <span class="mi">12</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" pm"</span></code></pre></figure>
+
+<p>Now that we have these two functions to take time into and out of military form, the math becomes very simple. All we need to do is prompt the user for current time and wait duration, convert to ‘military’ time, do the simple math, convert our answer back out into civilian terms, and print it.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1"># Get the current time and wait time from the user</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'What time is it now? Please give the time rounded to the nearest'</span><span class="p">)</span>
+<span class="n">start_hour</span> <span class="o">=</span> <span class="n">int</span><span class="p">(</span><span class="n">input</span><span class="p">(</span><span class="s1">'hour, as a number from 1 to 12. \n'</span><span class="p">))</span>
+<span class="n">start_ampm</span> <span class="o">=</span> <span class="n">input</span><span class="p">(</span><span class="s1">'Is it am or pm? \n'</span><span class="p">)</span>
+<span class="n">wait_time</span> <span class="o">=</span> <span class="n">int</span><span class="p">(</span><span class="n">input</span><span class="p">(</span><span class="s1">'How many hours will you wait? \n'</span><span class="p">))</span>
+
+<span class="c1"># Convert current time to military time</span>
+<span class="n">start_time</span> <span class="o">=</span> <span class="n">military_time</span><span class="p">(</span><span class="n">start_hour</span><span class="p">,</span> <span class="n">start_ampm</span><span class="p">)</span>
+
+<span class="c1"># Do the actual math of finding when the wait ends.</span>
+<span class="n">end_time</span> <span class="o">=</span> <span class="p">(</span><span class="n">start_time</span> <span class="o">+</span> <span class="n">wait_time</span><span class="p">)</span> <span class="o">%</span> <span class="mi">24</span>
+
+<span class="c1"># Format the output for the user and print it</span>
+<span class="n">output_time</span> <span class="o">=</span> <span class="n">civilian_time</span><span class="p">(</span><span class="n">end_time</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'You will be finished waiting at {}.'</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span><span class="n">output_time</span><span class="p">))</span></code></pre></figure>
+
+
+  </div><a class="u-url" href="/p/think-like/c2.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Mitchell Powell</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Mitchell Powell</li><li><a class="u-email" href="mailto:mitchellbpowell@gmail.com">mitchellbpowell@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>This is a site in construction, currently written in markdown and compiled with Jekyll as of October 2020.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

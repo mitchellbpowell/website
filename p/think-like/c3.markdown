@@ -1,0 +1,221 @@
+---
+title: HTLCS:LP3 -- Chapter 3 exercises
+description: Some notes on the book
+layout: post
+---
+
+*2019*
+
+Below are exercises from chapter 3 of *[How to Think Like a Computer Scientist: Learning with Python 3](index.html)*. The bits in italics are from the book; the code is my solutions.
+
+# 3.8.1 -- Simple for loop
+
+*Write a program that prints* `we like Python's turtles!` *1000 times.*
+
+{% highlight ruby %}
+for x in range(1000):
+    print("We like Python's turtles!")
+{% endhighlight %}
+
+# 3.8.3 -- For loop using a list
+
+*Write a program that uses a for loop to print*
+
+`One of the months of the year is January`  
+`One of the months of the year is February` ...
+
+{% highlight ruby %}
+months = ["January", "February", "March", "April", "May", "June", "July", \
+    "August", "September", "October", "November", "December"]
+
+for month in months:
+    print("One of the months of the year is " + month + ".")
+{% endhighlight %}
+
+# 3.8.5 -- Basic math with a list
+
+*Assume you have the assignment* `xs = [12, 10, 32, 3, 66, 17, 42, 99, 20]`
+
+*Write a loop that prints each of the numbers on a new line.*
+
+{% highlight ruby %}
+xs = [12, 10, 32, 3, 66, 17, 42, 99, 20]
+for x in xs:
+    print(x)
+ {% endhighlight %}
+ 
+ *Write a loop that prints each number and its square on a new line.*
+ 
+ {% highlight ruby %}
+ xs = [12, 10, 32, 3, 66, 17, 42, 99, 20]
+for x in xs:
+    print(str(x) + " squared is " + str(x**2) + ".")
+{% endhighlight %}
+
+*Write a loop that adds all the numbers from the list into a variable called* `total`. *You should set the* `total` *variable to have the value* `0` *before you start adding them up, and print the value in* `total` *after the loop has completed.*
+
+{% highlight ruby %}
+xs = [12, 10, 32, 3, 66, 17, 42, 99, 20]
+total = 0
+for x in xs:
+    total = total + x
+print(total)
+{% endhighlight %}
+
+*Print the product of all the numbers in the list.*
+
+{% highlight ruby %}
+xs = [12, 10, 32, 3, 66, 17, 42, 99, 20]
+total = 1
+for x in xs:
+    total = total * x
+print(total)
+{% endhighlight %}
+
+# 3.8.6 -- Drawing regular polygons with turtles
+
+*Use for loops to make a turtle draw these regular polygons (regular means all sides the same lengths, all angles the same):*
+
+*An equilateral triangle*
+
+{% highlight ruby %}
+def draw_regular(name, sides, length):
+    """ Takes a turtle as name, an integer as sides, and a number as length.
+    Causes the turtle to draw a regular polygon with that number of sides, 
+    in which each side is of length 'length'."""
+
+    # Draws a side, then turns, for however many sides we need.
+    for x in range(sides):
+        name.forward(length)
+        name.left(360 / sides)
+
+import turtle               # Lets us work with turtles
+wn = turtle.Screen()        # Gives us a screen to work on
+tess = turtle.Turtle()      # Gives us a turtle on that screen
+
+draw_regular(tess, 3, 50)   # The line that chooses what to draw
+
+wn.mainloop()               # Holds the screen open till the user closes it.
+{% endhighlight %}
+
+Because the program above works by calling a function set up to draw a regular polygon with any given number of sides, we can draw different polygons simply by tweaking  the second argument in line 15.
+
+*A square*
+
+Simply change line 15 to `draw_regular(tess, 4, 50)`.
+
+*A hexagon*
+
+`draw_regular(tess, 6, 50)`
+
+*An octagon*
+
+`draw_regular(tess, 8, 50)`
+
+# 3.8.7 -- Visualizing a random walk
+
+*A drunk pirate makes a random turn and then takes 100 steps forward, makes another random turn, takes another 100 steps, turns another random amount, etc. A social science student records the angle of each turn before the next 100 steps are taken. Her experimental data is `[160, -43, 270, -97, -43, 200, -940, 17, -86]`. *(Positive angles are counter-clockwise.)  Use a turtle to draw the path taken by our drunk friend.*
+
+{% highlight ruby %}
+import turtle
+wn = turtle.Screen()
+pirate = turtle.Turtle()
+
+turns = [160, -43, 270, -97, -43, 200, -940, 17, -86]
+
+for turn in turns:
+    pirate.left(turn)
+    pirate.forward(100)
+
+wn.mainloop()
+{% endhighlight %}
+
+*Enhance your program above to also tell us what the drunk pirate’s heading is after he has finished stumbling around. (Assume he begins at heading 0).*
+
+*We can do this by adding a* `heading` *variable, and then updating it every time we turn the pirate. And, while we're at it, we might as well have some comments in the code.*
+
+{% highlight ruby %}
+# Make a simulated pirate and a place for him to stumble around.
+import turtle
+wn = turtle.Screen()
+pirate = turtle.Turtle()
+
+# The raw data about how he stumbled.
+turns = [160, -43, 270, -97, -43, 200, -940, 17, -86]
+
+# This variable will keep track of our pirate's heading
+heading = 0
+
+# Simulate the actual stumbling around.
+for turn in turns:
+    # The pirate turns.
+    pirate.left(turn)
+    # We update which way he's facing.
+    heading = heading + 1
+    # He walks a suspiciously consistent number of steps in a straight line.
+    pirate.forward(100)
+
+# Keep the screen open till the user closes it.
+wn.mainloop()
+{% endhighlight %}
+
+# 3.8.11 -- Drawing a pentagram
+
+*Write a program to draw a shape like this:*
+
+![pentagram](../../i/2.png)
+
+{% highlight ruby %}
+# Set up a turtle on a screen.
+import turtle
+wn = turtle.Screen()
+tess = turtle.Turtle()
+
+# Customize speed and pen thickness.
+tess.speed(3)
+tess.pensize(3)
+
+# Draw the actual shape
+for x in range(5):
+    tess.forward(200)
+    tess.right(144)
+
+# Make the turtle hide so just the shape displays.
+tess.hideturtle()
+
+# Hold the window open till the user closes it.
+wn.mainloop()
+{% endhighlight %}
+
+# 3.8.12
+
+*Write a program to draw a face of a clock that looks something like this:*
+
+![turtle clock](../../i/3.png)
+
+{% highlight ruby %}
+# Set up screen, turtle, and light green background.
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("lightgreen")
+tess = turtle.Turtle()
+tess.color("blue")
+tess.shape("turtle")
+tess.pensize(2)
+
+# The turtle will need to make twelve 'hands' of 
+# the clock, turning thirty degrees each time.
+for x in range(12):
+    tess.left(30)
+    tess.penup()
+    tess.forward(70)
+    tess.pendown()
+    tess.forward(7)
+    tess.penup()
+    tess.forward(13)
+    tess.stamp()
+    tess.backward(90)
+
+# Hold the screen open till the user closes it.
+wn.mainloop()
+{% endhighlight %}
