@@ -24,6 +24,10 @@ It is a commonplace claim, and almost entirely true, that Hebrew is read from ri
 
 I am a proud American, and I love my country. Still, I don't like what we do with quotation marks, where commas and other bits that aren't part of the quotation in any logical sense. In the ongoing effort to promote a more perfect union for ourselves and our posterity, I plan on using [logical quotation](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style#Punctuation_inside_or_outside) whenever I can get away with it.
 
+# Test
+
+This is a test line written 2020-10-31-16:22 to see if I can upload it to the GitHub correctamente.
+
 # WP:PAG
 
 I used to edit quite a bit for Wikipedia, until I got tired of it. In that time, I became familiar with Wikipedia's Policies and Guidelines, known by the shortcut [WP:PAG](https://en.wikipedia.org/wiki/Wikipedia:Policies_and_guidelines). If you ever wondered how such a massive site maintains a more or less consistent styles and keeps a pretty decent quality, WP:PAG is part of it.
