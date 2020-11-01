@@ -2,10 +2,645 @@
 title: HTLCS:LP3 -- Chapter 3 exercises
 description: Worked out problems from the book
 layout: post
+date: "2019-09-22"
 ---
 
+Below are exercises from chapter 7 of _[How to Think Like a Computer Scientist: Learning with Python 3](index.html)_. The text in italics comes from the textbook, and the code is my solutions. I went a bit further with the Collatz stuff than the exercises demanded.
 
+## 7.5. The Collatz 3n + 1 sequence
 
+_See if you can find a small starting number that needs more than a hundred steps before it terminates._
 
+This [chapter](http://openbookproject.net/thinkcs/python/english3e/iteration.html) introduces the Collatz sequence. If you're interested, I recommend reading section 7.5 of it. The basic operation of the Collatz sequence is to take a number and, if it is even, divide it by two. If it is odd, multiply it by three and add one. We can express it as a function like so:
+
+{% highlight ruby %}
+def next\_collatz(n):
+    if n % 2 == 0:
+        return n // 2
+    else:
+        return 3\*n + 1
+{% endhighlight %}
+
+Iterating it can yield a "Collatz sequence". So, for example, for the number 3, we get the sequence \[3, 10, 5, 16, 8, 4, 2, 1\]. When you reach 1, the sequence terminates. The textbook has a perfectly good function that prints out a Collatz sequence for a given number. But I'd like to build a function based on my little `next_collatz` function that assembles a list, and then print that list. We can do that like so:
+
+{% highlight ruby %}
+def collatz\_sequence(n):
+    assert type(n) == int
+    assert n > 0
+    sequence = \[n\]
+    while n != 1:
+        n = next\_collatz(n)
+        sequence.append(n)
+    return sequence
+
+for i in range(1, 10):
+    print(collatz\_sequence(i))
+{% endhighlight %}
+
+Those last two lines print
+
+{% highlight ruby %}
+\[1\]
+\[2, 1\]
+\[3, 10, 5, 16, 8, 4, 2, 1\]
+\[4, 2, 1\]
+\[5, 16, 8, 4, 2, 1\]
+\[6, 3, 10, 5, 16, 8, 4, 2, 1\]
+\[7, 22, 11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1\]
+\[8, 4, 2, 1\]
+\[9, 28, 14, 7, 22, 11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1\]
+{% endhighlight %}
+
+But ultimately, we're not interested in _printing_ Collatz sequences. We're interested in measuring the number of steps it takes, given some starting number, to terminate at 1. And we can measure that with this function:
+
+{% highlight ruby %}
+def collatz\_steps(n):
+    """For an integer, n, returns the number of steps before the 
+    Collatz function terminates at 1."""
+    steps = 0
+    while n != 1:
+        n = next\_collatz(n)
+        steps += 1
+    return steps
+{% endhighlight %}
+
+We can test this with:
+
+{% highlight ruby %}
+for x in range(1, 10):
+    print("{} takes {} steps to resolve.".format(x, collatz\_steps(x)))
+{% endhighlight %}
+
+And we get
+
+```
+1 takes 0 steps to resolve.
+2 takes 1 steps to resolve.
+3 takes 7 steps to resolve.
+4 takes 2 steps to resolve.
+5 takes 5 steps to resolve.
+6 takes 8 steps to resolve.
+7 takes 16 steps to resolve.
+8 takes 3 steps to resolve.
+9 takes 19 steps to resolve.
+```
+
+Now that we've got `collatz_steps` working, we can zero in on the whole purpose of this exercise. Let's find the smallest number that takes over 100 steps to solve.
+
+{% highlight ruby %}
+for x in range(1, 100):
+    if collatz\_steps(x) > 100:
+        print("{} takes {} steps to resolve.".format(x, collatz\_steps(x)))
+        print(print\_collatz(x))
+        break
+{% endhighlight %}
+
+We get
+
+```
+27 takes 111 steps to resolve.
+\[27, 82, 41, 124, 62, 31, 94, 47, 142, 71, 214, 107, 322, 161, 484, 242, 121, 364, 182, 91, 274, 137, 412, 206, 103, 310, 155, 466, 233, 700, 350, 175, 526, 263, 790, 395, 1186, 593, 1780, 890, 445, 1336, 668, 334, 167, 502, 251, 754, 377, 1132, 566, 283, 850, 425, 1276, 638, 319, 958, 479, 1438, 719, 2158, 1079, 3238, 1619, 4858, 2429, 7288, 3644, 1822, 911, 2734, 1367, 4102, 2051, 6154, 3077, 9232, 4616, 2308, 1154, 577, 1732, 866, 433, 1300, 650, 325, 976, 488, 244, 122, 61, 184, 92, 46, 23, 70, 35, 106, 53, 160, 80, 40, 20, 10, 5, 16, 8, 4, 2, 1\]
+```
+
+So `collatz_steps(27)` is 111. But as we test bigger and bigger numbers, interestingly, the number of Collatz steps doesn't grow every fast. Now, if 27 takes 111 steps to resolve, we can know for certain that this record of 111 steps will be broken. If nothing else, 54 will yield 112 steps, because 54 is one step away from 27. We can say, in general, that if _n_ takes _s_ steps, _2n_ takes _s + 1_ steps. So, out of curiosity, let's try a bit of code that can find successive "records" -- numbers that produce a longer Collatz sequence than any lesser number:
+
+{% highlight ruby %}
+high = 0
+for x in range(1, 10\*\*6):
+    this\_result = collatz\_steps(x)
+    if this\_result > high:
+        high = this\_result
+        print(x, "takes", high, "steps.")
+{% endhighlight %}
+
+This prints:
+
+```
+2 takes 1 steps.
+3 takes 7 steps.
+6 takes 8 steps.
+7 takes 16 steps.
+9 takes 19 steps.
+18 takes 20 steps.
+25 takes 23 steps.
+27 takes 111 steps.
+54 takes 112 steps.
+73 takes 115 steps.
+97 takes 118 steps.
+129 takes 121 steps.
+171 takes 124 steps.
+231 takes 127 steps.
+313 takes 130 steps.
+327 takes 143 steps.
+649 takes 144 steps.
+703 takes 170 steps.
+871 takes 178 steps.
+1161 takes 181 steps.
+2223 takes 182 steps.
+2463 takes 208 steps.
+2919 takes 216 steps.
+3711 takes 237 steps.
+6171 takes 261 steps.
+10971 takes 267 steps.
+13255 takes 275 steps.
+17647 takes 278 steps.
+23529 takes 281 steps.
+26623 takes 307 steps.
+34239 takes 310 steps.
+35655 takes 323 steps.
+52527 takes 339 steps.
+77031 takes 350 steps.
+106239 takes 353 steps.
+142587 takes 374 steps.
+156159 takes 382 steps.
+216367 takes 385 steps.
+230631 takes 442 steps.
+410011 takes 448 steps.
+511935 takes 469 steps.
+626331 takes 508 steps.
+837799 takes 524 steps.
+```
+
+Please ignore the bad grammar in that first line; it's not worth our time right now to avoid it. So the first number to take over 100 steps is 27. We pass 200 steps at 2463, 300 steps at 26,623, and 400 at 230,631. The [Wikipedia page](https://en.wikipedia.org/wiki/Collatz_conjecture#Examples) on Collatz sequences says this slow growth continues: every number under 100 quadrillion has a sequence length of 2091 steps or less.
+
+## 7.26.1 -- Counting odd numbers in a list
+
+_Write a function to count how many odd numbers are in a list._
+
+{% highlight ruby %}
+def odd\_nums\_in\_list(xs):
+    counter = 0
+    for x in xs:
+        if x % 2 == 1:
+            counter += 1
+    return counter
+
+assert odd\_nums\_in\_list(\[\]) == 0
+assert odd\_nums\_in\_list(\[1\]) == 1
+assert odd\_nums\_in\_list(\[-1\]) == 1
+assert odd\_nums\_in\_list(\[0\]) == 0
+assert odd\_nums\_in\_list(\[1, 7, -3\]) == 3
+assert odd\_nums\_in\_list(\[1, 2, 3, 4, 5\]) == 3
+{% endhighlight %}
+
+## 7.26.2 -- Sum of even numbers
+
+_Sum up all the even numbers in a list._
+
+{% highlight ruby %}
+def sum\_even\_nums(xs):
+    sum = 0
+    for x in xs:
+        if x % 2 == 0:
+            sum += x
+    return sum
+
+assert sum\_even\_nums(\[\]) == 0
+assert sum\_even\_nums(\[2\]) == 2
+assert sum\_even\_nums(\[9\]) == 0
+assert sum\_even\_nums(\[1, 2, 3, 4\]) == 6
+assert sum\_even\_nums(\[1, 2, 3, 7, -4, 12\]) == 10
+{% endhighlight %}
+
+## 7.26.3 -- Sum of negative numbers
+
+_Sum up all the negative numbers in a list._
+
+{% highlight ruby %}
+def sum\_neg\_nums(xs):
+    sum = 0
+    for x in xs:
+        if x < 0:
+            sum += x
+    return sum
+
+assert sum\_neg\_nums(\[\]) == 0
+assert sum\_neg\_nums(\[1\]) == 0
+assert sum\_neg\_nums(\[-1, -2, -3\]) == -6
+assert sum\_neg\_nums(\[1, 7, -6, -14, 12, 87\]) ==  -20
+{% endhighlight %}
+
+## 7.26.4 -- Words of length 5
+
+_Count how many words in a list have length 5._
+
+{% highlight ruby %}
+def len\_5\_words(wds):
+    counter = 0
+    for wd in wds:
+        if len(wd) == 5:
+            counter += 1
+    return counter
+
+assert len\_5\_words(\[\]) == 0
+assert len\_5\_words(\["Jim"\]) == 0
+assert len\_5\_words(\["Jimmy"\]) == 1
+assert len\_5\_words(\["The", "quick", "brown", "fox", 
+                          "jumped", "over", "the", "lazy", 
+                          "dog"\]) == 2
+{% endhighlight %}
+
+## 7.26.5 -- Sum before even number
+
+_Sum all the elements in a list up to but not including the first even number. (Write your unit tests. What if there is no even number?)_
+
+{% highlight ruby %}
+def up\_to\_even(xs):
+    counter = 0
+    for x in xs:
+        if x % 2 != 0:
+            counter += x
+        else:
+            return counter
+    return counter
+
+assert up\_to\_even(\[\]) == 0
+assert up\_to\_even(\[2\]) == 0
+assert up\_to\_even(\[7, 3, 4\]) == 10
+assert up\_to\_even(\[6, 5, 5, 5, 5\]) == 0
+assert up\_to\_even(\[-4, 1, 3, 5\]) == 0
+assert up\_to\_even(\[-3, 1, 6\]) == -2
+assert up\_to\_even(\[1.5, 3, 4\]) == 4.5
+assert up\_to\_even(\[1, 3, 5, 7\]) == 16
+{% endhighlight %}
+
+## 7.26.6 -- Words before "sam"
+
+_Count how many words occur in a list up to and including the first occurrence of the word “sam”. (Write your unit tests for this case too. What if “sam” does not occur?)_
+
+{% highlight ruby %}
+def words\_before\_sam(wds):
+    counter = 0
+    for wd in wds:
+        if wd == "sam":
+            return counter
+        else:
+            counter += 1
+    return counter
+
+assert words\_before\_sam(\[\]) == 0
+assert words\_before\_sam(\["sam"\]) == 0
+assert words\_before\_sam(\["i", "am", "sam"\]) == 2
+assert words\_before\_sam(\["sam", "i", "am"\]) == 0
+assert words\_before\_sam(\["to", "be", "or", "not", "to", "be"\]) == 6
+{% endhighlight %}
+
+## 7.26.7 -- Add print to a function
+
+_Add a print function to Newton’s_ `sqrt` _function that prints out_ `better` _each time it is calculated. Call your modified function with_ `25` _as an argument and record the results._
+
+{% highlight ruby %}
+def sqrt(n):
+    approx = n/2.0     # Start with some or other guess at the answer
+    while True:
+        better = (approx + n/approx)/2.0
+        print(better)
+        if abs(approx - better) < 0.001:
+            return better
+        approx = better
+
+print(sqrt(25.0))
+{% endhighlight %}
+
+This yields:
+
+{% highlight ruby %}
+7.25
+5.349137931034482
+5.011394106532552
+5.000012953048684
+5.000000000016778
+5.000000000016778
+{% endhighlight %}
+
+## 7.26.9 -- Triangular numbers
+
+_Write a function_ `print_triangular_numbers(n)` _that prints out the first_ `n` _triangular numbers. A call to_ `print_triangular_numbers(5)` _would produce the following output:_
+
+```
+1       1
+2       3
+3       6
+4       10
+5       15
+```
+{% highlight ruby %}
+def print\_triangular\_numbers(n):
+    counter = 0
+    for x in range(1, n + 1):
+        counter += x
+        print(x, "\\t", counter)
+{% endhighlight %}
+
+## 7.26.10 -- Testing for primeness
+
+_Write a function,_ `is_prime`, _which takes a single integer argument and returns_ `True` _when the argument is a_ prime number _and_ `False` _otherwise. Add tests for cases like this:_
+
+{% highlight ruby %}
+test(is\_prime(11))
+test(not is\_prime(35))
+test(is\_prime(19911121))
+{% endhighlight %}
+
+_The last case could represent your birth date. Were you born on a prime day? In a class of 100 students, how many do you think would have prime birth dates?_
+
+Here's a function that checks for primeness:
+
+{% highlight ruby %}
+from math import sqrt
+
+def is\_prime(x):
+    """Takes a positive integer and tells if it's prime."""
+    if x == 1:
+        return False
+    if x == 2:
+        return True
+    if x % 2 == 0:
+        return False
+    for i in range(3, int(sqrt(x) + 1), 2):
+        if x % i == 0:
+            return False
+    
+    return True
+{% endhighlight %}
+
+We can also answer the question about the 100 students, which I've done elsewhere and hope to create a link to here as I migrate site materials over.[^1]
+
+## 7.26.11 -- Drunken pirate, again
+
+_Revisit the drunk pirate problem from the exercises in chapter 3. This time, the drunk pirate makes a turn, and then takes some steps forward, and repeats this. Our social science student now records pairs of data: the angle of each turn, and the number of steps taken after the turn. Her experimental data is_ \[(160, 20), (-43, 10), (270, 8), (-43, 12)\]. _Use a turtle to draw the path taken by our drunk friend._
+
+As the textbook suggests, we can basically rework some code from exercise 3.8.7 to do this. (For my solutions to chapter 3 exercises, see [here](c3.html).)
+
+{% highlight ruby %}
+\# Make a simulated pirate and a place for him to stumble around.
+import turtle
+wn = turtle.Screen()
+pirate = turtle.Turtle()
+
+# The raw data about how he stumbled.
+turns\_and\_steps = \[(160, 20), (-43, 10), (270, 8), (-43, 12)\]
+
+# Simulate the actual stumbling around.
+for x in turns\_and\_steps:
+    # The pirate turns.
+    pirate.left(x\[0\])
+    # He walks a number of steps forward. We'll move him forward
+    # ten 'turtle units' per step, so that the image produced
+    # is conveniently sized.
+    pirate.forward(10\*x\[1\])
+
+# Keep the screen open till the user closes it.
+wn.mainloop()
+{% endhighlight %}
+
+The pirate's path looks like this:
+
+![](../../i/k.png)
+
+## 7.26.12 -- Drawing a house
+
+_Many interesting shapes can be drawn by the turtle by giving a list of pairs like we did above, where the first item of the pair is the angle to turn, and the second item is the distance to move forward. Set up a list of pairs so that the turtle draws a house with a cross through the centre, as show here. This should be done without going over any of the lines / edges more than once, and without lifting your pen._
+
+The comment about "Many interesting shapes" suggests we'll want to set up our code so that we can easily run it with different sets of steps and turns. We can do so as follows:
+
+{% highlight ruby %}
+import turtle
+
+def travel(ttl, turns\_and\_steps):
+    """Takes a turtle ttl and a specially formatted list of turns\_and\_steps,
+    and causes the turtle to trace out lines determined by the turns
+    and steps."""
+    for x in turns\_and\_steps:
+        ttl.left(x\[0\])
+        ttl.forward(x\[1\])
+
+wn = turtle.Screen()
+tess = turtle.Turtle()
+
+s = 100                     # sets scale of the drawing we'll make
+turns\_and\_steps = \[(180, s), 
+                   (-135, s\*2\*\*0.5,),
+                   (135, s),
+                   (135, s\*2\*\*0.5),
+                   (135, s),
+                   (45, s\*.5\*\*0.5),
+                   (90, s\*.5\*\*0.5),
+                   (45, s)\]
+travel(tess, turns\_and\_steps)
+
+# Keep the screen open till the user closes it.
+wn.mainloop()
+{% endhighlight %}
+
+This draws like so:
+
+![](../../i/m.png)
+
+## 7.26.13 -- Eulerian paths
+
+_Not all shapes like the one above can be drawn without lifting your pen, or going over an edge more than once. Which of these can be drawn?_
+
+![](../../i/n.png)
+
+_Now read Wikipedia’s article (_[_http://en.wikipedia.org/wiki/Eulerian\_path_](http://en.wikipedia.org/wiki/Eulerian_path)_) about Eulerian paths. Learn how to tell immediately by inspection whether it is possible to find a solution or not. If the path is possible, you’ll also know where to put your pen to start drawing, and where you should end up!_
+
+As it turns out, only four of the shapes can be drawn:
+
+![](../../i/o.png)
+
+The code to do this is tedious, but simple in form. We use a function `travel` to move tess around. I wasn't sure how big I wanted to draw all the parts early on in the programing, so I invented a variable, `regular_line`, which I would play around with till things looked right. Due to the geometry involved in these shapes, we need three basics lengths for the lines, which for clarity I call `little_diagonal`, `regular_line`, and `big_diagonal`. Also due to reasons of geometry, `little_diagonal = regular_line / 2**0.5` and `big_diagonal = little_diagonal * 2`. We could instead manually write in all the numbers, but it's better for code to be readable.
+
+So here is the code: it's tedious but not especially mysterious.
+
+{% highlight ruby %}
+import turtle
+
+def travel(ttl, turns\_and\_steps):
+    """Takes a turtle ttl and walks it through a series of turns\_and\_steps."""
+    for x in turns\_and\_steps:
+        ttl.left(x\[0\])
+        ttl.forward(x\[1\])
+
+# Set up turtle, window, and attributes.
+wn = turtle.Screen()
+tess = turtle.Turtle()
+tess.speed(1)
+tess.pensize(3)
+
+# Move tess into place for first drawing.
+tess.penup()              
+tess.backward(300)
+tess.pendown()
+
+# Set sizes of the lines we'll need.
+# The relations between these lengths are 
+# dictated by the pythagorean theorem.
+regular\_line = 60
+little\_diagonal = regular\_line / 2\*\*0.5
+big\_diagonal = little\_diagonal \* 2
+
+# First drawing.
+turns\_and\_steps = \[(0, regular\_line), 
+                   (135, little\_diagonal),
+                   (90, little\_diagonal),
+                   (45, regular\_line),
+                   (90, regular\_line),
+                   (90, regular\_line)
+\]
+travel(tess, turns\_and\_steps)
+
+# Get in place for second drawing.
+tess.penup()                       
+travel(tess, \[(-90, regular\_line), 
+              (-45, big\_diagonal), 
+              (45, 0)\])
+
+# Second drawing.
+tess.pendown()       
+travel(tess, \[(180, regular\_line),
+              (-90, regular\_line),
+              (-135, big\_diagonal),
+              (135, regular\_line),
+              (90, regular\_line),
+              (-135, little\_diagonal),
+              (-90, little\_diagonal)
+\])
+
+# Get in place for third drawing.
+tess.penup()                           
+travel(tess, \[(0, big\_diagonal), (45, 0)\])
+
+# Third drawing.
+tess.pendown()                        
+travel(tess, \[(90, regular\_line),
+              (135, little\_diagonal),
+              (90, little\_diagonal),
+              (45, regular\_line),
+              (90, regular\_line),
+              (90, regular\_line),
+              (-135, little\_diagonal),
+              (-90, big\_diagonal),
+              (-90, little\_diagonal)
+\])
+
+# Get in place for fourth drawing.
+tess.penup()                        
+travel(tess, \[(135, regular\_line \* 1.5),
+              (45, big\_diagonal)
+\])
+
+# Fourth drawing.
+tess.pendown()        
+travel(tess, \[(135, regular\_line),
+              (90, regular\_line),
+              (90, regular\_line),
+              (90, regular\_line),
+              (135, big\_diagonal),
+              (-90, little\_diagonal),
+              (-90, little\_diagonal),
+              (-90, big\_diagonal),
+              (90, little\_diagonal),
+              (90, little\_diagonal),
+              (0, little\_diagonal),
+              (90, little\_diagonal)           
+\])
+
+# Keep the screen open till the user closes it.
+wn.mainloop()
+{% endhighlight %}
+
+## 7.26.14 -- Number of digits
+
+_What will_ `num_digits(0)` _return? Modify it to return_ `1` _for this case. Why does a call to_ `num_digits(-24)` _result in an infinite loop?_ (hint: -1//10 evaluates to -1) _Modify_ `num_digits` _so that it works correctly with any integer value. Add these tests:_
+
+{% highlight ruby %}
+test(num\_digits(0) == 1)
+test(num\_digits(-12345) == 5)
+{% endhighlight %}
+
+This is a reference to a function found in 7.7, which reads like this:
+
+{% highlight ruby %}
+def num\_digits(n):
+    count = 0
+    while n != 0:
+        count = count + 1
+        n = n // 10
+    return count
+{% endhighlight %}
+
+Rather than running through a loop, we can recognize that at root, this is a "string"-type question about the number of characters in a collection of digits. So we can simply take the absolute value of _n_ to strip off the negative symbol so it doesn't get evaluated as a digit, convert the absolute value to a string, and count the number of characters in that string.
+
+{% highlight ruby %}
+def num\_digits(n):
+    return len(str(abs(n)))
+
+assert num\_digits(-100) == 3
+assert num\_digits(-99) == 2
+assert num\_digits(-11) == 2
+assert num\_digits(-10) == 2
+assert num\_digits(-9) == 1
+assert num\_digits(-1) == 1
+assert num\_digits(0) == 1 
+assert num\_digits(1) == 1
+assert num\_digits(2) == 1
+assert num\_digits(9) == 1
+assert num\_digits(10) == 2
+assert num\_digits(11) == 2
+assert num\_digits(99) == 2
+assert num\_digits(100) == 3
+assert num\_digits(101) == 3 
+assert num\_digits(-12345) == 5
+{% endhighlight %}
+
+## 7.26.15 -- Number of even digits
+
+_Write a function_ `num_even_digits(n)` _that counts the number of even digits in_ `n`. _These tests should pass:_
+
+{% highlight ruby %}
+test(num\_even\_digits(123456) == 3)
+test(num\_even\_digits(2468) == 4)
+test(num\_even\_digits(1357) == 0)
+test(num\_even\_digits(0) == 1)
+{% endhighlight %}
+
+These tests pass with the following code:
+
+{% highlight ruby %}
+def num\_even\_digits(n):
+    n = abs(n)              # Strip off any potential negative symbol.
+    n = str(n)              
+    list\_of\_even\_digits = \["0", "2", "4", "6", "8"\]
+
+    counter = 0
+    for char in n:
+        if char in list\_of\_even\_digits:
+            counter += 1
+    return counter
+
+assert num\_even\_digits(123456) == 3
+assert num\_even\_digits(2468) == 4
+assert num\_even\_digits(1357) == 0
+assert num\_even\_digits(0) == 1
+{% endhighlight %}
+
+## 7.26.16 -- Sum of squares
+
+_Write a function_ `sum_of_squares(xs)` _that computes the sum of the squares of the numbers in the list_ `xs`. _For example,_ `sum_of_squares([2, 3, 4])` _should return 4+9+16, which is 29._
+
+{% highlight ruby %}
+def sum\_of\_squares(xs):
+    sum = 0
+    for x in xs:
+        sum += x\*\*2
+    return sum
+
+assert sum\_of\_squares(\[2, 3, 4\]) == 29
+assert sum\_of\_squares(\[\]) == 0
+assert sum\_of\_squares(\[2, -3, 4\]) == 29
+{% endhighlight %}
+
+[^1]: Every so often, I run a check of all my site pages for any broken links. In order to remind myself that migrating my "100 kids" problem is a to-do, and that I need to link out to it from here, here's an intentionally broken link: [link to nowhere](link-to-nowhere.html)
 
 
