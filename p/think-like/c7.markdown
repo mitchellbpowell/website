@@ -641,6 +641,4 @@ assert sum\_of\_squares(\[\]) == 0
 assert sum\_of\_squares(\[2, -3, 4\]) == 29
 {% endhighlight %}
 
-[^1]: Every so often, I run a check of all my site pages for any broken links. In order to remind myself that migrating my "100 kids" problem is a to-do, and that I need to link out to it from here, here's an intentionally broken link: [link to nowhere](link-to-nowhere.html)
-
 
