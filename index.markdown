@@ -24,6 +24,7 @@ Right now I'm messing around with putting together a site written in Markdown, c
         * [Chapter 4](p/think-like/c4.html)
         * [Chapter 5](p/think-like/c5.html)
         * [Chapter 6](p/think-like/c6.html)
+        * [Chapter 7](p/think-like/c7.html)
 * [Storage is cheap now](p/storage-prices.html)
 * [Fun with primes](p/fun-with-primes.html)
 * [Historical days of the week](p/historical-days-of-the-week.html)
