@@ -142,7 +142,7 @@ _Change the traffic light program so that changes occur automatically, driven by
 
 A solution might look something like this:
 
-{% endhighlight %}
+{% highlight ruby %}
 import turtle
 
 # A traffic light is a kind of state machine with three states,
@@ -365,7 +365,7 @@ _Now that you’ve got a traffic light program with different turtles for each l
 
 The way this wording is written seems to presuppose that we're only working with the three-turtle traffic light. So let's alter the code to only have that one traffic light. And then the basic mechanism here is to replace "showturtle" and "hideturtle" with color changes. One could probably fiddle indefinitely with the colors, but this is enough to show the basic idea:
 
-{% endhighlight %}
+{% highlight ruby %}
 import turtle
 
 def draw\_housing():
