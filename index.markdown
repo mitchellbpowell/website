@@ -22,6 +22,7 @@ Right now I'm messing around with putting together a site written in Markdown, c
         * [Chapter 2](p/think-like/c2.html)
 * [Storage is cheap now](p/storage-prices.html)
 * [Fun with primes](p/fun-with-primes.html)
+* [Historical days of the week](p/historical-days-of-the-week.html)
 
 
 
