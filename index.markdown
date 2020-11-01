@@ -29,6 +29,7 @@ Right now I'm messing around with putting together a site written in Markdown, c
         * [Chapter 7](p/think-like/c7.html)
         * [Chapter 8](p/think-like/c8.html)
         * [Chapter 9](p/think-like/c9.html)
+        * [Chapter 10](p/think-like/c10.html)
 * Miscellany
     * [Worthwhile things](p/worthwhile-things.html)
     * [Odds and ends](p/odds-and-ends.html)
