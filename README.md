@@ -16,3 +16,15 @@ It is the work of Peter Wentworth, Jeffrey Elkner, Allen B. Downey, and Chris Me
 Jeffrey Elkner, Allen B. Downey, and Chris Meyers). Its license can be found here: 
 <http://openbookproject.net/thinkcs/python/english3e/copyright.html>. Any copyright I might hold on my own comments about
 the work I waive under CC-0 like all other materials I have authored that I post to this repository or to mitchellpowell.net.
+
+## building and testing
+
+#### dependencies:
+- jekyll: `gem install bundler jekyll`
+
+#### running a local server:
+1. `bundle exec jekyll serve`
+1. browse to http://localhost:4000
+
+#### building:
+1. `jekyll build`
