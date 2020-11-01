@@ -364,7 +364,7 @@ def is\_prime(x):
     return True
 {% endhighlight %}
 
-We can also answer the question about the 100 students, which I've done elsewhere and hope to create a link to here as I migrate site materials over.[^1]
+We can also answer the question about the 100 students, which I've done [here](../prime-birth-dates.html).
 
 ## 7.26.11 -- Drunken pirate, again
 
