@@ -65,5 +65,5 @@ fonts:
 markdown: kramdown
 
 kramdown:
-    input: GFM
+    input: kramdown
     syntax_highlighter: rouge
