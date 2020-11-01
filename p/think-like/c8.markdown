@@ -4,7 +4,388 @@ description: Worked out problems from the book
 layout: post
 ---
 
+---
+title: "HTLCS:LP3 -- Chapter 8 exercises"
+date: "2019-10-20"
+---
 
+Below are exercises from chapter 8 of _[How to Think Like a Computer Scientist: Learning with Python 3](index.html)_. The text in italics comes from the textbook, and the code (except where it is obviously part of the textbook's prompt) is my solutions.
+
+## 8.19.2 -- Weird names
+
+_Modify:_
+
+{% highlight ruby %}
+prefixes = "JKLMNOPQ"
+suffix = "ack"
+
+for letter in prefixes:
+    print(letter + suffix)
+{% endhighlight %}
+
+_so that_ `Ouack` _and_ `Quack` _are spelled correctly._
+
+There are other ways to do this, but one option I like is to add some whitespace and split a string to give us a list of prefixes:
+
+{% highlight ruby %}
+prefixes = "J K L M N Ou P Qu".split()
+suffix = "ack"
+
+for prefix in prefixes:
+    print(prefix + suffix)
+{% endhighlight %}
+
+## 8.19.3 -- Counting instances of a particular letter in a string
+
+_Encapsulate_
+
+{% highlight ruby %}
+fruit = "banana"
+count = 0
+for char in fruit:
+    if char == "a":
+        count += 1
+print(count)
+{% endhighlight %}
+
+_in a function named_ `count_letters`, _and generalize it so that it accepts the string and the letter as arguments. Make the function return the number of characters, rather than print the answer. The caller should do the printing._
+
+We can do that like so:
+
+{% highlight ruby %}
+def count\_letters(ltr, string):
+    """Count the number of times a letter ltr appears in a string."""
+    count = 0
+    for char in string:
+        if char == ltr:
+            count += 1
+    return count
+{% endhighlight %}
+
+## 8.19.4 -- Using the string method `find` to count occurrences of a letter
+
+_Now rewrite the_ `count_letters` _function so that instead of traversing the string, it repeatedly calls the find method, with the optional third parameter to locate new occurrences of the letter being counted._
+
+I was a bit puzzled how an "optional third parameter" would be worked into this, as the optional third parameter of the `find` method is an endpoint for a search. After a while I figured that the optional third parameter must be an optional third parameter that _I_ write, and the only way I could think of to make _that_ work is to make this one of those functions that calls itself. So here's what I have, though I'm not sure whether this is exactly what the textbook authors had in mind:
+
+{% highlight ruby %}
+def count\_letters2(letter, string, position=0):
+    """Count the number of times a letter appears in a string.
+
+    Does not count occurrences before position.
+    """
+    new\_position = string.find(letter, position)
+    if new\_position != -1:
+        return 1 + count\_letters2(letter, string, new\_position + 1)
+    else:
+        return 0
+{% endhighlight %}
+
+## 8.19.5 -- Counting words that include "e"
+
+_Assign to a variable in your program a triple-quoted string that contains your favourite paragraph of text — perhaps a poem, a speech, instructions to bake a cake, some inspirational verses, etc._
+
+_Write a function which removes all punctuation from the string, breaks the string into a list of words, and counts the number of words in your text that contain the letter “e”. Your program should print an analysis of the text like this:_
+
+```
+Your text contains 243 words, of which 109 (44.8%) contain an "e".
+```
+
+Here's my solution:
+
+{% highlight ruby %}
+def e\_routine():
+    """Display some statistics.
+
+    Takes a preset paragraph and prints statistics about
+    how many words in it contain the letter 'e'.
+    """
+    paragraph = """Call me Ishmael. Some years ago—never mind how long
+        precisely—having little or no money in my purse, and nothing
+        particular to interest me on shore, I thought I would sail about
+        a little and see the watery part of the world. It is a way I
+        have of driving off the spleen and regulating the circulation.
+        Whenever I find myself growing grim about the mouth; whenever it
+        is a damp, drizzly November in my soul; whenever I find myself
+        involuntarily pausing before coffin warehouses, and bringing up
+        the rear of every funeral I meet; and especially whenever my
+        hypos get such an upper hand of me, that it requires a strong
+        moral principle to prevent me from deliberately stepping into
+        the street, and methodically knocking people’s hats off—then, I
+        account it high time to get to sea as soon as I can. This is my
+        substitute for pistol and ball. With a philosophical flourish
+        Cato throws himself upon his sword; I quietly take to the ship.
+        There is nothing surprising in this. If they but knew it, almost
+        all men in their degree, some time or other, cherish very nearly
+        the same feelings towards the ocean with me. """
+    table = str.maketrans("—", " ", string.punctuation)
+    paragraph = paragraph.translate(table)
+    paragraph = paragraph.split()
+
+    e\_words = 0
+    for word in paragraph:
+        if "e" in word:
+            e\_words += 1
+
+    total\_words = len(paragraph)
+    e\_percent = e\_words \* 100 / total\_words
+    template = 'Your text contains {0} words, ' \\
+        'of which {1} ({2:.2f}%) contain an "e".'
+    print(template.format(total\_words, e\_words, e\_percent))
+{% endhighlight %}
+
+My version prints:
+
+```
+Your text contains 201 words, of which 78 (38.81%) contain an "e".
+```
+
+## 8.19.6 -- A pretty multiplication table
+
+_Print a neat looking multiplication table like this:_
+
+{% highlight ruby %}
+        1   2   3   4   5   6   7   8   9  10  11  12
+  :--------------------------------------------------
+ 1:     1   2   3   4   5   6   7   8   9  10  11  12
+ 2:     2   4   6   8  10  12  14  16  18  20  22  24
+ 3:     3   6   9  12  15  18  21  24  27  30  33  36
+ 4:     4   8  12  16  20  24  28  32  36  40  44  48
+ 5:     5  10  15  20  25  30  35  40  45  50  55  60
+ 6:     6  12  18  24  30  36  42  48  54  60  66  72
+ 7:     7  14  21  28  35  42  49  56  63  70  77  84
+ 8:     8  16  24  32  40  48  56  64  72  80  88  96
+ 9:     9  18  27  36  45  54  63  72  81  90  99 108
+10:    10  20  30  40  50  60  70  80  90 100 110 120
+11:    11  22  33  44  55  66  77  88  99 110 121 132
+12:    12  24  36  48  60  72  84  96 108 120 132 144
+{% endhighlight %}
+
+Here's some code that can do that.
+
+{% highlight ruby %}
+def print\_multiplication\_table(n):
+    """Print a multiplication table n by n.
+
+    Formatting gets all screwed if n >= 32. But why would anyone
+    want a multiplication table that large?
+    """
+    # make first line
+    line = "    "
+    for i in range(1, n + 1):
+        line = line + "{:4}".format(i)
+    print(line)
+
+    # make dividing line
+    line = "   :"
+    for i in range(n):
+        line = line + "----"
+    print(line)
+
+    # make the main body line by line
+    for i in range(1, n+1):
+        line = "{0:3}:".format(i)
+        for j in range(1, n + 1):
+            line = line + "{:4}".format(i\*j)
+        print(line)
+{% endhighlight %}
+
+## 8.19.7 -- String reversal
+
+_Write a function that reverses its string argument, and satisfies these tests:_
+
+{% highlight ruby %}
+test(reverse("happy") == "yppah")
+test(reverse("Python") == "nohtyP")
+test(reverse("") == "")
+test(reverse("a") == "a")
+{% endhighlight %}
+
+We can do this using slice notation:
+
+{% highlight ruby %}
+def reverse(string):
+    string = string\[::-1\]
+    return string
+{% endhighlight %}
+
+## 8.19.8 -- "Mirroring" a string
+
+_Write a function that mirrors its argument:_
+
+{% endhighlight %}
+test(mirror("good") == "gooddoog")
+test(mirror("Python") == "PythonnohtyP")
+test(mirror("") == "")
+test(mirror("a") == "aa")
+{% highlight ruby %}
+
+I think the textbook intention may have been to have us rely on our previous `reverse(string)` function:
+
+{% highlight ruby %}
+def mirror(string):
+    string = string + reverse(string)
+    return string
+{% endhighlight %}
+
+But if we don't want this function to depend on another function, we can just:
+
+{% highlight ruby %}
+def mirror(string):
+    """Return a string plus its reverse."""
+    return string + string\[::-1\]
+{% endhighlight %}
+
+## 8.19.9 -- Remove occurrences of a letter from a string
+
+_Write a function that removes all occurrences of a given letter from a string:_
+
+{% highlight ruby %}
+test(remove\_letter("a", "apple") == "pple")
+test(remove\_letter("a", "banana") == "bnn")
+test(remove\_letter("z", "banana") == "banana")
+test(remove\_letter("i", "Mississippi") == "Msssspp")
+test(remove\_letter("b", "") = "")
+test(remove\_letter("b", "c") = "c")
+{% endhighlight %}
+
+We can do that like so:
+
+{% highlight ruby %}
+def remove\_letter(ltr, string):
+    """Remove a letter ltr from a string.
+
+    Removes all instances of ltr and returns a new string without it.
+    """
+    new\_string = ""
+    for char in string:
+        if char != ltr:
+            new\_string = new\_string + char
+    return new\_string
+{% endhighlight %}
+
+## 8.19.10 -- Palindrome detection
+
+_Write a function that recognizes palindromes. (Hint: use your_ `reverse` _function to make this easy!):_
+
+{% highlight ruby %}
+test(is\_palindrome("abba"))
+test(not is\_palindrome("abab"))
+test(is\_palindrome("tenet"))
+test(not is\_palindrome("banana"))
+test(is\_palindrome("straw warts"))
+test(is\_palindrome("a"))
+#test(is\_palindrome(""))    # Is an empty string a palindrome?
+{% endhighlight %}
+
+This one's pretty simple:
+
+{% highlight ruby %}
+def is\_palindrome(a\_string):
+    """Return whether a\_string is a palindrome."""
+    return a\_string == reverse(a\_string)
+{% endhighlight %}
+
+## 8.19.11 -- Count appearances of a substring
+
+_Write a function that counts how many times a substring occurs in a string:_
+
+{% highlight ruby %}
+test(count("is", "Mississippi") == 2)
+test(count("an", "banana") == 2)
+test(count("ana", "banana") == 2)
+test(count("nana", "banana") == 1)
+test(count("nanan", "banana") == 0)
+test(count("aaa", "aaaaaa") == 4)
+{% endhighlight %}
+
+We can do this by running the `find()` method repeatedly: starting at the beginning of the string. It will return the first index, if there is one, where the first instance of the substring starts. Then, starting at the next character after the index, we'll search for another instance, and so on until we can't find any more. Throughout, we'll use a counter variable which we bump each time we find an appearance. That can look like this:
+
+{% highlight ruby %}
+def count(sub\_string, string):
+    """Count the numbers of times sub\_string appears in string."""
+    appearances = 0
+    last\_found\_at = -1
+    while True:
+        last\_found\_at = string.find(sub\_string, last\_found\_at + 1)
+        if last\_found\_at == -1:
+            return appearances
+        else:
+            appearances += 1
+{% endhighlight %}
+
+## 8.19.12 -- Remove a substring once
+
+Write a function that removes the first occurrence of a string from another string:
+
+{% highlight ruby %}
+test(remove("an", "banana") == "bana")
+test(remove("cyc", "bicycle") == "bile")
+test(remove("iss", "Mississippi") == "Missippi")
+test(remove("eggs", "bicycle") == "bicycle")
+{% endhighlight %}
+
+First, we can find the first instance of the string using `find()`, which returns the index where the substring starts within the string. (If the substring doesn't occur, we'll just return the original string.) Using the length of the substring, we can also easily figure out where the substring ends. Then we can create a new string to output, made up of everything _except_ the bit we want to remove.
+
+{% highlight ruby %}
+def remove(substring, string):
+    """Remove the first instance of a substring from a string.
+
+    If the substring does not occur in the string, return the whole
+    original string.
+    """
+    start = string.find(substring)
+    if start == -1:
+        return string
+    stop = start + len(substring)
+    output\_string = string\[0:start\] + string\[stop:\]
+    return output\_string
+{% endhighlight %}
+
+At least, that's how I solved it, until I did a little Googling, which turned up a much more efficient way to do it. There's a string method `replace(old, new, count)` that we can use within a string to replace a substring `old` with a substring `new`, and we can optionally specify that we do it `count` number of times.
+
+Perversely, we can define _removing_ a substring as simply _replacing_ the substring with an empty string `""`. And because `replace()` starts from the beginning of the string, setting `count` to 1 will "replace" the first instance only. And so we can now rewrite our function with just one functional line:
+
+{% highlight ruby %}
+def remove(substring, string):
+    """Remove first instance of substring from string."""
+    return string.replace(substring, "", 1)
+{% endhighlight %}
+
+## 8.19.13 -- Remove all occurrences of a substring
+
+_Write a function that removes all occurrences of a string from another string:_
+
+{% highlight ruby %}
+test(remove\_all("an", "banana") == "ba")
+test(remove\_all("cyc", "bicycle") == "bile")
+test(remove\_all("iss", "Mississippi") == "Mippi")
+test(remove\_all("eggs", "bicycle") == "bicycle")
+{% endhighlight %}
+
+Using `replace()`, we can do this by simply removing `count` from our last function.
+
+{% highlight ruby %}
+def remove\_all(substring, string):
+    """Remove all instances of substring from string."""
+    return string.replace(substring, "")
+{% endhighlight %}
+
+Please, note, though, that although this removes all occurrences of a substring that can be found in the _original_ string, it does not guarantee that the removed substring will not occur in the output. That is, if you hand this function `remove_all("na", "bnnaak")`, it will return `"bnak"`. If you want to guarantee the non-occurrence of the substring, you'd need to write a somewhat different function that does multiple passes.
+
+For that more stringent requirement, we could do something recursive like:
+
+{% highlight ruby %}
+def remove\_all\_really\_thoroughly(substring, string):
+    """Remove all instances of substring until none are left."""
+    next\_pass = remove\_all(substring, string)
+    if next\_pass == string:
+        return string
+    else:
+        return remove\_all\_really\_thoroughly(substring, next\_pass)
+{% endhighlight %}
+
+That would would, for example, return `"bk"` if you gave it `remove_all_really_thoroughly("na", "bnnnnnnnnnaaaaaaaaak")`. I suppose that, with certain really long string, the recursion could theoretically be inefficient (I think). But you'd have to cook up some really perverse inputs before that became relevant.
 
 
 
