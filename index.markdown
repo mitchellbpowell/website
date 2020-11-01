@@ -14,9 +14,11 @@ Right now I'm messing around with putting together a site written in Markdown, c
 * About me
     * [Messing around a bit with programming as a kid](p/messing-around.html)
     * [Studying and working](p/work-and-study.html)
-* Collections
-    * [Worthwhile things](p/worthwhile-things.html)
-    * [Odds and ends](p/odds-and-ends.html)
+* Coding Exercises
+    * [Storage is cheap now](p/storage-prices.html)
+    * [Fun with primes](p/fun-with-primes.html)
+    * [Prime birth dates](p/prime-birth-dates.html)
+    * [Historical days of the week](p/historical-days-of-the-week.html)
     * [Notes on a Python 3 textbook](p/think-like/)
         * [Possible revisions](p/think-like/possible-revisions.html)
         * [Chapter 2](p/think-like/c2.html)
@@ -25,9 +27,9 @@ Right now I'm messing around with putting together a site written in Markdown, c
         * [Chapter 5](p/think-like/c5.html)
         * [Chapter 6](p/think-like/c6.html)
         * [Chapter 7](p/think-like/c7.html)
-* [Storage is cheap now](p/storage-prices.html)
-* [Fun with primes](p/fun-with-primes.html)
-* [Historical days of the week](p/historical-days-of-the-week.html)
+* Miscellany
+    * [Worthwhile things](p/worthwhile-things.html)
+    * [Odds and ends](p/odds-and-ends.html)
 
 
 
