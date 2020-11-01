@@ -1,11 +1,7 @@
 ---
-title: HTLCS:LP3 -- Chapter 3 exercises
+title: HTLCS:LP3 -- Chapter 8 exercises
 description: Worked out problems from the book
 layout: post
----
-
----
-title: "HTLCS:LP3 -- Chapter 8 exercises"
 date: "2019-10-20"
 ---
 
@@ -213,12 +209,12 @@ def reverse(string):
 
 _Write a function that mirrors its argument:_
 
-{% endhighlight %}
+{% highlight ruby %}
 test(mirror("good") == "gooddoog")
 test(mirror("Python") == "PythonnohtyP")
 test(mirror("") == "")
 test(mirror("a") == "aa")
-{% highlight ruby %}
+{% endhighlight%}
 
 I think the textbook intention may have been to have us rely on our previous `reverse(string)` function:
 
