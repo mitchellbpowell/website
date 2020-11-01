@@ -221,4 +221,3 @@ Primes up to  100,000,000 listed in 34.915086 seconds.
 Notice that this version finds primes up 10,000,000 in just 3 seconds instead of 51 like the previous version, while it can even knock out primes up to 100,000,000 in 35 seconds. If you compare it to the first version of our program, it handles the 100,000 task 500 times faster. And this last version grows linearly with the number of numbers we check, while the earliest version grew at something approaching n^2. If it did grow at n^2, we can imagine that, if it took about half a minute for 100,000, its time to 100,000,000 would be about a million times larger, or, to use a famous round number, roughly [525,600 minutes](https://www.youtube.com/watch?v=-r2xXtSsPV0).
 
 _This file is released under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) license._
-

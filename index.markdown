@@ -6,9 +6,7 @@ layout: page
 
 My name is Mitchell Powell, and this is my website. I'm still figuring out what to do with it.
 
-Right now I'm messing around with putting together a site written in Markdown and compiled by Jekyll.
-
-
+Right now I'm messing around with putting together a site written in Markdown, compiled by Jekyll, and with version control on GitHub. All these are new and interesting to me. I'm currently migrating content into here from another website of mine which this is intended to replace.
 
 # Pages
 * [About this site](p/about-site.html)
@@ -23,6 +21,7 @@ Right now I'm messing around with putting together a site written in Markdown an
         * [Possible revisions](p/think-like/possible-revisions.html)
         * [Chapter 2](p/think-like/c2.html)
 * [Storage is cheap now](p/storage-prices.html)
+* [Fun with primes](p/fun-with-primes.html)
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: HTLCS:LP3 -- Chapter 3 exercises
-description: Some notes on the book
+description: Worked out problems from the book
 layout: post
 ---
 

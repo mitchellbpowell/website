@@ -48,7 +48,7 @@ This whole bundle of ways that people are building things outside of traditional
 
 # gwern.net
 
-It is hard to find a more interesting collection of essays online than at [gwern.net](gwern.net). Not only is it interesting, but it's got what I think is a very pleasing layout. And thanks to Gwern's decision to release the whole website under the CC0 license, anyone who wants to can reuse or adapt the layout freely.
+It is hard to find a more interesting collection of essays online than at [gwern.net](https://gwern.net). Not only is it interesting, but it's got what I think is a very pleasing layout. And thanks to Gwern's decision to release the whole website under the CC0 license, anyone who wants to can reuse or adapt the layout freely.
 
 # Longevity
 

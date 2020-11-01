@@ -67,6 +67,10 @@ Delete either "of" or "about" in "of which we'll talk more about."
 
 Semicolon after "void function" in "Languages like Java, C#, C, and C++ use the term 'void function', other language like Pascal call it a **procedure**."
 
+# 4.9.7
+
+Add a comma between `10` and "which".
+
 # 5.10
 
 Replace comma with semicolon after "licence when our age is greater or equal to 17".
