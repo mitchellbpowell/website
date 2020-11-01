@@ -44,7 +44,11 @@ Though we still await the Year of the Linux Desktop, open-source software has in
 
 Free and open-source software is just one genre of things that happen outside the realm of restrictive copyright. This larger set includes Wikipedia, which works in practice even if not in theory, and the massive and growing collection of books written in 1924 or earlier that one can find on the web. More recent books are more hit-or-miss, but are increasingly available to anyone who has googled "Sci-Hub" or "Library Genesis". Meanwhile, in a zone somewhere between the legality of old public domain books and the illegality of Library Genesis, the Internet Archive is experimenting with something they call "Controlled Digital Lending", which last time I checked was in legal limbo, awaiting court decisions.
 
-This whole bundle of ways that people are building things outside of traditional copyright is worth paying attention to. 
+This whole bundle of ways that people are building things outside of traditional copyright is worth paying attention to.
+
+# Git
+
+I'd done a few commits before October 2020, but handle done much with Git till now. Today (2020-10-31), though, I decided I wanted to have version control over this website as it changes, and so I've started using it. I ran through through [a very helpful tutorial](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners), and the rest has been very googleable, as so many people use Git that whatever I'm confused about has confused some poor soul before, and gotten all sorts of helpful answers.
 
 # gwern.net
 
