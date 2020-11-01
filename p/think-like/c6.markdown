@@ -1,11 +1,244 @@
 ---
-title: HTLCS:LP3 -- Chapter 3 exercises
+title: "HTLCS:LP3 -- Chapter 6 exercises"
 description: Worked out problems from the book
+date: "2019-09-21"
 layout: post
 ---
 
+Below are exercises from chapter 5 of _[How to Think Like a Computer Scientist: Learning with Python 3](index.html)_.
 
+The format will be a little different for this one, as this chapter specifies that all the exercises should be added to a single file. The [chapter](http://openbookproject.net/thinkcs/python/english3e/fruitful_functions.html) asks us to write a series of functions, often with various instructions about how we should write them.
 
+Below are my solutions for all these exercises, in the order they appear in the text, preceded by a set of tests for them. Many of the tests are adapted from the textbook.
 
+{% highlight ruby %}
+def test\_suite():
+    assert turn\_clockwise("N") == "E"
+    assert turn\_clockwise("E") == "S"
+    assert turn\_clockwise("S") == "W"
+    assert turn\_clockwise("W") == "N"
+    assert turn\_clockwise(42) == None
+    assert turn\_clockwise("rubbish") == None
 
+    assert day\_name(3) == "Wednesday"
+    assert day\_name(6) == "Saturday"
+    assert day\_name(42) == None
 
+    assert day\_num("Sunday") == 0
+    assert day\_num("Monday") == 1
+    assert day\_num("Tuesday") == 2
+    assert day\_num("Wednesday") == 3
+    assert day\_num("Thursday") == 4
+    assert day\_num("Friday") == 5
+    assert day\_num("Saturday") == 6
+    assert day\_num("Halloween") == None
+
+    assert day\_add("Monday", 4) == "Friday"
+    assert day\_add("Tuesday", 0) == "Tuesday"
+    assert day\_add("Tuesday", 14) == "Tuesday"
+    assert day\_add("Sunday", 100) == "Tuesday"
+    assert day\_add("Sunday", -1) == "Saturday"
+    assert day\_add("Sunday", -7) == "Sunday"
+    assert day\_add("Tuesday", -100) == "Sunday"
+
+    assert days\_in\_month("February") == 28
+    assert days\_in\_month("December") == 31
+    assert days\_in\_month("Frubluary") == None
+
+    assert to\_secs(2, 30, 10) == 9010
+    assert to\_secs(2, 0, 0) == 7200
+    assert to\_secs(0, 2, 0) == 120
+    assert to\_secs(0, 0, 42) == 42
+    assert to\_secs(0, -10, 10) == -590
+    assert to\_secs(2.5, 0, 10.71) == 9010
+    assert to\_secs(2.433,0,0) == 8758
+
+    assert hours\_in(9010) == 2
+    assert minutes\_in(9010) == 30
+    assert seconds\_in(9010) == 10
+
+    assert compare(5, 4) == 1
+    assert compare(7, 7) == 0
+    assert compare(2, 3) == -1
+    assert compare(42, 1) == 1
+
+    assert hypotenuse(3, 4) == 5.0
+    assert hypotenuse(12, 5) == 13.0
+    assert hypotenuse(24, 7) == 25.0
+    assert hypotenuse(9, 12) == 15.0
+
+    assert slope(5, 3, 4, 2) == 1.0
+    assert slope(1, 2, 3, 2) == 0.0
+    assert slope(1, 2, 3, 3) == 0.5
+    assert slope(2, 4, 1, 2) == 2.0
+
+    assert intercept(1, 6, 3, 12) == 3.0
+    assert intercept(6, 1, 1, 6) == 7.0
+    assert intercept(4, 6, 12, 8) == 5.0
+
+    assert is\_even(-2) 
+    assert is\_even(0)
+    assert is\_even(2)
+    assert not is\_even(-1)
+    assert not is\_even(1)
+
+    assert is\_odd(-1)
+    assert is\_odd(13)
+    assert not is\_odd(4)
+
+    assert is\_factor(3, 12)
+    assert not is\_factor(5, 12)
+    assert is\_factor(7, 14)
+    assert not is\_factor(7, 15)
+    assert is\_factor(15, 15)
+    assert not is\_factor(25, 12)
+
+    assert is\_multiple(12, 3)
+    assert is\_multiple(12, 4)
+    assert not is\_multiple(12, 5)
+    assert is\_multiple(12, 6)
+    assert not is\_multiple(12, 7)
+
+    assert f2c(212) == 100
+    assert f2c(32) == 0
+    assert f2c(-40) == -40
+    assert f2c(36) == 2
+    assert f2c(37) == 3
+    assert f2c(38) == 3
+    assert f2c(39) == 4
+
+    assert c2f(0) == 32
+    assert c2f(100) == 212
+    assert c2f(-40) == -40
+    assert c2f(12) == 54
+    assert c2f(18) == 64
+    assert c2f(-48) == -54
+
+    print("Ran the test suite")
+
+def turn\_clockwise(dir):
+    """Takes a direction dir, in the form of a single letter N, E, S, or W. 
+    Returns the direction 90 degrees clockwise from the input."""
+
+    rotator = {"N": "E",
+               "E": "S",
+               "S": "W",
+               "W": "N"
+              }
+    if dir in rotator:
+        return rotator\[dir\]
+    else:
+        return None
+
+def day\_name(num):
+    day\_names = {0: "Sunday",
+                 1: "Monday",
+                 2: "Tuesday",
+                 3: "Wednesday",
+                 4: "Thursday",
+                 5: "Friday",
+                 6: "Saturday"
+    }
+    if num in day\_names:
+        return day\_names\[num\]
+    else:
+        return None
+
+def day\_num(name):
+    day\_nums = {"Sunday": 0,
+                "Monday": 1,
+                "Tuesday": 2,
+                "Wednesday": 3,
+                "Thursday": 4,
+                "Friday": 5,
+                "Saturday": 6
+    }
+    if name in day\_nums:
+        return day\_nums\[name\]
+    else:
+        return None
+
+def day\_add(weekday, add\_num):
+    start\_num = day\_num(weekday)
+    end\_num = (start\_num + add\_num) % 7
+    end\_name = day\_name(end\_num)
+    return end\_name
+
+def days\_in\_month(x):
+    month\_lengths = {"January": 31,
+                     "February": 28,
+                     "March": 31,
+                     "April": 30,
+                     "May": 31,
+                     "June": 30,
+                     "July": 31,
+                     "August": 31,
+                     "September": 30,
+                     "October": 31,
+                     "November": 30,
+                     "December": 31
+    }
+    if x in month\_lengths:
+        return month\_lengths\[x\]
+
+def to\_secs(hours, minutes, seconds):
+    return int(3600\*hours + 60\*minutes + seconds)
+
+def hours\_in(secs):
+    return secs // 3600
+
+def minutes\_in(secs):
+    return (secs % 3600) // 60
+
+def seconds\_in(x):
+    return x % 60
+
+def compare(a, b):
+    if a > b:
+        return 1
+    if a == b:
+        return 0
+    if a < b:
+        return -1
+
+def hypotenuse(a, b):
+    return (a\*\*2 + b\*\*2) \*\* 0.5
+
+def slope(x1, y1, x2, y2):
+    dx = x2 - x1
+    dy = y2 - y1
+    return dy / dx
+
+def intercept(x1, y1, x2, y2):
+    """Finds the y-intercept of a line given two points on it"""
+    m = slope(x1, y1, x2, y2)
+    # derived from the classic formula y = mx + b
+    b = y1 - m \* x1
+    return b
+
+def is\_even(n):
+    if type(n) == int:
+        return n % 2 == 0
+
+def is\_odd(n):
+    return not is\_even(n)
+
+def is\_factor(f, n):
+    return n % f == 0
+
+def is\_multiple(a, b):
+    """Returns whether a is a multiple of b."""
+    return is\_factor(b, a)
+
+def f2c(t):
+    """Takes a temperature t in Fahrenheit and returns a Celsius 
+    temperature rounded to the nearest degree."""
+    return round( (t-32) / 1.8)
+
+def c2f(t):
+    """Takes a temperature t in Celsius and returns a Fahrenheit 
+    temperature rounded to the nearest degree."""
+    return round(1.8\*t + 32)
+
+test\_suite()
+{% endhighlight %}
