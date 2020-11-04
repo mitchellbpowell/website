@@ -14,6 +14,9 @@ Right now I'm messing around with putting together a site written in Markdown, c
 * About me
     * [Programming as a kid](p/messing-around.html)
     * [Studying and working](p/work-and-study.html)
+* Miscellany
+    * [Worthwhile things](p/worthwhile-things.html)
+    * [Odds and ends](p/odds-and-ends.html)
 * Coding Exercises
     * [Notes on a Python 3 textbook](p/think-like/)
         * [Possible revisions](p/think-like/possible-revisions.html)
@@ -24,9 +27,7 @@ Right now I'm messing around with putting together a site written in Markdown, c
     * [Prime birth dates](p/prime-birth-dates.html)
     * [Historical days of the week](p/historical-days-of-the-week.html)
 
-* Miscellany
-    * [Worthwhile things](p/worthwhile-things.html)
-    * [Odds and ends](p/odds-and-ends.html)
+
 
 
 
