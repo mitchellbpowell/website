@@ -1,6 +1,7 @@
 ---
 title: "Coronavirus Pages"
 date: "2020-02-18"
+layout: page
 --- 
 
 Early in the coronavirus outbreak, I found myself following daily numbers as they began coming out of China. At the time, I was working my way through a textbook on Python 3, and when I discovered that some of the graphs I would have liked to have seen didn't exist, I started making them. This turned into a project lasting about five weeks, beginning February 16th, in which I made graphs in Python 3 to let myself look at things like raw numbers of cases, rates of spread, active vs. confirmed vs. suspected cases, breakdowns by country and region, and logarithmic graphs that enabled the reader to peer into the dynamics of how the virus did and sometimes didn't follow an exponential graph.
