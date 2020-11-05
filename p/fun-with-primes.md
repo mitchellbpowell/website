@@ -40,11 +40,11 @@ for i in range(1, 6):
 This prints (your mileage may vary):
 
 ```
-Primes up to       10 listed in 0.000012 seconds.
-Primes up to      100 listed in 0.000146 seconds.
-Primes up to    1,000 listed in 0.006790 seconds.
-Primes up to   10,000 listed in 0.369426 seconds.
-Primes up to  100,000 listed in 26.382979 seconds.
+Primes up to       10 listed in 0.000012 seconds.  
+Primes up to      100 listed in 0.000146 seconds.  
+Primes up to    1,000 listed in 0.006790 seconds.  
+Primes up to   10,000 listed in 0.369426 seconds.  
+Primes up to  100,000 listed in 26.382979 seconds.  
 ```
 
 Notice how rapidly the execution time is growing. We should be able to slice some time off by not wasting our time checking for even factors. If, for example, 101 is not divisible by two, it is not going to be divisible by 4, or 6, or 8 either. So we can basically remove half of our "checks" by dealing with "is it divisible by two" at the outset and then only checking potential odd factors after that.
@@ -75,11 +75,11 @@ def is\_prime(x):
 Now we can check how it stands up to a test like last time:
 
 ```
-Primes up to       10 listed in 0.000013 seconds.
-Primes up to      100 listed in 0.000104 seconds.
-Primes up to    1,000 listed in 0.007753 seconds.
-Primes up to   10,000 listed in 0.221982 seconds.
-Primes up to  100,000 listed in 13.154828 seconds.
+Primes up to       10 listed in 0.000013 seconds.  
+Primes up to      100 listed in 0.000104 seconds.  
+Primes up to    1,000 listed in 0.007753 seconds.  
+Primes up to   10,000 listed in 0.221982 seconds.  
+Primes up to  100,000 listed in 13.154828 seconds.  
 ```
 
 That's progress. We've shaved about half of the time off. While we're at it, we may as well quit checking even numbers for primeness, and revise our top-level code like so:
@@ -101,11 +101,11 @@ for i in range(1, 6):
 Now the code prints:
 
 ```
-Primes up to       10 listed in 0.000007 seconds.
-Primes up to      100 listed in 0.000055 seconds.
-Primes up to    1,000 listed in 0.002420 seconds.
-Primes up to   10,000 listed in 0.167709 seconds.
-Primes up to  100,000 listed in 12.319272 seconds.
+Primes up to       10 listed in 0.000007 seconds.  
+Primes up to      100 listed in 0.000055 seconds.  
+Primes up to    1,000 listed in 0.002420 seconds.  
+Primes up to   10,000 listed in 0.167709 seconds.  
+Primes up to  100,000 listed in 12.319272 seconds.  
 ```
 
 This only shaves a little bit of time of our function, because the very brief `is_prime` calls for even numbers were returning `False` pretty quickly.
@@ -142,18 +142,18 @@ def is\_prime(x):
 And behold, it prints something marvelous:
 
 ```
-Primes up to       10 listed in 0.000017 seconds.
-Primes up to      100 listed in 0.000072 seconds.
-Primes up to    1,000 listed in 0.000790 seconds.
-Primes up to   10,000 listed in 0.010202 seconds.
-Primes up to  100,000 listed in 0.136442 seconds.
+Primes up to       10 listed in 0.000017 seconds.  
+Primes up to      100 listed in 0.000072 seconds.  
+Primes up to    1,000 listed in 0.000790 seconds.  
+Primes up to   10,000 listed in 0.010202 seconds.  
+Primes up to  100,000 listed in 0.136442 seconds.  
 ```
 
 For the 100,000 level, we're now running about 100 times faster. We can even extend our code a little to get a couple more powers of ten checked.
 
 ```
-Primes up to  1,000,000 listed in 2.079361 seconds.
-Primes up to 10,000,000 listed in 50.499986 seconds.
+Primes up to  1,000,000 listed in 2.079361 seconds.  
+Primes up to 10,000,000 listed in 50.499986 seconds.  
 ```
 
 Although that's quite a bit of improvement, we can do better. We can do much better. Skipping over some of the subtleties, let's imagine, we had a list of every number from 1 to 10,000,000. In the course of checking for primeness, we need to eliminate numbers divisible by 47 (among many others). One way we can do this is to divide each number by 47. Is 2001 divisible by 47? Is 2002 divisible by 47? Is 2003 divisible by 47? And so we go. It would be much faster to simply cross every number divisible by 47 off our list. Then we could just start at 94 and add 47 over and over, traversing through the list and crossing off all those multiples.
@@ -209,13 +209,13 @@ for i in range(2, 9):
 This prints:
 
 ```
-Primes up to          100 listed in 0.000041 seconds.
-Primes up to        1,000 listed in 0.000348 seconds.
-Primes up to       10,000 listed in 0.005333 seconds.
-Primes up to      100,000 listed in 0.050560 seconds.
-Primes up to    1,000,000 listed in 0.296285 seconds.
-Primes up to   10,000,000 listed in 3.073970 seconds.
-Primes up to  100,000,000 listed in 34.915086 seconds.
+Primes up to          100 listed in 0.000041 seconds.  
+Primes up to        1,000 listed in 0.000348 seconds.  
+Primes up to       10,000 listed in 0.005333 seconds.  
+Primes up to      100,000 listed in 0.050560 seconds.  
+Primes up to    1,000,000 listed in 0.296285 seconds.  
+Primes up to   10,000,000 listed in 3.073970 seconds.  
+Primes up to  100,000,000 listed in 34.915086 seconds.  
 ```
 
 Notice that this version finds primes up 10,000,000 in just 3 seconds instead of 51 like the previous version, while it can even knock out primes up to 100,000,000 in 35 seconds. If you compare it to the first version of our program, it handles the 100,000 task 500 times faster. And this last version grows linearly with the number of numbers we check, while the earliest version grew at something approaching n^2. If it did grow at n^2, we can imagine that, if it took about half a minute for 100,000, its time to 100,000,000 would be about a million times larger, or, to use a famous round number, roughly [525,600 minutes](https://www.youtube.com/watch?v=-r2xXtSsPV0).
