@@ -1,6 +1,7 @@
 ---
 title: "Coronavirus: 2020-2-16"
 date: "2020-02-17"
+layout: page
 ---
 
 _Post originally written February 16, 2020._
