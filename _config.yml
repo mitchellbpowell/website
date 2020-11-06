@@ -21,7 +21,7 @@
 title: Mitchell Powell
 email: mitchellbpowell@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is a site in construction, currently written in markdown and compiled with Jekyll as of October 2020.
+  A personal website.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -58,9 +58,6 @@ plugins:
 # this and add the path to the pages in order as they should show up 
 header_pages:
   - index.markdown
-fonts:
-  primary: Libre Baskerville
-  secondary: Helvetica
 
 markdown: kramdown
 
