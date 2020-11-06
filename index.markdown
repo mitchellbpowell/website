@@ -15,6 +15,7 @@ Right now I'm messing around with putting together a site written in Markdown, c
     * [Programming as a kid](p/messing-around.html)
     * [Studying and working](p/work-and-study.html)
 * Miscellany
+    * [Storage is cheap now](p/storage-prices.html)
     * [Worthwhile things](p/worthwhile-things.html)
     * [Odds and ends](p/odds-and-ends.html)
 * Coding Exercises
@@ -22,7 +23,6 @@ Right now I'm messing around with putting together a site written in Markdown, c
         * [Possible revisions](p/think-like/possible-revisions.html)
         * Chapters: [2](p/think-like/c2.html), [3](p/think-like/c3.html), [4](p/think-like/c4.html), [5](p/think-like/c5.html), [6](p/think-like/c6.html)
         * Chapters: [7](p/think-like/c7.html), [8](p/think-like/c8.html), [9](p/think-like/c9.html), [10](p/think-like/c10.html)
-    * [Storage is cheap now](p/storage-prices.html)
     * [Fun with primes](p/fun-with-primes.html)
     * [Prime birth dates](p/prime-birth-dates.html)
     * [Historical days of the week](p/historical-days-of-the-week.html)
