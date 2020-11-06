@@ -23,7 +23,7 @@ The first has to do with what "China" is, and for my purposes I am including mai
 
 The second definitional issue has to do with what a "confirmed case" is. Until February 12th, this was not a problem. Talk of the virus peaking was common in my Google News feed, and the WHO and China were on the same page about how many confirmed cases there were.
 
-Then, on February 12th, the government of China suddenly added about 15,000 "confirmed cases" in a single day, and announced that these numbers were due to a change in the definition of "confirmed". Prior to February 12th, only lab test were acceptable as confirmation; starting February 12th, CT scans were also admissible. The World Health Organization, however, continued reporting lab cases most prominently in its situation reports.
+Then, on February 12th, the government of China suddenly added about 15,000 "confirmed cases" in a single day, and announced that these numbers were due to a change in the definition of "confirmed". Prior to February 12th, only lab tests were acceptable as confirmation; starting February 12th, CT scans were also admissible. The World Health Organization, however, continued reporting lab cases most prominently in its situation reports.
 
 At the same time, two other trends were becoming increasingly important. Tragically, a larger number of people were beginning to die of the disease; somewhere on the range of 100 to 150 per day. On the other hand, great numbers of people were beginning to recover from the disease; something like 1000 to 1500 per day.
 
@@ -109,7 +109,7 @@ Certainly, we could do more to make the graphs pretty and informative, but if th
 
 For example, both measures seem to show what looks like a recent peak in active cases. I say that as someone just eyeballing the numbers, of course. Consult your national health service for any kind of data you'd actually use, etc.
 
-For example, in both cases, perhaps we'd like to see the day to day changes more clearly. We could draw up a function that takes, essentially, the derivative of some list:
+Perhaps we'd like to see the day to day changes more clearly. We could draw up a function that takes, essentially, the derivative of some list:
 
 {% highlight ruby %}
 def delta\_list(data):
@@ -141,7 +141,7 @@ The lab-tested measure shows about two weeks of escalating increases in active c
 
 Now, with any outbreak like this, the big concern is exponential growth. If the number of active cases were to grow at some steady percentage rate each day, be it 10% or 50% or even 1%, that trend would, if not stopped, eventually lead to everyone getting the disease. And with a mortality rate that is in the neighborhood of perhaps 2%, that would be disturbing. So we might be curious about what is happening to the percentage rate of growth, to see just how closely this outbreak matches an exponential curve.
 
-And so we can draw up another function that draws up our percentage changes we want, and then call it appropriately.
+And so we can draw up another function that draws up the percentage changes we want, and then call it appropriately.
 
 {% highlight ruby %}
 def percent\_changes(data):
