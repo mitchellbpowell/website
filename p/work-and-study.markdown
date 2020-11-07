@@ -12,7 +12,7 @@ Details are below
 
 # Current Position
 
-Since 2017, I've been doing a job I find pretty interesting, for a firm in southwest Ohio which manages branding projects for fuel distributors in Ohio, Kentucky, and Indiana. I help brand representatives, fuel distributors, and station owners come to budgetary and scope of work agreements on branding projects. I file for permits, testify before zoning boards, negotiate compromises, place orders for materials, and ensure that everything is in order for our crews to complete projects. When I job is complete, I ensure that it complies with brand standards and document its completion
+Since 2017, I've been doing a job I find pretty interesting, for a firm in southwest Ohio which manages branding projects for fuel distributors in Ohio, Kentucky, and Indiana. I help brand representatives, fuel distributors, and station owners come to budgetary and scope of work agreements on branding projects. I file for permits, testify before zoning boards, negotiate compromises, place orders for materials, and ensure that everything is in order for our crews to complete projects. When a job is complete, I ensure that it complies with brand standards and document its completion
 
 # Education
 
