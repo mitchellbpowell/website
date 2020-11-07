@@ -15,6 +15,7 @@ Right now I'm messing around with putting together a site written in Markdown, c
     * [Programming as a kid](p/messing-around.html)
     * [Studying and working](p/work-and-study.html)
 * Miscellany
+    * [Romanies and Ashkenazi Jews: <br>An Old College Paper of Mine](p/romanies-ashkenazim.html)
     * [Storage is cheap now](p/storage-prices.html)
     * [Worthwhile things](p/worthwhile-things.html)
     * [Odds and ends](p/odds-and-ends.html)
