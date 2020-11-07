@@ -21,20 +21,20 @@ We can do this like so. Note that decreasing or increasing the pen size has no v
 """Tess becomes a traffic light."""
 import turtle
 
-def draw\_housing():
+def draw_housing():
     """Draw a nice housing to hold the traffic lights."""
     tess.pensize(3)
     tess.color("black", "darkgrey")
-    tess.begin\_fill()
+    tess.begin_fill()
     tess.forward(80)
     tess.left(90)
     tess.forward(200)
     tess.circle(40, 180)
     tess.forward(200)
     tess.left(90)
-    tess.end\_fill()
+    tess.end_fill()
 
-def get\_tess\_situated():
+def get_tess_situated():
     """Turn tess into an appropriately placed green light."""
     tess.penup()
     # Position tess onto the place where the green light should be
@@ -51,53 +51,53 @@ def get\_tess\_situated():
 # When the machine changes state, we change tess' position and
 # her fillcolor.
 
-def advance\_state\_machine():
+def advance_state_machine():
     """Move a traffic light along."""
-    global state\_num
-    if state\_num == 0:       # Transition from state 0 to state 1
+    global state_num
+    if state_num == 0:       # Transition from state 0 to state 1
         tess.forward(70)
         tess.fillcolor("orange")
-        state\_num = 1
-    elif state\_num == 1:     # Transition from state 1 to state 2
+        state_num = 1
+    elif state_num == 1:     # Transition from state 1 to state 2
         tess.forward(70)
         tess.fillcolor("red")
-        state\_num = 2
+        state_num = 2
     else:                    # Transition from state 2 to state 0
         tess.back(140)
         tess.fillcolor("green")
-        state\_num = 0
+        state_num = 0
 
-def tess\_blue():
+def tess_blue():
     """Turn tess blue."""
     tess.fillcolor("blue")
 
-def tess\_green():
+def tess_green():
     """Turn tess green."""
     tess.fillcolor("green")
 
-def tess\_red():
+def tess_red():
     """Turn tess red."""
     tess.fillcolor("red")
 
-def tess\_minus():
+def tess_minus():
     """Shrink tess's pen."""
     if tess.pensize() >= 2:
         tess.pensize(tess.pensize() - 1)
 
-def tess\_plus():
+def tess_plus():
     """Make tess's pen larger."""
     if tess.pensize() <= 19:
         tess.pensize(tess.pensize() + 1)
 
-def tess\_shrink():
+def tess_shrink():
     """Make tess smaller."""
     temp = tess.shapesize()
-    tess.shapesize(temp\[0\] \* .9, temp\[1\] \* .9, temp\[2\] \* .9)
+    tess.shapesize(temp[0] * .9, temp[1] * .9, temp[2] * .9)
 
-def tess\_grow():
+def tess_grow():
     """Make tess larger."""
     temp = tess.shapesize()
-    tess.shapesize(temp\[0\] / .9, temp\[1\] / .9, temp\[2\] / .9)
+    tess.shapesize(temp[0] / .9, temp[1] / .9, temp[2] / .9)
 
 # Set up a screen and a turtle to work with.
 turtle.setup(400, 500)
@@ -106,31 +106,31 @@ wn.title("Tess becomes a traffic light!")
 wn.bgcolor("lightgreen")
 tess = turtle.Turtle()
 
-draw\_housing()
+draw_housing()
 
-get\_tess\_situated()
+get_tess_situated()
 
 # This variable holds the current state of the machine
-state\_num = 0
+state_num = 0
 
 # Bind the event handler to various possible inputs.
 
 # Traffic light hops through its states as space bar is pressed.
-wn.onkey(advance\_state\_machine, "space")
+wn.onkey(advance_state_machine, "space")
 # Tess's pensize shrinks when minus key is pressed.
-wn.onkey(tess\_minus, "minus")
+wn.onkey(tess_minus, "minus")
 # Tess's pensize grows when plus key is pressed.
-wn.onkey(tess\_plus, "plus")
+wn.onkey(tess_plus, "plus")
 # Tess turns red when r is pressed.
-wn.onkey(tess\_red, "r")
+wn.onkey(tess_red, "r")
 # Tess turns green when g is pressed.
-wn.onkey(tess\_green, "g")
+wn.onkey(tess_green, "g")
 # Tess turns blue when b is pressed.
-wn.onkey(tess\_blue, "b")
+wn.onkey(tess_blue, "b")
 # Tess gets smaller when s is pressed.
-wn.onkey(tess\_shrink, "s")
+wn.onkey(tess_shrink, "s")
 # Tess gets larger when d is pressed.
-wn.onkey(tess\_grow, "d")
+wn.onkey(tess_grow, "d")
 
 wn.listen()          # Listen for events
 wn.mainloop()        # Keep window open till user closes it.
@@ -149,7 +149,7 @@ import turtle
 # Green, Orange, Red.  We number these states  0, 1, 2
 # When the machine changes state, we change tess's position and
 # her fillcolor.
-def advance\_state\_machine():
+def advance_state_machine():
     """Move the stoplight (tess) to the next position.
 
     A traffic light is a kind of state machine with three
@@ -158,36 +158,36 @@ def advance\_state\_machine():
     position and her fillcolor. Once this function is called,
     it executes once per second.
     """
-    global state\_num
-    if state\_num == 0:       # Transition from state 0 to state 1
+    global state_num
+    if state_num == 0:       # Transition from state 0 to state 1
         tess.forward(70)
         tess.fillcolor("orange")
-        state\_num = 1
-    elif state\_num == 1:     # Transition from state 1 to state 2
+        state_num = 1
+    elif state_num == 1:     # Transition from state 1 to state 2
         tess.forward(70)
         tess.fillcolor("red")
-        state\_num = 2
-    elif state\_num == 2:       # Transition from state 2 to state 3
+        state_num = 2
+    elif state_num == 2:       # Transition from state 2 to state 3
         tess.back(140)
         tess.fillcolor("green")
-        state\_num = 0
+        state_num = 0
     else:
         print("There's been a terrible error in the state machine.")
 
-    wn.ontimer(advance\_state\_machine, 1000)
+    wn.ontimer(advance_state_machine, 1000)
 
-def draw\_housing():
+def draw_housing():
     """Draw a nice housing to hold a traffic light."""
     tess.pensize(3)
     tess.color("black", "darkgrey")
-    tess.begin\_fill()
+    tess.begin_fill()
     tess.forward(80)
     tess.left(90)
     tess.forward(200)
     tess.circle(40, 180)
     tess.forward(200)
     tess.left(90)
-    tess.end\_fill()
+    tess.end_fill()
 
 # Set up a turtle and a screen to work with.
 turtle.setup(400, 500)
@@ -196,7 +196,7 @@ wn.title("Tess becomes a traffic light!")
 wn.bgcolor("lightgreen")
 tess = turtle.Turtle()
 
-draw\_housing()
+draw_housing()
 
 tess.penup()
 # Position tess onto the place where the green light should be.
@@ -211,10 +211,10 @@ tess.fillcolor("green")
 
 # This variable holds the current state of the machine.
 # 0 represents a green light, 1 an orange light, 2 red.
-state\_num = 0
+state_num = 0
 
 # Bind the event handler to a timer.
-wn.ontimer(advance\_state\_machine, 1000)
+wn.ontimer(advance_state_machine, 1000)
 
 wn.listen()                      # Listen for events
 wn.mainloop()
@@ -229,48 +229,48 @@ I will leave the pondering for more philosophical minds, and who knows whether m
 {% highlight ruby %}
 import turtle
 
-def draw\_housing():
+def draw_housing():
     """Draw a nice housing to hold the traffic lights."""
     tess.pensize(3)
     tess.color("black", "darkgrey")
-    tess.begin\_fill()
+    tess.begin_fill()
     tess.forward(80)
     tess.left(90)
     tess.forward(200)
     tess.circle(40, 180)
     tess.forward(200)
     tess.left(90)
-    tess.end\_fill()
+    tess.end_fill()
 
-def advance\_state\_machine():
+def advance_state_machine():
     """Move stoplight on to the next state.
 
     States 0, 1, 2 correspond to green, yellow, red
     in a standard traffic light.
     """
-    global state\_num
-    if state\_num == 0:       # Transition from state 0 to state 1
-        green\_light.hideturtle()
+    global state_num
+    if state_num == 0:       # Transition from state 0 to state 1
+        green_light.hideturtle()
         tess.forward(70)
-        yellow\_light.showturtle()
+        yellow_light.showturtle()
         tess.fillcolor("orange")
-        state\_num = 1
-    elif state\_num == 1:     # Transition from state 1 to state 2
-        yellow\_light.hideturtle()
+        state_num = 1
+    elif state_num == 1:     # Transition from state 1 to state 2
+        yellow_light.hideturtle()
         tess.forward(70)
-        red\_light.showturtle()
+        red_light.showturtle()
         tess.fillcolor("red")
-        state\_num = 2
-    elif state\_num == 2:       # Transition from state 2 to state 3
-        red\_light.hideturtle()
+        state_num = 2
+    elif state_num == 2:       # Transition from state 2 to state 3
+        red_light.hideturtle()
         tess.back(140)
         tess.fillcolor("green")
-        state\_num = 0
-        green\_light.showturtle()
+        state_num = 0
+        green_light.showturtle()
     else:
         print("Uh oh. Problem in the state machine.")
 
-    wn.ontimer(advance\_state\_machine, 1000)
+    wn.ontimer(advance_state_machine, 1000)
 
 # Set up turtles and screen to work with.
 # Tess will be the turtle who moves background
@@ -286,52 +286,52 @@ wn.bgcolor("lightgreen")
 tess = turtle.Turtle()
 
 # Set up tess's three counterparts.
-green\_light = turtle.Turtle()
-yellow\_light = turtle.Turtle()
-red\_light = turtle.Turtle()
+green_light = turtle.Turtle()
+yellow_light = turtle.Turtle()
+red_light = turtle.Turtle()
 
 # Make them the appropriate colors and such
-green\_light.shape("circle")
-yellow\_light.shape("circle")
-red\_light.shape("circle")
+green_light.shape("circle")
+yellow_light.shape("circle")
+red_light.shape("circle")
 
-green\_light.shapesize(3)
-yellow\_light.shapesize(3)
-red\_light.shapesize(3)
+green_light.shapesize(3)
+yellow_light.shapesize(3)
+red_light.shapesize(3)
 
-green\_light.fillcolor("green")
-yellow\_light.fillcolor("orange")
-red\_light.fillcolor("red")
+green_light.fillcolor("green")
+yellow_light.fillcolor("orange")
+red_light.fillcolor("red")
 
 # The three lights shouldn't draw anything, so
 # let's preemptively stop them.
-green\_light.penup()
-yellow\_light.penup()
-red\_light.penup()
+green_light.penup()
+yellow_light.penup()
+red_light.penup()
 
 # Move them all back toward the left housing.
-green\_light.forward(-110)
-yellow\_light.forward(-110)
-red\_light.forward(-110)
+green_light.forward(-110)
+yellow_light.forward(-110)
+red_light.forward(-110)
 
 # Turn them all to face upward.
-green\_light.left(90)
-yellow\_light.left(90)
-red\_light.left(90)
+green_light.left(90)
+yellow_light.left(90)
+red_light.left(90)
 
 # Walk them to their places
-green\_light.forward(50)
-yellow\_light.forward(120)
-red\_light.forward(190)
+green_light.forward(50)
+yellow_light.forward(120)
+red_light.forward(190)
 
 # Draw the housings and move tess into position.
-draw\_housing()
+draw_housing()
 
 tess.penup()
 tess.forward(-150)
 tess.pendown()
 
-draw\_housing()
+draw_housing()
 tess.penup()
 tess.forward(150)
 
@@ -350,10 +350,10 @@ tess.fillcolor("green")
 # When the machine changes state, we change tess' position and
 # her fillcolor.
 # This variable holds the current state of the machine.
-state\_num = 0
+state_num = 0
 
 # Bind the event handler to a timer.
-wn.ontimer(advance\_state\_machine(), 1000)
+wn.ontimer(advance_state_machine(), 1000)
 
 wn.listen()                      # Listen for events
 wn.mainloop()
@@ -368,42 +368,42 @@ The way this wording is written seems to presuppose that we're only working with
 {% highlight ruby %}
 import turtle
 
-def draw\_housing():
+def draw_housing():
     """Draw a nice housing to hold the traffic lights."""
     tess.pensize(3)
     tess.color("black", "Dim Grey")
-    tess.begin\_fill()
+    tess.begin_fill()
     tess.forward(80)
     tess.left(90)
     tess.forward(200)
     tess.circle(40, 180)
     tess.forward(200)
     tess.left(90)
-    tess.end\_fill()
+    tess.end_fill()
 
-def advance\_state\_machine():
+def advance_state_machine():
     """Move stoplight on to the next state.
 
     States 0, 1, 2 correspond to green, yellow, red
     in a standard traffic light.
     """
-    global state\_num
-    if state\_num == 0:       # Transition from 'green' to 'yellow'
-        green\_light.color("Dark Olive Green")
-        yellow\_light.color("Orange")
-        state\_num = 1
-    elif state\_num == 1:     # Transition from 'yellow' to 'red'
-        yellow\_light.color("Sienna")
-        red\_light.color("red")
-        state\_num = 2
-    elif state\_num == 2:       # Transition from 'red' to 'green'
-        red\_light.color("Brown")
-        state\_num = 0
-        green\_light.color("Lime Green")
+    global state_num
+    if state_num == 0:       # Transition from 'green' to 'yellow'
+        green_light.color("Dark Olive Green")
+        yellow_light.color("Orange")
+        state_num = 1
+    elif state_num == 1:     # Transition from 'yellow' to 'red'
+        yellow_light.color("Sienna")
+        red_light.color("red")
+        state_num = 2
+    elif state_num == 2:       # Transition from 'red' to 'green'
+        red_light.color("Brown")
+        state_num = 0
+        green_light.color("Lime Green")
     else:
         print("Uh oh. Problem in the state machine.")
 
-    wn.ontimer(advance\_state\_machine, 1000)
+    wn.ontimer(advance_state_machine, 1000)
 
 # Set up turtles and screen to work with.
 # Tess will draw the housing, and
@@ -421,53 +421,53 @@ tess.penup()
 tess.forward(-40)
 tess.pendown()
 
-draw\_housing()
+draw_housing()
 tess.penup()
 tess.hideturtle()
 
 # Set up tess's three counterparts.
-green\_light = turtle.Turtle()
-yellow\_light = turtle.Turtle()
-red\_light = turtle.Turtle()
+green_light = turtle.Turtle()
+yellow_light = turtle.Turtle()
+red_light = turtle.Turtle()
 
 # Make them the appropriate colors and such
-green\_light.shape("circle")
-yellow\_light.shape("circle")
-red\_light.shape("circle")
+green_light.shape("circle")
+yellow_light.shape("circle")
+red_light.shape("circle")
 
-green\_light.shapesize(3)
-yellow\_light.shapesize(3)
-red\_light.shapesize(3)
+green_light.shapesize(3)
+yellow_light.shapesize(3)
+red_light.shapesize(3)
 
-green\_light.fillcolor("Dark Olive Green")
-yellow\_light.fillcolor("Sienna")
-red\_light.fillcolor("Brown")
+green_light.fillcolor("Dark Olive Green")
+yellow_light.fillcolor("Sienna")
+red_light.fillcolor("Brown")
 
 # The three lights shouldn't draw anything, so
 # let's preemptively stop them.
-green\_light.penup()
-yellow\_light.penup()
-red\_light.penup()
+green_light.penup()
+yellow_light.penup()
+red_light.penup()
 
 # Turn them all to face upward.
-green\_light.left(90)
-yellow\_light.left(90)
-red\_light.left(90)
+green_light.left(90)
+yellow_light.left(90)
+red_light.left(90)
 
 # Walk them to their places
-green\_light.forward(50)
-yellow\_light.forward(120)
-red\_light.forward(190)
+green_light.forward(50)
+yellow_light.forward(120)
+red_light.forward(190)
 
 # A traffic light is a kind of state machine with three states,
 # Green, Orange, Red.  We number these states  0, 1, 2
 # When the machine changes state, we change tess' position and
 # her fillcolor.
 # This variable holds the current state of the machine.
-state\_num = 0
+state_num = 0
 
 # Bind the event handler to a timer.
-wn.ontimer(advance\_state\_machine(), 1000)
+wn.ontimer(advance_state_machine(), 1000)
 
 wn.listen()                      # Listen for events
 wn.mainloop()
@@ -482,54 +482,54 @@ Presumably there's some very unusual municipality experimenting with something h
 {% highlight ruby %}
 """Exercise 10.6.5 from a textbook.
 
-\_How to Think Like a Computer Scientist: Learning with Python 3\_
+_How to Think Like a Computer Scientist: Learning with Python 3_
 """
 import turtle
 
-def draw\_housing():
+def draw_housing():
     """Draw a nice housing to hold the traffic lights."""
     tess.pensize(3)
     tess.color("black", "Dim Grey")
-    tess.begin\_fill()
+    tess.begin_fill()
     tess.forward(80)
     tess.left(90)
     tess.forward(200)
     tess.circle(40, 180)
     tess.forward(200)
     tess.left(90)
-    tess.end\_fill()
+    tess.end_fill()
 
-def advance\_state\_machine():
+def advance_state_machine():
     """Move stoplight on to the next state.
 
     States 0, 1, 2, 3 correspond to green, green+orange, orange, red
     in our modified traffic light system.
     """
-    global state\_num
+    global state_num
     # Transition from 'green' to 'green plus orange'.
-    if state\_num == 0:
-        orange\_light.color("Orange")
-        state\_num = 1
-        time\_to\_change = 1000
+    if state_num == 0:
+        orange_light.color("Orange")
+        state_num = 1
+        time_to_change = 1000
     # Transition from 'green plus orange' to 'orange'.
-    elif state\_num == 1:
-        green\_light.color("Dark Olive Green")
-        state\_num = 2
-        time\_to\_change = 1000
-    elif state\_num == 2:     # Transition from 'orange' to 'red'
-        orange\_light.color("Sienna")
-        red\_light.color("red")
-        state\_num = 3
-        time\_to\_change = 2000
-    elif state\_num == 3:       # Transition from 'red' to 'green'
-        red\_light.color("Brown")
-        state\_num = 0
-        green\_light.color("Lime Green")
-        time\_to\_change = 3000
+    elif state_num == 1:
+        green_light.color("Dark Olive Green")
+        state_num = 2
+        time_to_change = 1000
+    elif state_num == 2:     # Transition from 'orange' to 'red'
+        orange_light.color("Sienna")
+        red_light.color("red")
+        state_num = 3
+        time_to_change = 2000
+    elif state_num == 3:       # Transition from 'red' to 'green'
+        red_light.color("Brown")
+        state_num = 0
+        green_light.color("Lime Green")
+        time_to_change = 3000
     else:
         print("Uh oh. Problem in the state machine.")
 
-    wn.ontimer(advance\_state\_machine, time\_to\_change)
+    wn.ontimer(advance_state_machine, time_to_change)
 
 # Set up turtle and screen to work with.
 # Tess will draw the housing, and
@@ -547,53 +547,53 @@ tess.penup()
 tess.forward(-40)
 tess.pendown()
 
-draw\_housing()
+draw_housing()
 tess.penup()
 tess.hideturtle()
 
 # Set up tess's three counterparts.
-green\_light = turtle.Turtle()
-orange\_light = turtle.Turtle()
-red\_light = turtle.Turtle()
+green_light = turtle.Turtle()
+orange_light = turtle.Turtle()
+red_light = turtle.Turtle()
 
 # Make them the appropriate colors and such
-green\_light.shape("circle")
-orange\_light.shape("circle")
-red\_light.shape("circle")
+green_light.shape("circle")
+orange_light.shape("circle")
+red_light.shape("circle")
 
-green\_light.shapesize(3)
-orange\_light.shapesize(3)
-red\_light.shapesize(3)
+green_light.shapesize(3)
+orange_light.shapesize(3)
+red_light.shapesize(3)
 
-green\_light.fillcolor("Dark Olive Green")
-orange\_light.fillcolor("Sienna")
-red\_light.fillcolor("Brown")
+green_light.fillcolor("Dark Olive Green")
+orange_light.fillcolor("Sienna")
+red_light.fillcolor("Brown")
 
 # The three lights shouldn't draw anything, so
 # let's preemptively stop them.
-green\_light.penup()
-orange\_light.penup()
-red\_light.penup()
+green_light.penup()
+orange_light.penup()
+red_light.penup()
 
 # Turn them all to face upward.
-green\_light.left(90)
-orange\_light.left(90)
-red\_light.left(90)
+green_light.left(90)
+orange_light.left(90)
+red_light.left(90)
 
 # Walk them to their places
-green\_light.forward(50)
-orange\_light.forward(120)
-red\_light.forward(190)
+green_light.forward(50)
+orange_light.forward(120)
+red_light.forward(190)
 
 # A traffic light is a kind of state machine with three states,
 # Green, Orange, Red.  We number these states  0, 1, 2
 # When the machine changes state, we change tess' position and
 # her fillcolor.
 # This variable holds the current state of the machine.
-state\_num = 0
+state_num = 0
 
 # Bind the event handler to a timer.
-wn.ontimer(advance\_state\_machine(), 1000)
+wn.ontimer(advance_state_machine(), 1000)
 
 wn.listen()                      # Listen for events
 wn.mainloop()

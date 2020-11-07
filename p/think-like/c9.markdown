@@ -14,10 +14,10 @@ Here's a simple example:
 {% highlight ruby %}
 def tupleply(tuple):
     """Multiply the elements of a tuple."""
-    return tuple\[0\] \* tuple\[1\]
+    return tuple[0] * tuple[1]
 
-sample\_tuple = (2, 5)
-print(tupleply(sample\_tuple))
+sample_tuple = (2, 5)
+print(tupleply(sample_tuple))
 {% endhighlight %}
 
 Sure enough, you can pass a tuple as an argument to a function.

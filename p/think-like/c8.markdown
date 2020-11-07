@@ -49,7 +49,7 @@ _in a function named_ `count_letters`, _and generalize it so that it accepts the
 We can do that like so:
 
 {% highlight ruby %}
-def count\_letters(ltr, string):
+def count_letters(ltr, string):
     """Count the number of times a letter ltr appears in a string."""
     count = 0
     for char in string:
@@ -65,14 +65,14 @@ _Now rewrite the_ `count_letters` _function so that instead of traversing the st
 I was a bit puzzled how an "optional third parameter" would be worked into this, as the optional third parameter of the `find` method is an endpoint for a search. After a while I figured that the optional third parameter must be an optional third parameter that _I_ write, and the only way I could think of to make _that_ work is to make this one of those functions that calls itself. So here's what I have, though I'm not sure whether this is exactly what the textbook authors had in mind:
 
 {% highlight ruby %}
-def count\_letters2(letter, string, position=0):
+def count_letters2(letter, string, position=0):
     """Count the number of times a letter appears in a string.
 
     Does not count occurrences before position.
     """
-    new\_position = string.find(letter, position)
-    if new\_position != -1:
-        return 1 + count\_letters2(letter, string, new\_position + 1)
+    new_position = string.find(letter, position)
+    if new_position != -1:
+        return 1 + count_letters2(letter, string, new_position + 1)
     else:
         return 0
 {% endhighlight %}
@@ -90,7 +90,7 @@ Your text contains 243 words, of which 109 (44.8%) contain an "e".
 Here's my solution:
 
 {% highlight ruby %}
-def e\_routine():
+def e_routine():
     """Display some statistics.
 
     Takes a preset paragraph and prints statistics about
@@ -118,16 +118,16 @@ def e\_routine():
     paragraph = paragraph.translate(table)
     paragraph = paragraph.split()
 
-    e\_words = 0
+    e_words = 0
     for word in paragraph:
         if "e" in word:
-            e\_words += 1
+            e_words += 1
 
-    total\_words = len(paragraph)
-    e\_percent = e\_words \* 100 / total\_words
-    template = 'Your text contains {0} words, ' \\
+    total_words = len(paragraph)
+    e_percent = e_words * 100 / total_words
+    template = 'Your text contains {0} words, ' 
         'of which {1} ({2:.2f}%) contain an "e".'
-    print(template.format(total\_words, e\_words, e\_percent))
+    print(template.format(total_words, e_words, e_percent))
 {% endhighlight %}
 
 My version prints:
@@ -160,7 +160,7 @@ _Print a neat looking multiplication table like this:_
 Here's some code that can do that.
 
 {% highlight ruby %}
-def print\_multiplication\_table(n):
+def print_multiplication_table(n):
     """Print a multiplication table n by n.
 
     Formatting gets all screwed if n >= 32. But why would anyone
@@ -182,7 +182,7 @@ def print\_multiplication\_table(n):
     for i in range(1, n+1):
         line = "{0:3}:".format(i)
         for j in range(1, n + 1):
-            line = line + "{:4}".format(i\*j)
+            line = line + "{:4}".format(i*j)
         print(line)
 {% endhighlight %}
 
@@ -201,7 +201,7 @@ We can do this using slice notation:
 
 {% highlight ruby %}
 def reverse(string):
-    string = string\[::-1\]
+    string = string[::-1]
     return string
 {% endhighlight %}
 
@@ -229,7 +229,7 @@ But if we don't want this function to depend on another function, we can just:
 {% highlight ruby %}
 def mirror(string):
     """Return a string plus its reverse."""
-    return string + string\[::-1\]
+    return string + string[::-1]
 {% endhighlight %}
 
 ## 8.19.9 -- Remove occurrences of a letter from a string
@@ -237,27 +237,27 @@ def mirror(string):
 _Write a function that removes all occurrences of a given letter from a string:_
 
 {% highlight ruby %}
-test(remove\_letter("a", "apple") == "pple")
-test(remove\_letter("a", "banana") == "bnn")
-test(remove\_letter("z", "banana") == "banana")
-test(remove\_letter("i", "Mississippi") == "Msssspp")
-test(remove\_letter("b", "") = "")
-test(remove\_letter("b", "c") = "c")
+test(remove_letter("a", "apple") == "pple")
+test(remove_letter("a", "banana") == "bnn")
+test(remove_letter("z", "banana") == "banana")
+test(remove_letter("i", "Mississippi") == "Msssspp")
+test(remove_letter("b", "") = "")
+test(remove_letter("b", "c") = "c")
 {% endhighlight %}
 
 We can do that like so:
 
 {% highlight ruby %}
-def remove\_letter(ltr, string):
+def remove_letter(ltr, string):
     """Remove a letter ltr from a string.
 
     Removes all instances of ltr and returns a new string without it.
     """
-    new\_string = ""
+    new_string = ""
     for char in string:
         if char != ltr:
-            new\_string = new\_string + char
-    return new\_string
+            new_string = new_string + char
+    return new_string
 {% endhighlight %}
 
 ## 8.19.10 -- Palindrome detection
@@ -265,21 +265,21 @@ def remove\_letter(ltr, string):
 _Write a function that recognizes palindromes. (Hint: use your_ `reverse` _function to make this easy!):_
 
 {% highlight ruby %}
-test(is\_palindrome("abba"))
-test(not is\_palindrome("abab"))
-test(is\_palindrome("tenet"))
-test(not is\_palindrome("banana"))
-test(is\_palindrome("straw warts"))
-test(is\_palindrome("a"))
-#test(is\_palindrome(""))    # Is an empty string a palindrome?
+test(is_palindrome("abba"))
+test(not is_palindrome("abab"))
+test(is_palindrome("tenet"))
+test(not is_palindrome("banana"))
+test(is_palindrome("straw warts"))
+test(is_palindrome("a"))
+#test(is_palindrome(""))    # Is an empty string a palindrome?
 {% endhighlight %}
 
 This one's pretty simple:
 
 {% highlight ruby %}
-def is\_palindrome(a\_string):
-    """Return whether a\_string is a palindrome."""
-    return a\_string == reverse(a\_string)
+def is_palindrome(a_string):
+    """Return whether a_string is a palindrome."""
+    return a_string == reverse(a_string)
 {% endhighlight %}
 
 ## 8.19.11 -- Count appearances of a substring
@@ -298,13 +298,13 @@ test(count("aaa", "aaaaaa") == 4)
 We can do this by running the `find()` method repeatedly: starting at the beginning of the string. It will return the first index, if there is one, where the first instance of the substring starts. Then, starting at the next character after the index, we'll search for another instance, and so on until we can't find any more. Throughout, we'll use a counter variable which we bump each time we find an appearance. That can look like this:
 
 {% highlight ruby %}
-def count(sub\_string, string):
-    """Count the numbers of times sub\_string appears in string."""
+def count(sub_string, string):
+    """Count the numbers of times sub_string appears in string."""
     appearances = 0
-    last\_found\_at = -1
+    last_found_at = -1
     while True:
-        last\_found\_at = string.find(sub\_string, last\_found\_at + 1)
-        if last\_found\_at == -1:
+        last_found_at = string.find(sub_string, last_found_at + 1)
+        if last_found_at == -1:
             return appearances
         else:
             appearances += 1
@@ -334,8 +334,8 @@ def remove(substring, string):
     if start == -1:
         return string
     stop = start + len(substring)
-    output\_string = string\[0:start\] + string\[stop:\]
-    return output\_string
+    output_string = string[0:start] + string[stop:]
+    return output_string
 {% endhighlight %}
 
 At least, that's how I solved it, until I did a little Googling, which turned up a much more efficient way to do it. There's a string method `replace(old, new, count)` that we can use within a string to replace a substring `old` with a substring `new`, and we can optionally specify that we do it `count` number of times.
@@ -353,16 +353,16 @@ def remove(substring, string):
 _Write a function that removes all occurrences of a string from another string:_
 
 {% highlight ruby %}
-test(remove\_all("an", "banana") == "ba")
-test(remove\_all("cyc", "bicycle") == "bile")
-test(remove\_all("iss", "Mississippi") == "Mippi")
-test(remove\_all("eggs", "bicycle") == "bicycle")
+test(remove_all("an", "banana") == "ba")
+test(remove_all("cyc", "bicycle") == "bile")
+test(remove_all("iss", "Mississippi") == "Mippi")
+test(remove_all("eggs", "bicycle") == "bicycle")
 {% endhighlight %}
 
 Using `replace()`, we can do this by simply removing `count` from our last function.
 
 {% highlight ruby %}
-def remove\_all(substring, string):
+def remove_all(substring, string):
     """Remove all instances of substring from string."""
     return string.replace(substring, "")
 {% endhighlight %}
@@ -372,13 +372,13 @@ Please, note, though, that although this removes all occurrences of a substring 
 For that more stringent requirement, we could do something recursive like:
 
 {% highlight ruby %}
-def remove\_all\_really\_thoroughly(substring, string):
+def remove_all_really_thoroughly(substring, string):
     """Remove all instances of substring until none are left."""
-    next\_pass = remove\_all(substring, string)
-    if next\_pass == string:
+    next_pass = remove_all(substring, string)
+    if next_pass == string:
         return string
     else:
-        return remove\_all\_really\_thoroughly(substring, next\_pass)
+        return remove_all_really_thoroughly(substring, next_pass)
 {% endhighlight %}
 
 That would would, for example, return `"bk"` if you gave it `remove_all_really_thoroughly("na", "bnnnnnnnnnaaaaaaaaak")`. I suppose that, with certain really long string, the recursion could theoretically be inefficient (I think). But you'd have to cook up some really perverse inputs before that became relevant.
