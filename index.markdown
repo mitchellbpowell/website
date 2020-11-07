@@ -4,9 +4,7 @@ description: The home page of Mitchell B. Powell.
 layout: page
 ---
 
-My name is Mitchell Powell, and this is my website. I'm still figuring out what to do with it.
-
-Right now I'm messing around with putting together a site written in Markdown, compiled by Jekyll, and with version control on GitHub. All these are new and interesting to me. I'm currently migrating content into here from another website of mine which this is intended to replace.
+My name is Mitchell Powell, and this is my website.
 
 # Pages
 * [About this site](p/about-site.html)
@@ -34,3 +32,8 @@ Right now I'm messing around with putting together a site written in Markdown, c
         * February [23](p/covid/2020-2-23.html), [24](p/covid/2020-2-24.html), [25](p/covid/2020-2-25.html), [26](p/covid/2020-2-26.html), [27](p/covid/2020-2-27.html), [28](p/covid/2020-2-28.html), [29](p/covid/2020-2-29.html)
         * March [1](p/covid/2020-3-1.html), [2](p/covid/2020-3-2.html), [3](p/covid/2020-3-3.html), [4](p/covid/2020-3-4.html), [5](p/covid/2020-3-5.html), [6](p/covid/2020-3-6.html), [7](p/covid/2020-3-7.html), [8](p/covid/2020-3-8.html), [9](p/covid/2020-3-9.html), [10](p/covid/2020-3-10.html), [11](p/covid/2020-3-11.html), [12](p/covid/2020-3-12.html)
         * March [13](p/covid/2020-3-13.html), [14](p/covid/2020-3-14.html), [15](p/covid/2020-3-15.html), [16](p/covid/2020-3-16.html), [17](p/covid/2020-3-17.html), [18](p/covid/2020-3-18.html), [19](p/covid/2020-3-19.html), [20](p/covid/2020-3-20.html), [21](p/covid/2020-3-21.html), [22](p/covid/2020-3-22.html)
+        
+---
+
+_This page is released under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) license._
+
