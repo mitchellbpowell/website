@@ -10,6 +10,10 @@ Whether or not [Sturgeon's law](https://en.wikipedia.org/wiki/Sturgeon%27s_law) 
 
 The tragedy of this is how easy it is to miss out on worthwhile things. Just in case someone might find it useful, here is a very incomplete list of things I think are worth paying attention to. To keep me from constantly fiddling with the order, they're alphabetized.
 
+# Table of Contents
+* [TOC]
+{:toc}
+
 # Against Malaria Foundation
 
 According to [one estimate](https://www.bmj.com/content/351/bmj.h4998), malaria deaths per year dropped from about 840,000 to about 440,000 between 2000 and 2015. The World Health Organization [estimates](https://www.who.int/news-room/fact-sheets/detail/malaria) that as of 2018 that number was about 405,000. The disease has been wiped out in many countries, and the methods for doing it are not complicated.

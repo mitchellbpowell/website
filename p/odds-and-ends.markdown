@@ -10,6 +10,10 @@ Whether or not [Sturgeon's law](https://en.wikipedia.org/wiki/Sturgeon%27s_law) 
 
 The tragedy of this is how easy it is to miss out on worthwhile things. Just in case someone might find it useful, I've elsewhere produced a [list](worthwhile-things.html) of things worth paying attention to. But this page is not that page. This page is for oddities, curiosities, useless facts, and even some worthwhile things that didn't make the main list.
 
+# Table of contents
+* TOC
+{:toc}
+
 # Cladistics
 [Cladistics](https://en.wikipedia.org/wiki/Cladistics) classifies living beings in terms of biological relatedness rather than the categories we intuitively use in English. See, for example, the title of Lulu Miller's _Why Fish Don't Exist_.
 
