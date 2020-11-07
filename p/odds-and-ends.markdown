@@ -13,6 +13,9 @@ The tragedy of this is how easy it is to miss out on worthwhile things. Just in 
 # Cladistics
 [Cladistics](https://en.wikipedia.org/wiki/Cladistics) classifies living beings in terms of biological relatedness rather than the categories we intuitively use in English. See, for example, the title of Lulu Miller's _Why Fish Don't Exist_.
 
+# Dennett, Daniel
+
+Daniel Dennett is one of the more interesting philosophers alive today. You might enjoy his _Intuition Pumps and Other Tools for Thinking_.
 
 # Exponential growth: back-of-envelope calculations
 
@@ -42,9 +45,21 @@ There is a provision in law -- I'm not intimately familiar with the details -- t
 
 The result of this is that certain language self-study courses, originally used for government officials, are allowed to circulate freely on the internet. An example is the [Hebrew course](https://fsi-languages.yojik.eu/languages/FSI/fsi-hebrew.html), which I found very useful back in my Hebrew-studying days. They are not trendy, or beautiful, or complete -- they consist of a text which introduces simple conversations in the language, and a set of tapes, along with instructions on how to study. But if the Hebrew text is any indication, they really do help with grasping the very basics of a language when you're starting.
 
+# Gesenius, Wilhelm
+
+Wilhelm Gesenius was -- I am probably quoting someone who I can't remember any more verbatim -- the father of biblical Hebrew lexicography. He produced a celebrated grammar of biblical Hebrew in 1813, which continued to go through various editions during his life. Strikingly for such an early academic work in a well-studied field, his _Grammar_ continues to be used in contemporary academic settings despite the publication of a number of other worthy grammars since.
+
 # GitHub tutorial
 
 (2020-11-5) I recently started keeping track of my website on GitHub ([here](https://github.com/mitchellbpowell/website)), and getting up and running was made easier by a nifty [tutorial](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) produced by Meghan Nelson.
+
+# Gregg shorthand
+
+In 1888, Robert Gregg invented a nifty way to write things down really, really fast. Even if you don't want to learn the whole system, you could learn the way to write some common words in it. If you find yourself needing to take notes while people talk frequently, it's very helpful. See [Wikipedia's article](https://en.wikipedia.org/wiki/Gregg_shorthand) on it, and a sample [here](https://en.wikipedia.org/wiki/Gregg_shorthand#/media/File:Gregg_shorthand_A_Christmas_Carol.jpg).
+
+# HyperCard
+
+[HyperCard](https://en.wikipedia.org/wiki/HyperCard) was a really neat program that used to ship on Mac computers, but now it is gone. There's an interesting [conspiracy theory](https://apple.slashdot.org/story/11/11/30/1720214/why-was-hypercard-killed) about it. Thanks to growing up with a couple 1983 Macs in the house, I got to experience HyperCard before we had the internet in the house. You could make little objects move about, and factor numbers, and produce lists of prime numbers, or what have you. Kids today don't have that chance. Rest in peace, HyperCard.
 
 # Jaynes, Julian
 
@@ -55,6 +70,14 @@ Perhaps one of the more puzzling and interesting books I've ever read is Julian 
 The English name *Jimmy* must be derived from *Jim*. And *Jim*, in turn, is a nickname for *James*. In older English, James was spelled *Iames*, before "J" was invented. That came from the French name *Iames*. The *-co-* just got swallowed up in the shortening, while the *-es* is just a common way for Old French masculine words to end. The French name, in turn, was a shortened version of the Vulgar Latin *Iacomus*. *Iacomus*, in turn, was a modified version of *Iacobus*, as it appeared in Late Latin. The Latin term comes from Greek Ἰάκωβος, *Iakobos*. And that comes from the Hebrew יַעֲקֹב, which is pronounced something like *Yaʿakov*. 
 
 *Yaʿakov* to "Jimmy" is a long march, but it happens little by little.
+
+# Life before the internet
+
+I was born in 1991, and am seventeen years older than my youngest brother. In some ways we were raised similarly, but there's one major difference. I first had internet access at home when I was sixteen or so, while he has never known a world without the internet present. I am, from his standpoint, a dinosaur.
+
+When I was perhaps ten, we got our first pair of computers, two Macs from 1983 which couldn't connect to the internet or display color, but which worked fine and booted up in a few seconds. Most importantly, they had HyperCard, which me and another brother used to learn some rudimentary programming skills. Later, another computer, also old and unable to connect to the internet, allowed us to start messing around with visual basic. Internet connections, for me, came from the library. At fifteen, I started a website, oriented around religious topics. I paid for web hosting by check. I made my files in HTML, first raw and later with a free WYSIWYG editor called CoffeeCup. Because I still didn't have the internet at home, I would take a flashdrive to a public library computer, and each time I wanted to update the website I would install a program on the library computer that could handle FTP transfers, send my HTML files off to the internet, and leave them there.
+
+I learned about BASIC and HTML through physical books at public libraries, and would take a bus to get there. To make the money that paid for the web hosting and other things, I would deliver pizza, which I did without a cell phone or GPS. I had a physical map of my hometown, used flashcards to memorize the locations of all the streets, and that was that. None of this would make any sense to people ten years younger.
 
 # Reading direction in English
 
@@ -70,9 +93,25 @@ Consider the case of a hypothetical society in which half of the people who are 
 
 I am a proud American, and I love my country. Still, I don't like what we do with quotation marks, where commas and other bits that aren't part of the quotation in any logical sense. In the ongoing effort to promote a more perfect union for ourselves and our posterity, I plan on using [logical quotation](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style#Punctuation_inside_or_outside) whenever I can get away with it.
 
+# Pinker, Steven
+
+Steven Pinker, in addition to his career as a psycholinguist, wrote _The Better Angels of Our Nature_ (2011), which chronicles the long-term reduction in violence that has occurred across human history. He followed this up with _Enlightenment Now_ (2018), which follows similar improvements across many other domains. Other books of his include _The Language Instinct_, _How the Mind Works_, and _The Sense of Style_.
+
+# Project Euler
+
+In middle school and hi school, I was what some might call a _mathlete_, one of the kids who was always running about to school math competitions. Lindsay Lohan introduces the concept [here](https://www.youtube.com/watch?v=EligNcjdyyI). Back in 2006, I somehow stumbled into being one of six Ohio high schoolers to qualify for the USAMO ([source](https://www.maa.org/math-competitions/2006-usamo-qualifiers-by-state#oh)), where I immediately found myself out of my depth and got something like two out of forty-two questions correct. I don't remember the exact figure.
+
+Anyhow, around age 15 I got swept into studying the Hebrew Bible, which I kept picking away at until 21, and mostly left math behind. However, last year I did pick up playing around with math questions again, with Project Euler, which combines math and programming to produce puzzles to solve. If you're a former mathlete who needs a little mental stimulation now and then, you might want to give Project Euler a look. The questions are graduated in difficulty, running from the very first problem, which has been solved by 965,090 users, to some of the latest, with less than 200 users solving.
+
 # Velikovsky, Immanuel
 
 One of the many interesting curiosities that my late grandfather Henderson pointed me towards was book called _Worlds in Collision_ by the extraordinarily eccentric Immanuel Velikovsky, who combined a creative and well-read mind with a fundamental inability to understand how the real world works and produced fascinating attempts at re-writing history. If you enjoy that sort of thing, you might enjoy _Worlds in Collision_.
+
+# Venezuela
+
+With a few very brief exceptions, I spent the first five years of my life in Venezuela, which was a more or less functional country in the early 1990's. It had poverty, it had violence, and it had corruption, but the stores generally had food in them, the water was turned on at least part of the day, and one could walk around Venezuela for ten years through some fairly rough neighborhoods on a regular basis and only have a gun pointed at one twice. My family continues to have friends who live in the slums of Caracas, and the incredibly bleak picture of starvation, hyperinflation, and mass flight from the country that you often see in media outlets is accurate.
+
+The descent into total dysfunction did not happen all at once. One might date it from the time when Hugo Chávez declared an "economic war" on 2020-6-2, or to the accession of Venezuelan President and now dictator Nicolás Maduro in 2013. In any case, the vicious sociopath currently oppressing Venezuela has shown every indication throughout his entire tenure that he is fully prepared to starve people out of the country until Venezuela is emptied or he is dead.
 
 # WP:PAG
 
