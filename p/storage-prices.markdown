@@ -26,3 +26,8 @@ Yadin Dudai (1997) reviewed [estimates](https://www.google.com/search?sxsrf=ALeK
 
 It is strange to think it, but one could argue we have recently passed the point where it is cheaper to keep a full human being’s memories in the cloud than it is to keep them in a person. The data transfer itself, on the other hand, is — to put it mildly — *limited*, by bandwidth, formatting, and retrieval issues.
 
+---
+
+_This page is released under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) license._
+
+

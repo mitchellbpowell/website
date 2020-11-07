@@ -127,3 +127,8 @@ The Total Fertility Rate (TFR) is a number which estimates how many children the
 # Wikipedia
 
 Wikipedia is the closest thing the world has to a single standardized set of facts about everything. It still has a large number of issues in the content, but there is nothing out there which we could call "like Wikipedia, but better". There's been a long-running debate about whether it is in decline. It is in some ways a dysfunctional place for editors, and it features way too much silly argument in the creation process, with bad actors given far too much time to cause trouble on the site. On the other hand, it's still the leading encyclopedia. It'll be worth watching how things turn out for it, and whether any other general reference tool surpasses it.
+
+---
+
+_This page is released under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) license._
+

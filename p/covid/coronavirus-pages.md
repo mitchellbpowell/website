@@ -46,3 +46,8 @@ Still, I thought I might keep the pages around as a sort of day-by-day journal o
 [2020 February 18](2020-2-18.html)  
 [2020 February 17](2020-2-17.html)  
 [2020 February 16](thinking-covid.html)
+
+---
+
+_This page is released under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) license._
+

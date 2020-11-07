@@ -27,3 +27,8 @@ In this position, I carried out troubleshooting on our *buffer system*, a networ
 At AAP I served on the 401k committee and successfully promoted the inclusion of index funds in our company's retirement package.
 
 From 2012-2013, prior to my promotion to Buffer Operator, I worked as a Deburrer at AAP St. Marys, inspecting the cosmetics of aluminum wheels, loading and unloading pallets, and documenting inventory flow.
+
+---
+
+_This page is released under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) license._
+

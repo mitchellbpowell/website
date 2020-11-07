@@ -449,3 +449,8 @@ This project set out to compare and contrast the histories of Ashkenazim and Rom
 * Weyrauch, W. O. (2001). Romaniya: An introduction to Gypsy law. In W. O. Weyrauch (Ed.), _Gypsy law: Romani legal traditions and culture_ (pp. 1-10). Berkeley, CA: University of California Press.
 * Weyrauch, W. O. (Ed.). (2001). _Gypsy law: Romani legal traditions and culture._ Berkeley, CA: University of California Press.
 * Wright, M. J. (2012). _Studying Judaism: The critical issues_. London, UK: Continuum International Publishing Group. 
+
+---
+
+_This page is released under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) license._
+

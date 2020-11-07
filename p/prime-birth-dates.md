@@ -73,3 +73,8 @@ This prints
 
 So, there you have it, folks. If you’re ever in a room with one hundred people born in 2003, and you need to guess how many of them have prime number birthdays according to this arbitrary scheme, “five” is a reasonable guess.
 
+
+---
+
+_This page is released under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) license._
+

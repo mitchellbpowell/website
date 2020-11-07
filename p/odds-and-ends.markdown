@@ -116,3 +116,8 @@ The descent into total dysfunction did not happen all at once. One might date it
 # WP:PAG
 
 I used to edit quite a bit for Wikipedia, until I got tired of it. In that time, I became familiar with Wikipedia's Policies and Guidelines, known by the shortcut [WP:PAG](https://en.wikipedia.org/wiki/Wikipedia:Policies_and_guidelines). If you ever wondered how such a massive site maintains a more or less consistent styles and keeps a pretty decent quality, WP:PAG is part of it.
+
+---
+
+_This page is released under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) license._
+

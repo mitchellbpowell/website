@@ -224,3 +224,8 @@ while True:
     year = int(input("Give me a year. \\n"))
     print(weekday(month, day, year))
 {% endhighlight %}
+
+---
+
+_This page is released under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) license._
+

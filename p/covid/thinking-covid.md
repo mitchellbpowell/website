@@ -171,3 +171,8 @@ And so, on both measures, we see that the daily growth rate is anything but stab
 But I hope the trends are real, and I hope they hold up, and I'll be keying in my various data and building these and other graphs daily for at least the next few days.
 
 And because I am not aware of anyone else online who is running these six graphs on a regular basis, I plan to post updated graphs day by day as new data comes up.
+
+---
+
+_This page is released under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) license._
+

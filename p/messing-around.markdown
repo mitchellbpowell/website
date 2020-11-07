@@ -16,3 +16,8 @@ Since I was obsessed with math at the time, I would write programs related to pr
 At about fifteen, I drifted away from programming and got into Greek, Hebrew, and Ancient Near Eastern literature. My interactions with computers narrowed a bit, and were limited to installing and fiddling with an occasional linux distro and running some websites. This continues through high school, college, and a job troubleshooting a "buffer system" (think conveyors and storage racks for hot aluminum car wheels). After leaving that position and finishing college, I've moved on to running an office for a firm that specializes in fuel branding projects.
 
 In summer 2019, though, my little brother, who used to mess around with HyperCard with me back in the day, suggested that I take up Python 3. I've been picking away at it off and on, and it's been interesting.
+
+---
+
+_This page is released under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) license._
+
