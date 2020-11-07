@@ -148,3 +148,7 @@ The infobox at the end of this section is outdated now that the Python visualize
 # 11.22.6
 
 Add a comma after "v" in "Write a function ```scalar_mult(s, v)``` that takes a number, ```s```, and a list, ```v``` and returns the [scalar multiple](https://en.wikipedia.org/wiki/Scalar_multiplication) of ```v``` by ```s```.:" Also a good idea to do something about that weird punctuation at the end of the sentence.
+
+---
+
+_This page is released under the [GNU Free Documentation License](http://openbookproject.net/thinkcs/python/english3e/fdl-1.3.html), any version 1.3 or later produced by the Free Software Foundation. I am grateful to the authors of the original textbook for releasing it that way: Peter Wentworth, Jeffrey Elkner, Allen B. Downey, and Chris Meyers._

@@ -21,3 +21,7 @@ I'm working on posting my solutions to selected exercises:
 * [Chapter 8](c8.html)
 * [Chapter 9](c9.html)
 * [Chapter 10](c10.html)
+
+---
+
+_This page is released under the [GNU Free Documentation License](http://openbookproject.net/thinkcs/python/english3e/fdl-1.3.html), any version 1.3 or later produced by the Free Software Foundation. I am grateful to the authors of the original textbook for releasing it that way: Peter Wentworth, Jeffrey Elkner, Allen B. Downey, and Chris Meyers._
