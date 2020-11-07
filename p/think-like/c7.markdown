@@ -74,15 +74,15 @@ for x in range(1, 10):
 And we get
 
 ```
-1 takes 0 steps to resolve.
-2 takes 1 steps to resolve.
-3 takes 7 steps to resolve.
-4 takes 2 steps to resolve.
-5 takes 5 steps to resolve.
-6 takes 8 steps to resolve.
-7 takes 16 steps to resolve.
-8 takes 3 steps to resolve.
-9 takes 19 steps to resolve.
+1 takes 0 steps to resolve.  
+2 takes 1 steps to resolve.  
+3 takes 7 steps to resolve.  
+4 takes 2 steps to resolve.  
+5 takes 5 steps to resolve.  
+6 takes 8 steps to resolve.  
+7 takes 16 steps to resolve.  
+8 takes 3 steps to resolve.  
+9 takes 19 steps to resolve.  
 ```
 
 Now that we've got `collatz_steps` working, we can zero in on the whole purpose of this exercise. Let's find the smallest number that takes over 100 steps to solve.
@@ -98,7 +98,7 @@ for x in range(1, 100):
 We get
 
 ```
-27 takes 111 steps to resolve.
+27 takes 111 steps to resolve.  
 \[27, 82, 41, 124, 62, 31, 94, 47, 142, 71, 214, 107, 322, 161, 484, 242, 121, 364, 182, 91, 274, 137, 412, 206, 103, 310, 155, 466, 233, 700, 350, 175, 526, 263, 790, 395, 1186, 593, 1780, 890, 445, 1336, 668, 334, 167, 502, 251, 754, 377, 1132, 566, 283, 850, 425, 1276, 638, 319, 958, 479, 1438, 719, 2158, 1079, 3238, 1619, 4858, 2429, 7288, 3644, 1822, 911, 2734, 1367, 4102, 2051, 6154, 3077, 9232, 4616, 2308, 1154, 577, 1732, 866, 433, 1300, 650, 325, 976, 488, 244, 122, 61, 184, 92, 46, 23, 70, 35, 106, 53, 160, 80, 40, 20, 10, 5, 16, 8, 4, 2, 1\]
 ```
 
@@ -116,49 +116,49 @@ for x in range(1, 10\*\*6):
 This prints:
 
 ```
-2 takes 1 steps.
-3 takes 7 steps.
-6 takes 8 steps.
-7 takes 16 steps.
-9 takes 19 steps.
-18 takes 20 steps.
-25 takes 23 steps.
-27 takes 111 steps.
-54 takes 112 steps.
-73 takes 115 steps.
-97 takes 118 steps.
-129 takes 121 steps.
-171 takes 124 steps.
-231 takes 127 steps.
-313 takes 130 steps.
-327 takes 143 steps.
-649 takes 144 steps.
-703 takes 170 steps.
-871 takes 178 steps.
-1161 takes 181 steps.
-2223 takes 182 steps.
-2463 takes 208 steps.
-2919 takes 216 steps.
-3711 takes 237 steps.
-6171 takes 261 steps.
-10971 takes 267 steps.
-13255 takes 275 steps.
-17647 takes 278 steps.
-23529 takes 281 steps.
-26623 takes 307 steps.
-34239 takes 310 steps.
-35655 takes 323 steps.
-52527 takes 339 steps.
-77031 takes 350 steps.
-106239 takes 353 steps.
-142587 takes 374 steps.
-156159 takes 382 steps.
-216367 takes 385 steps.
-230631 takes 442 steps.
-410011 takes 448 steps.
-511935 takes 469 steps.
-626331 takes 508 steps.
-837799 takes 524 steps.
+2 takes 1 steps.  
+3 takes 7 steps.  
+6 takes 8 steps.  
+7 takes 16 steps.  
+9 takes 19 steps.  
+18 takes 20 steps.  
+25 takes 23 steps.  
+27 takes 111 steps.  
+54 takes 112 steps.  
+73 takes 115 steps.  
+97 takes 118 steps.  
+129 takes 121 steps.  
+171 takes 124 steps.  
+231 takes 127 steps.  
+313 takes 130 steps.  
+327 takes 143 steps.  
+649 takes 144 steps.  
+703 takes 170 steps.  
+871 takes 178 steps.  
+1161 takes 181 steps.  
+2223 takes 182 steps.  
+2463 takes 208 steps.  
+2919 takes 216 steps.  
+3711 takes 237 steps.  
+6171 takes 261 steps.  
+10971 takes 267 steps.  
+13255 takes 275 steps.  
+17647 takes 278 steps.  
+23529 takes 281 steps.  
+26623 takes 307 steps.  
+34239 takes 310 steps.  
+35655 takes 323 steps.  
+52527 takes 339 steps.  
+77031 takes 350 steps.  
+106239 takes 353 steps.  
+142587 takes 374 steps.  
+156159 takes 382 steps.  
+216367 takes 385 steps.  
+230631 takes 442 steps.  
+410011 takes 448 steps.  
+511935 takes 469 steps.  
+626331 takes 508 steps.  
+837799 takes 524 steps.  
 ```
 
 Please ignore the bad grammar in that first line; it's not worth our time right now to avoid it. So the first number to take over 100 steps is 27. We pass 200 steps at 2463, 300 steps at 26,623, and 400 at 230,631. The [Wikipedia page](https://en.wikipedia.org/wiki/Collatz_conjecture#Examples) on Collatz sequences says this slow growth continues: every number under 100 quadrillion has a sequence length of 2091 steps or less.
@@ -318,11 +318,11 @@ This yields:
 _Write a function_ `print_triangular_numbers(n)` _that prints out the first_ `n` _triangular numbers. A call to_ `print_triangular_numbers(5)` _would produce the following output:_
 
 ```
-1       1
-2       3
-3       6
-4       10
-5       15
+1       1  
+2       3  
+3       6  
+4       10  
+5       15  
 ```
 {% highlight ruby %}
 def print\_triangular\_numbers(n):
