@@ -32,11 +32,11 @@ def weekday(month, day, year):
     # Calculates the day of the week for any date, using 
     # the fact that January 1, 1 CE was a Monday, and then
     # adding to that the number of days since that date.
-    weeknum = (days\_since\_jan\_1\_1(month, day, year) + 1) % 7
+    weeknum = (days_since_jan_1_1(month, day, year) + 1) % 7
 
     # Uses weekdays dictionary to return the day of the week
     # as a string.
-    return weekdays\[weeknum\]
+    return weekdays[weeknum]
 {% endhighlight %}
 
 Once we ignore some fancy formatting and comments designed for the use of later editors of the same code, there's basically just two lines of code here. But we've passed off most of the hard work of the function to `days_since_jan_1_1(month, day, year)`.
@@ -44,11 +44,11 @@ Once we ignore some fancy formatting and comments designed for the use of later 
 So now we need a function that can take a given date and tell us how many days have passed since January 1, 1. For a given date, like September 12, 2012, we can break this task down into two smaller tasks. First, we find the number of days from January 1, 1 to January 1, 2012. Second, we find the number of days from January 1, 2012 to September 12, 2012. In our function, we can pass each of those two tasks off to other functions. Still, we've made progress by breaking our problem into two easier problems.
 
 {% highlight ruby %}
-def days\_since\_jan\_1\_1(month, day, year):
+def days_since_jan_1_1(month, day, year):
     """Takes as a string a month, and as integers day and year, 
     and returns the number of days from January 1, 1 CE, to 
     the date it takes."""
-    return days\_to\_year(year) + days\_to\_date\_in\_year(month, day, year)
+    return days_to_year(year) + days_to_date_in_year(month, day, year)
 {% endhighlight %}
 
 So now our to-do list consists of `days_to_year(year)` and `days_to_date_in_year(month, day, year)`. It's a short to-do list, but if we forget something on it, we'll later get a nice error thrown up by the missing function when we try to run our code later. Let's take `days_to_year(year)` first.
@@ -56,20 +56,20 @@ So now our to-do list consists of `days_to_year(year)` and `days_to_date_in_year
 To discover the number of days from January 1, 1 to January 1, `year`, we need two things. We first need the number of years that have passed, which is `year - 1`. At 365 days per year, the number of days that have passed is `(year - 1) * 365`. But this ignores the number of leap-years that have passed. We can pass that problem off to another function.
 
 {% highlight ruby %}
-def days\_to\_year(year):
+def days_to_year(year):
     """Returns the number of days from January 1, 1 CE, to 
     January 1 of a given year CE."""
-    return (year -1) \* 365 + leaps\_to(year)
+    return (year -1) * 365 + leaps_to(year)
 {% endhighlight %}
 
 So now we can turn to `days_to_date_in_year`. This gives the number of days from January 1 of a given year to some date. For example, it might calculate the days from January 1 to September 3 in 1972. To do this, we need three things. First, the number of days from January 1 to September 1 in a typical (non-leap) year. Then, the number of days from September 1 to September 3 (3-1 = 2). Finally, if the date is March 1 or later, and it's a leap year, we need to add a day to account for February 29th. We can code that up like this:
 
 {% highlight ruby %}
-def days\_to\_date\_in\_year(month, day, year):
+def days_to_date_in_year(month, day, year):
     """For a given date, returns the number of days from January 1
     of the same year to the date."""
-    sum = days\_to\_typical\_month(month) + day - 1 
-    if sum >= days\_to\_typical\_month("March") and is\_leap(year):
+    sum = days_to_typical_month(month) + day - 1 
+    if sum >= days_to_typical_month("March") and is_leap(year):
         sum += 1
     return sum
 {% endhighlight %}
@@ -77,11 +77,11 @@ def days\_to\_date\_in\_year(month, day, year):
 Next, we can write a very simple function which is given a month, like say September, and gives the number of days from January 1 to September (or whatever) 1 in a non-leap year. All we need to do is hand-calculate twelve simple numbers, drop them into a dictionary, and here we are:
 
 {% highlight ruby %}
-def days\_to\_typical\_month(month):
+def days_to_typical_month(month):
     """For a given month, gives the number of days from January
     1 to the first day of the given month, in a typical (non-leap)
     year."""
-    day\_look\_up = {"January": 0,
+    day_look_up = {"January": 0,
                    "February": 31,
                    "March": 59,
                    "April": 90,
@@ -94,7 +94,7 @@ def days\_to\_typical\_month(month):
                    "November": 304,
                    "December": 334
     }
-    return day\_look\_up\[month\]
+    return day_look_up[month]
 {% endhighlight %}
 
 Now all we have left are two little functions dealing with leap-days. The more complicated one is `leaps-to(year)`. This will return the number of leap-years between January 1, 1, and January 1, `year`.
@@ -104,7 +104,7 @@ First, let's review the rules for leap-years in the Gregorian calendar. Generall
 So if we want, for example, the number of leap-years from January 1, 1, to January 1, 2000, we need to work out three things: the number of intervening years divisible by 4, which we'll call `divs4`; the number of years divisible by 100, which we'll calls `divs100`; and the number of years divisible by 400, or `divs400`. Then the total number of intervening leap-years will be `divs4 - divs100 + divs400`. When we calculate one of our "divs" variables, we need to make sure we don't include `year`: in this case, for example, the fact that 2000 is a leap-year is irrelevant, since we're only concerned with days up to January 1, 2001 -- before the leap-day. So the code comes out like this:
 
 {% highlight ruby %}
-def leaps\_to(year):
+def leaps_to(year):
     """Returns the number of leap days between January 1, 1 CE
     and January 1 of a given year."""
     divs4 = (year -1) // 4
@@ -116,7 +116,7 @@ def leaps\_to(year):
 Now we have just one more function to write: `is_leap`, which will tell us whether a year is a leap year. It's a simple implementation of the Gregorian rules for leap-years:
 
 {% highlight ruby %}
-def is\_leap(year):
+def is_leap(year):
     """Returns True if a given year is a leap year; False otherwise."""
     if year % 400 == 0:
         return True
@@ -150,36 +150,36 @@ def weekday(month, day, year):
     # Calculates the day of the week for any date, using 
     # the fact that January 1, 1 CE was a Monday, and then
     # adding to that the number of days since that date.
-    weeknum = (days\_since\_jan\_1\_1(month, day, year) + 1) % 7
+    weeknum = (days_since_jan_1_1(month, day, year) + 1) % 7
 
     # Uses weekdays dictionary to return the day of the week
     # as a string.
-    return weekdays\[weeknum\]
+    return weekdays[weeknum]
 
-def days\_since\_jan\_1\_1(month, day, year):
+def days_since_jan_1_1(month, day, year):
     """Takes as a string a month, and as integers day and year, 
     and returns the number of days from January 1, 1 CE, to 
     the date it takes."""
-    return days\_to\_year(year) + days\_to\_date\_in\_year(month, day, year)
+    return days_to_year(year) + days_to_date_in_year(month, day, year)
 
-def days\_to\_year(year):
+def days_to_year(year):
     """Returns the number of days from January 1, 1 CE, to 
     January 1 of a given year CE."""
-    return (year -1) \* 365 + leaps\_to(year)
+    return (year -1) * 365 + leaps_to(year)
 
-def days\_to\_date\_in\_year(month, day, year):
+def days_to_date_in_year(month, day, year):
     """For a given date, returns the number of days from January 1
     of the same year to the date."""
-    sum = days\_to\_typical\_month(month) + day - 1 
-    if sum >= days\_to\_typical\_month("March") and is\_leap(year):
+    sum = days_to_typical_month(month) + day - 1 
+    if sum >= days_to_typical_month("March") and is_leap(year):
         sum += 1
     return sum
 
-def days\_to\_typical\_month(month):
+def days_to_typical_month(month):
     """For a given month, gives the number of days from January
     1 to the first day of the given month, in a typical (non-leap)
     year."""
-    day\_look\_up = {"January": 0,
+    day_look_up = {"January": 0,
                    "February": 31,
                    "March": 59,
                    "April": 90,
@@ -192,9 +192,9 @@ def days\_to\_typical\_month(month):
                    "November": 304,
                    "December": 334
     }
-    return day\_look\_up\[month\]
+    return day_look_up[month]
 
-def leaps\_to(year):
+def leaps_to(year):
     """Returns the number of leap days between January 1, 1 CE
     and January 1 of a given year."""
     divs4 = (year -1) // 4
@@ -202,7 +202,7 @@ def leaps\_to(year):
     divs400 = (year -1) // 400
     return divs4 - divs100 + divs400
 
-def is\_leap(year):
+def is_leap(year):
     """Returns True if a given year is a leap year; False otherwise."""
     if year % 400 == 0:
         return True
@@ -214,14 +214,14 @@ def is\_leap(year):
         return False
 
 while True:
-    print("If you want to quit the program, just \\n"
-          "enter 'q' into the prompt that asks for \\n"
+    print("If you want to quit the program, just \n"
+          "enter 'q' into the prompt that asks for \n"
           "a month.")
-    month = input("Give me a month. \\n")
+    month = input("Give me a month. \n")
     if month == "q":
         break
-    day = int(input("Give me a day. \\n"))
-    year = int(input("Give me a year. \\n"))
+    day = int(input("Give me a day. \n"))
+    year = int(input("Give me a year. \n"))
     print(weekday(month, day, year))
 {% endhighlight %}
 
