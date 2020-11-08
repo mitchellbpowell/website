@@ -11,7 +11,7 @@ Let's revisit this issue in Python 3.
 First we can start with a definition of a prime number: x is prime if it is divisible only by itself and one. So we can check every integer in `range(2, x)` for divisibility into x, and if none divide in evenly, x is prime. So a function that would work is
 
 {% highlight ruby %}
-def is\_prime(x):
+def is_prime(x):
     """Takes an integer and returns whether it is prime (True or False)"""
     if x < 2:
         return False
@@ -27,30 +27,30 @@ And here's a little code we can use to take it for a spin:
 import time
 
 for i in range(1, 6):
-    start\_time = time.perf\_counter()
-    prime\_list = \[\]
-    for b in range(2, 10\*\*i):
-        if is\_prime(b):
-            prime\_list.append(b)
-    end\_time = time.perf\_counter()
-    print("Primes up to {0:8,} listed in {1:.6f} seconds.".format(10\*\*i, 
-                                                end\_time - start\_time))
+    start_time = time.perf_counter()
+    prime_list = []
+    for b in range(2, 10**i):
+        if is_prime(b):
+            prime_list.append(b)
+    end_time = time.perf_counter()
+    print("Primes up to {0:8,} listed in {1:.6f} seconds.".format(10**i, 
+                                                end_time - start_time))
 {% endhighlight %}
 
 This prints (your mileage may vary):
 
-```
+{% highlight ruby %}
 Primes up to       10 listed in 0.000012 seconds.  
 Primes up to      100 listed in 0.000146 seconds.  
 Primes up to    1,000 listed in 0.006790 seconds.  
 Primes up to   10,000 listed in 0.369426 seconds.  
 Primes up to  100,000 listed in 26.382979 seconds.  
-```
+{% endhighlight %}
 
 Notice how rapidly the execution time is growing. We should be able to slice some time off by not wasting our time checking for even factors. If, for example, 101 is not divisible by two, it is not going to be divisible by 4, or 6, or 8 either. So we can basically remove half of our "checks" by dealing with "is it divisible by two" at the outset and then only checking potential odd factors after that.
 
 {% highlight ruby %}
-def is\_prime(x):
+def is_prime(x):
     """Takes an integer and returns whether it is prime (True or False)"""
 
     # Since 2 is the smallest prime, no integer smaller than 2 can be prime.
@@ -74,13 +74,13 @@ def is\_prime(x):
 
 Now we can check how it stands up to a test like last time:
 
-```
+{% highlight ruby %}
 Primes up to       10 listed in 0.000013 seconds.  
 Primes up to      100 listed in 0.000104 seconds.  
 Primes up to    1,000 listed in 0.007753 seconds.  
 Primes up to   10,000 listed in 0.221982 seconds.  
 Primes up to  100,000 listed in 13.154828 seconds.  
-```
+{% endhighlight %}
 
 That's progress. We've shaved about half of the time off. While we're at it, we may as well quit checking even numbers for primeness, and revise our top-level code like so:
 
@@ -88,25 +88,25 @@ That's progress. We've shaved about half of the time off. While we're at it, we 
 import time
 
 for i in range(1, 6):
-    start\_time = time.perf\_counter()
-    prime\_list = \[2\]
-    for b in range(3, 10\*\*i, 2):
-        if is\_prime(b):
-            prime\_list.append(b)
-    end\_time = time.perf\_counter()
-    print("Primes up to {0:8,} listed in {1:.6f} seconds.".format(10\*\*i, 
-                                                end\_time - start\_time))
+    start_time = time.perf_counter()
+    prime_list = [2]
+    for b in range(3, 10**i, 2):
+        if is_prime(b):
+            prime_list.append(b)
+    end_time = time.perf_counter()
+    print("Primes up to {0:8,} listed in {1:.6f} seconds.".format(10**i, 
+                                                end_time - start_time))
 {% endhighlight %}
 
 Now the code prints:
 
-```
+{% highlight ruby %}
 Primes up to       10 listed in 0.000007 seconds.  
 Primes up to      100 listed in 0.000055 seconds.  
 Primes up to    1,000 listed in 0.002420 seconds.  
 Primes up to   10,000 listed in 0.167709 seconds.  
 Primes up to  100,000 listed in 12.319272 seconds.  
-```
+{% endhighlight %}
 
 This only shaves a little bit of time of our function, because the very brief `is_prime` calls for even numbers were returning `False` pretty quickly.
 
@@ -117,7 +117,7 @@ More generally, we can say that where _a_, _b_, and _c_ are integers such that _
 The upshot of all this is that when we're checking for factors to disqualify a number _c_ as prime, we need search no higher than the square root of _c_. We may rewrite our algorithm to reflect this:
 
 {% highlight ruby %}
-def is\_prime(x):
+def is_prime(x):
     """Takes an integer and returns whether it is prime."""
 
     # Since 2 is the smallest prime, no integer smaller than 2 can be prime.
@@ -141,20 +141,20 @@ def is\_prime(x):
 
 And behold, it prints something marvelous:
 
-```
+{% highlight ruby %}
 Primes up to       10 listed in 0.000017 seconds.  
 Primes up to      100 listed in 0.000072 seconds.  
 Primes up to    1,000 listed in 0.000790 seconds.  
 Primes up to   10,000 listed in 0.010202 seconds.  
 Primes up to  100,000 listed in 0.136442 seconds.  
-```
+{% endhighlight %}
 
 For the 100,000 level, we're now running about 100 times faster. We can even extend our code a little to get a couple more powers of ten checked.
 
-```
+{% highlight ruby %}
 Primes up to  1,000,000 listed in 2.079361 seconds.  
 Primes up to 10,000,000 listed in 50.499986 seconds.  
-```
+{% endhighlight %}
 
 Although that's quite a bit of improvement, we can do better. We can do much better. Skipping over some of the subtleties, let's imagine, we had a list of every number from 1 to 10,000,000. In the course of checking for primeness, we need to eliminate numbers divisible by 47 (among many others). One way we can do this is to divide each number by 47. Is 2001 divisible by 47? Is 2002 divisible by 47? Is 2003 divisible by 47? And so we go. It would be much faster to simply cross every number divisible by 47 off our list. Then we could just start at 94 and add 47 over and over, traversing through the list and crossing off all those multiples.
 
@@ -165,50 +165,50 @@ So what we can do, for, say, 100,000,000, is to make a list in which all the ele
 We can write this up like so:
 
 {% highlight ruby %}
-\# so we can time our program
+# so we can time our program
 import time
 # so we can take a square root later
 import math
 
 for i in range(2, 9):
-    start\_time = time.perf\_counter()
+    start_time = time.perf_counter()
     # set how high we want our prime list to go
-    list\_length = 10\*\*i
+    list_length = 10**i
     # create the prime list, as an empty list at first
-    prime\_checker = \[\]
+    prime_checker = []
 
     # create the prime list with True for each element
     # on the principle that every number is 'innocent' till proven guilty
-    for a in range (list\_length):
-        prime\_checker.append(True)
+    for a in range (list_length):
+        prime_checker.append(True)
 
     # 0 is not prime, so let's eliminate that
-    prime\_checker\[0\] = False
+    prime_checker[0] = False
     # 1 is not a prime, so let's eliminate that
-    prime\_checker\[1\] = False
+    prime_checker[1] = False
 
     # eliminate all odd numbers larger than two, 
     # because they can't be prime
-    for a in range (4, list\_length, 2):
-        prime\_checker\[a\] = False
+    for a in range (4, list_length, 2):
+        prime_checker[a] = False
 
     # now, for each prime number, eliminate all larger
     # multiples of that prime -- they're not prime
-    for a in range (3, int(math.sqrt(list\_length)) + 1, 2):
-        if prime\_checker\[a\] == True:
-            for b in range (2 \* a, list\_length, a):
-                prime\_checker\[b\] = False
+    for a in range (3, int(math.sqrt(list_length)) + 1, 2):
+        if prime_checker[a] == True:
+            for b in range (2 * a, list_length, a):
+                prime_checker[b] = False
 
     # now the program is done, so we check how long it took
-    end\_time = time.perf\_counter()
-    run\_time = end\_time - start\_time
-    print("Primes up to {0:12,} listed in {1:.6f} seconds.".format(10\*\*i, 
-                                                    end\_time - start\_time))
+    end_time = time.perf_counter()
+    run_time = end_time - start_time
+    print("Primes up to {0:12,} listed in {1:.6f} seconds.".format(10**i, 
+                                                    end_time - start_time))
 {% endhighlight %}
 
 This prints:
 
-```
+{% highlight ruby %}
 Primes up to          100 listed in 0.000041 seconds.  
 Primes up to        1,000 listed in 0.000348 seconds.  
 Primes up to       10,000 listed in 0.005333 seconds.  
@@ -216,11 +216,9 @@ Primes up to      100,000 listed in 0.050560 seconds.
 Primes up to    1,000,000 listed in 0.296285 seconds.  
 Primes up to   10,000,000 listed in 3.073970 seconds.  
 Primes up to  100,000,000 listed in 34.915086 seconds.  
-```
+{% endhighlight %}
 
 Notice that this version finds primes up 10,000,000 in just 3 seconds instead of 51 like the previous version, while it can even knock out primes up to 100,000,000 in 35 seconds. If you compare it to the first version of our program, it handles the 100,000 task 500 times faster. And this last version grows linearly with the number of numbers we check, while the earliest version grew at something approaching n^2. If it did grow at n^2, we can imagine that, if it took about half a minute for 100,000, its time to 100,000,000 would be about a million times larger, or, to use a famous round number, roughly [525,600 minutes](https://www.youtube.com/watch?v=-r2xXtSsPV0).
-
-_This file is released under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) license._
 
 ---
 
