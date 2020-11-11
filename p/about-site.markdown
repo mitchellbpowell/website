@@ -14,7 +14,7 @@ Along the same lines, I'm building this as a static site, out of HTML and images
 
 I'm putting all this stuff up on my own domain rather than Wordpress or Blogspot or what have you because I don't want my content to depend on some kind of website continuing to exist, and it lets me do this without adds. Likewise, I'm holding the site in an Amazon S3 bucket because S3 is likely to stick around, I don't have to worry about maintaining a physical server, and if S3 ever does go away or change I've got a static collection of files I need to move somewhere else in a fairly easy operation, rather than anything more complex.
 
-In addition to keeping the source files in my own computer, I've also got them [on GitHub](https://github.com/mitchellbpowell/website), and each page has a clear free content license at the bottom to avoid the continuing existence and use of any content here from ever getting tripped up by copyright requirements.
+In addition to keeping the source files in my own computer, I've also got them [on GitHub](https://github.com/mitchellbpowell/website), and each page has a content license at the bottom so that no one will ever have any doubts about their right to copy or host the content.
 
 ---
 
