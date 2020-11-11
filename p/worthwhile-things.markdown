@@ -52,21 +52,21 @@ This whole bundle of ways that people are building things outside of traditional
 
 # Git
 
-I'd done a few commits before October 2020, but handle done much with Git till now. Today (2020-10-31), though, I decided I wanted to have version control over this website as it changes, and so I've started using it. I ran through through [a very helpful tutorial](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners), and the rest has been very googleable, as so many people use Git that whatever I'm confused about has confused some poor soul before, and gotten all sorts of helpful answers.
+I'd done a few commits before October 2020, but hadn't done much with Git till now. On 2020-10-31, though, I decided I wanted to have version control over this website as it changes, and so I've started using it. I ran through through [a very helpful tutorial](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners), and the rest has been very googleable, as so many people use Git that whatever I'm confused about has confused some poor soul before, and gotten all sorts of helpful answers.
 
 # gwern.net
 
-It is hard to find a more interesting collection of essays online than at [gwern.net](https://gwern.net). Not only is it interesting, but it's got what I think is a very pleasing layout. And thanks to Gwern's decision to release the whole website under the CC0 license, anyone who wants to can reuse or adapt the layout freely.
+It is hard to find a more interesting collection of essays online than at [gwern.net](https://gwern.net). Not only is it interesting, but it's got a great layout. And thanks to Gwern's decision to release the whole website under the CC0 license, anyone who wants to can reuse or adapt the layout freely.
 
 # Longevity
 
-How long things last is worth paying attention to. In a software context, everything is fighting against bit rot. If you want something to last, you've got to account for bit rot. Over at [gwern.net](gwern.net), Gwern has [some interesting thoughts](https://www.gwern.net/About#long-site) about this. It is from reading Gwern's thoughts that I decided to build this site around a set of markdown files which are converted to relatively simple static HTML pages.
+How long things last is worth paying attention to. In a software context, everything is fighting against software rot. If you want something to last, you've got to account for software rot. Over at [gwern.net](gwern.net), Gwern has [some interesting thoughts](https://www.gwern.net/About#long-site) about this. It is from reading Gwern's thoughts that I decided to build this site around a set of markdown files which are converted to relatively simple static HTML pages. I haven't -- so far -- followed Gwern into the world of Haskell, though.
 
-More generally, the average thing is probably about halfway through it's lifespan, almost by definition, which means the average thing will last about as long into the future as it has lasted so far. This is an extremely rough and unreliable rule of thumb, but something that's survived a thousand years has a decent chance of making it another thousand, while something that first happened yesterday might not stick around as long.
+More generally, the average thing is probably about halfway through it's lifespan, almost by definition, which means the average thing will last about as long into the future as it has lasted so far. This is an extremely rough and unreliable rule of thumb, but something that's survived a thousand years has a decent chance of making it another thousand, while something that first happened yesterday might not stick around as long. Thinking too hard about this can lead to some weird places, like the [Doomsday Argument](https://en.wikipedia.org/wiki/Doomsday_argument).
 
 # Majority Opinion
 
-Copernicus may have been a vindicated contrarian, but for every Copernicus there is a [Dick Johnson](https://en.wikipedia.org/wiki/Richard_Mentor_Johnson)  who thinks the earth is hollow and tries to drum up Congressional support for an expedition to the center. Cranks outnumber geniuses, and so it's always a good idea to at least take a serious look at the majority opinion on any given topic. It's also a good idea to see whether the majority opinion among experts in the field differs from the majority opinion of non-experts.
+Copernicus may have been a vindicated contrarian, but for every Copernicus there is a [Dick Johnson](https://en.wikipedia.org/wiki/Richard_Mentor_Johnson)  who thinks the earth is hollow and tries to drum up Congressional support for an expedition to the center. Dick Johnson was an actual Vice President of the United States, and he actually did try to drum up Congressional support to explore the hollow earth. Cranks outnumber geniuses, and so it's always a good idea to at least take a serious look at the majority opinion on any given topic. It's also a good idea to see whether the majority opinion among experts in the field differs from the majority opinion of non-experts.
 
 # Mental Health
 
