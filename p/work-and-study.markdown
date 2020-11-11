@@ -1,10 +1,10 @@
 ---
-title: Studying and Working
+title: Work and Study
 description: My education and career so far, summarized
 layout: post
 ---
 
-''2019-2020''
+_This page written and updated 2019-2020_
 
 I graduated with a BA in Liberal Studies in September 2017, and have been working in fuel station branding since. Before graduating, I spent three years in manufacturing, troubleshooting wheel conveyance systems.
 
@@ -12,7 +12,7 @@ Details are below
 
 # Current Position
 
-Since 2017, I've been doing a job I find pretty interesting, for a firm in southwest Ohio which manages branding projects for fuel distributors in Ohio, Kentucky, and Indiana. I help brand representatives, fuel distributors, and station owners come to budgetary and scope of work agreements on branding projects. I file for permits, testify before zoning boards, negotiate compromises, place orders for materials, and ensure that everything is in order for our crews to complete projects. When a job is complete, I ensure that it complies with brand standards and document its completion
+Since 2017, I've been working for a firm in southwest Ohio which manages branding projects for fuel distributors in Ohio, Kentucky, and Indiana. I help brand representatives, fuel distributors, and station owners come to budgetary and scope of work agreements on branding projects. I file for permits, testify before zoning boards, negotiate compromises, place orders for materials, and ensure that everything is in order for our crews to complete projects. When a job is complete, I ensure that it complies with brand standards and document its completion.
 
 # Education
 
