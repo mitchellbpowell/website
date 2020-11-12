@@ -30,6 +30,14 @@ And progress in batteries also will help determine the future of cars. Right now
 
 As long as we're conscious, we're breathing, with exceptions of four minutes or less. The breath is always there, and paying attention to it can help clear your head and calm you down, should you feel the need to be clearer-headed or calmer.
 
+# DuckDuckGo
+
+[DuckDuckGo](https://duckduckgo.com/) is a search engine that places an emphasis on user privacy, in an attempt to provide an alternative to Google's business model of extracting data about people who search.
+
+As of 2020, the number of searches performed daily on DuckDuckGo is growing rapidly. This upstart competitor to Google, according to a [chart](https://en.wikipedia.org/wiki/DuckDuckGo#/media/File:DuckDuckGo_Daily_Traffic_2010-2020.png) on Wikipedia. It looks like this year DuckDuckGo is receiving about 60 million search queries per day, up from about 40 million last year, up from about 25 million in 2018, up from about 17 million in 2017, up from about 11 million in 2016. In other words, that's relatively smooth exponential growth of about 50% per year. Google, on the other hand, processes about 3.5 billion searces per day. That means that, roughly speaking, DuckDuckGo is about 1.7% of Google size. If DuckDuckGo were to sustain that rate of growth into the future, DuckDuckGo would overtake Google around 2030.
+
+However, there are some new developments that could conceivably shake things up further. Right now (2020-11-11), Google is in the crosshairs of some major antitrust legal action, which could conceivably undermine its business model of paying technology firms to push Google as a default setting to customers. If this is successful, DuckDuckGo might have an easier time. Alternately, DuckDuckGo might just run out of steam and stagnate or disappear. But it's worth watching to find out what happens next, especially for people who are concerned about what happens to private information online.
+
 # Economics
 
 I used to think I understood the economy. Back around 2009, when the Fed started pushing the monetary base upward at a rapid pace, I *knew* that this would cause a dramatic inflation, and that the vast majority of economists were ignoring the simple facts about the money supply. By 2015, the monetary base had quadrupled (graph [here](https://fred.stlouisfed.org/series/BOGMBASE)). No spike in inflation. It turned out that mainstream economists understood the economy much better than I did as an eighteen-year-old. Since then, I've tried to pay much more careful attention to expert consensus.
@@ -44,7 +52,9 @@ For just about any field of human study, there are lots of people out there who 
 
 # FOSS / Free content
 
-Though we still await the Year of the Linux Desktop, open-source software has in some ways taken over the world, playing a major role in everything *but* the desktop. And desktop linux has gotten pretty good. As I type this, I'm using the default text editor of Ubuntu to input Markdown into a text file. The editor highlights the syntax automatically; I didn't have to do anything to set it up that way. It just knows I'm in markdown and helps me out. Firefox, the default browser in Ubuntu, seems to do everything I want it to. When I want to use my Markdown files to build a website, Jekyll is there to do it for me.
+Though we still await the Year of the Linux Desktop, open-source software has in some ways taken over the world, playing a major role in everything *but* the desktop. And desktop linux has gotten pretty good. As I type this, I'm using the default text editor of Ubuntu to input Markdown into a text file. The editor highlights the syntax automatically; I didn't have to do anything to set it up that way. It just knows I'm in Markdown and helps me out. When I want to use my Markdown files to build a website, Jekyll is there to do it for me. 
+
+Firefox, the default browser in Ubuntu, seems to do everything I want it to. While repeatedly checking election projections at [fivethirtyeight.com](https://fivethirtyeight.com/) in the lead-up to the 2020 elections, their feature tracking odds of winning for both candidates didn't seem to work on my phone's Chrome browser, but Firefox opened it fine. Even Chrome runs on an open-source core -- Chromium -- and that in turn is running on my phone's Android operating system, which is built on a modified Linux kernel.
 
 Free and open-source software is just one genre of things that happen outside the realm of restrictive copyright. This larger set includes Wikipedia, which works in practice even if not in theory, and the massive and growing collection of books written in 1924 or earlier that one can find on the web. More recent books are more hit-or-miss, but are increasingly available to anyone who has googled "Sci-Hub" or "Library Genesis". Meanwhile, in a zone somewhere between the legality of old public domain books and the illegality of Library Genesis, the Internet Archive is experimenting with something they call "Controlled Digital Lending", which last time I checked was in legal limbo, awaiting court decisions.
 
