@@ -87,11 +87,17 @@ I learned about BASIC and HTML through physical books at public libraries, and w
 
 It is a commonplace claim, and almost entirely true, that Hebrew is read from right to left, while English is read from left to right. But read this: "\$5". If you read it as "five dollars", you read the item on the right, then the item on the left. Language rules are made to be broken.
 
-# Life expectancy: a brief note
+# Life expectancy: average was not typical till recently
 
 It is often said that, in 1850 or two thousand years ago or whenever, life expectancy was 28 or 43 or what have you, and that therefore a 25-five-year-old was "old" in those days. This is then used to make some sort of observation about early marriage, or divorce, or life insurance, or some other topic. This line of talking contains one truth and one major misconception, and it revolves around a confusion of the typical with the mathematical average (mean).
 
 Consider the case of a hypothetical society in which half of the people who are born die at two years old of the, say, _two-year-old flu_, while the other half survive their toldlerhood and die at sixty-eight. We would not say, in a society like that, that a thirty-three-year-old was an old person, with two years left to live. A thirty-three-year-old would still be fairly young.
+
+# Life expectancy: most people beat it these days
+
+One might be forgiven for thinking that life expectancy is how long a person can expect to live. As a crude approximation, that's right. But life expectancy is a product of current statistics, not a product of an intelligent forecast. Right now, as of 2020, there is a death rate for each age. So many one year-olds die out of the whole population, so many two-year-olds die out of the whole population, and so on.
+
+The statistic we call a life expectancy is based on how long a person currently alive might be expected to live _on the assumption that today's numbers stay the same into the future_. But for the last two hundred years or so, today's numbers _don't_ usually hold true into the future. Death rates have usually been dropping, which means that life expectancy has usually been an _underestimate_ of how long a person will live.
 
 # Logical quotations
 
