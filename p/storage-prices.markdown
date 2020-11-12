@@ -4,6 +4,8 @@ description: Storage prices have dropped over time.
 layout: post
 ---
 
+_October 2020_
+
 I was reading about cloud storage in the first place out of curiosity about the [Internet Archive](https://en.wikipedia.org/wiki/Internet_Archive), [HathiTrust](https://en.wikipedia.org/wiki/HathiTrust), and various other projects that store large quantities of books on the web. It got me thinking about storage costs.
 
 In the sixth grade (2002?), I was given a floppy disk at school, with probably 1.44 MB. I thought it was pretty nifty. If memory serves, it had 1.44 MB of storage. In middle school (2004?), I bought 128 MB (?) flash drive for \$25 (?). The step up in storage astounded me.
@@ -20,7 +22,7 @@ What if, instead, you wanted to carry on a continuous video recording over a lif
 
 It’s not nothing, but it’s well below the typical cell phone bill, cable bill, or smoking habit. It’s doable for a lot of people, if they wanted it.
 
-But let’s go even further, and consider the storage capacity of the entire human brain. Due to a very different architecture from computers, and which is still only beginning to be understood, there are varying estimates for the quantity of storage a brain has.
+But let’s go even further, and consider the storage capacity of the entire human brain. Due to a very different architecture from computers, which is still only beginning to be understood, there are varying estimates for the quantity of storage a brain has.
 
 Yadin Dudai (1997) reviewed [estimates](https://www.google.com/search?sxsrf=ALeKk02_U4rxpsH5DA-8UQGyoxFDfhN5sg%3A1603577143385&source=hp&ei=N6WUX431FMPLtQar4rmQDA&q=yadin+dudai+how+big+is+human+memory&oq=yadin+dudai+how+big+is+human+memory&gs_lcp=CgZwc3ktYWIQAzIFCCEQqwIyBQghEKsCMgUIIRCrAjoLCAAQsQMQgwEQkQI6BQgAEJECOgoIABCxAxCDARBDOggIABCxAxCDAToFCAAQsQM6CwguELEDEMcBEKMCOg4ILhCxAxCDARDHARCvAToFCC4QsQM6CwguELEDEMkDEJMCOgcIABCxAxBDOgoILhDHARCvARBDOgIIADoKCC4QsQMQgwEQCjoNCC4QyQMQFBCHAhCTAjoCCC46CAguEMcBEK8BOgcIABAUEIcCOgYIABAWEB46CAgAEBYQChAeOggILhDJAxCTAjoFCAAQyQM6BQghEKABOgUIABDNAjoICCEQFhAdEB46BwghEAoQoAFQNVjzNGDtN2gAcAB4AIAB7gGIAaUdkgEHMTEuMjIuMZgBAKABAaoBB2d3cy13aXo&sclient=psy-ab&ved=0ahUKEwjN7P6vns7sAhXDZc0KHStxDsIQ4dUDCAg&uact=5) of human storage capacity expressed in bits, and pointed toward somewhere between 1 terabyte and 1 petabyte of information being stored in a given brain. An [estimate](https://www.salk.edu/news-release/memory-capacity-of-brain-is-10-times-more-than-previously-thought/) in 2016 suggests at least a petabyte of storage, while acknowledging “conservative” estimates of about a tenth that. For Amazon deep glacier storage, the cost of storing one petabyte comes to about $1,000 per month. This comes in at just under the US federal poverty level for a one-person household.
 
