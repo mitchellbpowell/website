@@ -4,6 +4,8 @@ description: A general point, illustrated by one particular example, and what yo
 layout: page
 ---
 
+_Since writing the post below, it's has been brought to my attention by Maxwell Powell, on 2020-11-11, that the void I'm speaking about is partially filled by [www.democracydocket.com](https://www.democracydocket.com)._
+
 It's November 10th, 2020, and we find ourselves in the interesting position of having all major media outlets, including Fox, using the term "President-Elect" to describe Joseph Robinette Biden. But President Trump, on Twitter, is insisting at great length in his inimitable way that shenanigans are afoot, and news outlets are reporting that the Trump campaign is filing a number of lawsuits.
 
 No doubt you are aware of all this, and I have no intention of trying to talk you out of whatever it is that you believe about it. (I think Biden won the election, for what it's worth.) But I could not help but notice that something is missing in the news coverage I'm seeing. Well, that's not completely true. There's something my brother Maxwell couldn't help but notice missing in all the news coverage _he's_ seeing. Today's journalism, as usual, is missing hyperlinks.
