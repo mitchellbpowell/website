@@ -46,11 +46,11 @@ I used to think I understood the economy. Back around 2009, when the Fed started
 
 For just about any field of human study, there are lots of people out there who have made it their life's work to study it. You can save a lot of time and aggravation by listening to these people.
 
-# Effective Altruism
+# Effective altruism
 
-[Effective Altruism](https://en.wikipedia.org/wiki/Effective_altruism) is a movement associated names like William McAskill, Toby Ord, and Peter Singer. These folks think it is important to try to quantify the amount of good that can be done with a given number of dollars in charitable work. Even if it's not possible to reduce doing good to simple equations, the effort to quantify the issues seems to me worth paying attention to. They're working on a variety of other interesting questions as well.
+[Effective altruism](https://en.wikipedia.org/wiki/Effective_altruism) is a movement associated names like William McAskill, Toby Ord, and Peter Singer. These folks think it is important to try to quantify the amount of good that can be done with a given number of dollars in charitable work. Even if it's not possible to reduce doing good to simple equations, the effort to quantify the issues seems to me worth paying attention to. They're working on a variety of other interesting questions as well.
 
-# FOSS / Free content
+# FOSS / free content
 
 Though we still await the Year of the Linux Desktop, open-source software has in some ways taken over the world, playing a major role in everything *but* the desktop. And desktop linux has gotten pretty good. As I type this, I'm using the default text editor of Ubuntu to input Markdown into a text file. The editor highlights the syntax automatically; I didn't have to do anything to set it up that way. It just knows I'm in Markdown and helps me out. When I want to use my Markdown files to build a website, Jekyll is there to do it for me. 
 
@@ -74,11 +74,15 @@ How long things last is worth paying attention to. In a software context, everyt
 
 More generally, the average thing is probably about halfway through it's lifespan, almost by definition, which means the average thing will last about as long into the future as it has lasted so far. This is an extremely rough and unreliable rule of thumb, but something that's survived a thousand years has a decent chance of making it another thousand, while something that first happened yesterday might not stick around as long. Thinking too hard about this can lead to some weird places, like the [Doomsday Argument](https://en.wikipedia.org/wiki/Doomsday_argument).
 
-# Majority Opinion
+# Lying, by Sam Harris
+
+More a booklet than a book, Sam Harris's *Lying* is an excellent summary of the case for why lying is bad. He takes a stronger anti-lying stance than most people do, and makes his case ably.
+
+# Majority opinion
 
 Copernicus may have been a vindicated contrarian, but for every Copernicus there is a [Dick Johnson](https://en.wikipedia.org/wiki/Richard_Mentor_Johnson)  who thinks the earth is hollow and tries to drum up Congressional support for an expedition to the center. Dick Johnson was an actual Vice President of the United States, and he actually did try to drum up Congressional support to explore the hollow earth. Cranks outnumber geniuses, and so it's always a good idea to at least take a serious look at the majority opinion on any given topic. It's also a good idea to see whether the majority opinion among experts in the field differs from the majority opinion of non-experts.
 
-# Mental Health
+# Mental health
 
 Two hundred years ago, major sources of suffering for a lot of people included dying children, hunger, and contagious disease. Over time, those sorts of human suffering have greatly decreased in a lot of the world. As we increasingly manage to pick the low-hanging fruit of solving the basic material problems of life for more and more people, this leaves mental health issues taking up a larger and larger share of human suffering, even if average mental health is getting no worse. Tackling the most common mental health issues out there, especially depression and anxiety, is going to be one of the major challenges humanity faces going forward, if for no other reason than our increasing success at knocking out the *other* major challenges.
 
@@ -86,19 +90,19 @@ Two hundred years ago, major sources of suffering for a lot of people included d
 
 If you've read an interesting study but haven't looked to see whether there's a relevant meta-analysis, consider looking.
 
-# Null Hypothesis, The
+# Null hypothesis, the
 
 Never underestimate the null hypothesis. Most things don't affect most other things, and p-hacking and its analogues are everywhere. The next time you hear that a single study has found that some obscure vegetable either cures or causes cancer, consider the null hypothesis instead.
 
-# Old Books
+# Old books
 
 Old books have a few things going for them. For one thing, if you come upon an old book, that means someone thought it was worth enough to preserve. The older the book, the stronger the implicit endorsement of centuries of copyists. Hesiod's *Works and Days*, for example, has won the long battle to hold human attention, and survived while the vast majority of ancient literature has long since passed. We find ourselves in the golden era of old books, at least insofar as availability goes. The Internet Archive and HathiTrust have an enormous number of old books.
 
-# Old People
+# Old people
 
 They've had a lot of time and seen a lot of things.
 
-# Polling Averages
+# Polling averages
 
 They're better than individual polls, which let you fall into the trap of paying the most attention to whatever poll is most interesting.
 
@@ -114,11 +118,11 @@ In summer 2019, when I decided to take up messing around with coding after not d
 
 Derek Parfit's *Reasons and Persons* is an excellent book, and works through a number of philosophical questions associated with altruism and morality. It is dense but manageable for a careful reader, even one without formal training in philosophy. Though I certainly don't expect that too many people will slog through it, I'm hopeful it's might still leave the world a better place than it might otherwise have been.
 
-# Replication Crisis, The
+# Replication crisis, the
 
 The [Replication Crisis](https://en.wikipedia.org/wiki/Replication_crisis) concerns deep questions about how the public and scientists consume statistical information. Perhaps the best result so far is that replication and meta-analysis have been getting a lot more press lately.
 
-# Rice Cookers
+# Rice cookers
 
 They're good for cooking rice. A good ricer cooker -- and I'm not sure there are any bad ones -- runs about $15. Just go to whatever store you'd buy pots and pans at and get the most basic one. They cook up good rice every time, without any need to fuss about timing or quantity of water or what have you.
 
@@ -126,7 +130,7 @@ They're good for cooking rice. A good ricer cooker -- and I'm not sure there are
 
 SlateStarCodex, depending on how you look at it, either *is* or *was* one of the most interesting parts of the internet, and currently exists in a sort of limbo that it entered in June 2020. It is or was the work of just one person: a pseudonymous psychiatrist named Scott Alexander, who took down his site when, he says, the *New York Times* threatened to doxx him.
 
-# Solar Energy
+# Solar energy
 
 Wikipedia has a helpful article entitled [Growth of Photovoltaics](https://en.wikipedia.org/wiki/Growth_of_photovoltaics), which contains some astounding graphs and charts. From 2000 to 2018, total photovoltaic capacity worldwide doubled approximately nine times, and is now at about 3% of global electricity production, according to the article. If this number is even approximately correct, and it probably is, then we are approximately five doublings away from all the world's electricity being produced by solar cells. Of course, there are some difficult technical challenges to getting there, especially concerning energy storage. For this reasons, it is also worth while to pay attention to batteries.
 
