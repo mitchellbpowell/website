@@ -127,6 +127,10 @@ The descent into total dysfunction did not happen all at once. One might date it
 
 I used to edit quite a bit for Wikipedia, until I got tired of it. In that time, I became familiar with Wikipedia's Policies and Guidelines, known by the shortcut [WP:PAG](https://en.wikipedia.org/wiki/Wikipedia:Policies_and_guidelines). If you ever wondered how such a massive site maintains a more or less consistent styles and keeps a pretty decent quality, WP:PAG is part of it.
 
+# XKCD
+
+The classic "webcomic of romance sarcasm, math, and language" needs no introduction, unless you've never heard of it. You can find it [here](https://xkcd.com/) and in-depth explanations of the jokes [here](https://www.explainxkcd.com/wiki/index.php/Main_Page).
+
 ---
 
 _This page is released under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) license._
