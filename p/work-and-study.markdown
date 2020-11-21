@@ -20,7 +20,7 @@ I graduated with a BA in Liberal Studies from Thomas Edison State University in 
 
 # Previous Work Experience
 
-From 2014 to 2016, while finishing my BA, I worked as a Buffer Operator at AAP St. Marys, the largest aluminum wheel manufacturer in the United States. Lest you try to Google it and discover it doesn't exist, it is now known as Kosei St. Marys.
+From 2014 to 2016, while working my BA, I worked as a Buffer Operator at AAP St. Marys, the largest aluminum wheel manufacturer in the United States. Lest you try to Google it and discover it doesn't exist, it is now known as Kosei St. Marys.
 
 In this position, I carried out troubleshooting on our *buffer system*, a network elevators, robots, shelves, and conveyors which accepted, stored for cooling, and then routed partially finished aluminum wheels to various locations in machine. My role was to solve issues in the machinery and its associated tracking software. I trained new associates, tracked inventory, investigated discrepancies, and documented quality issues.
 
