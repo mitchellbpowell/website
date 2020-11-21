@@ -6,9 +6,9 @@ layout: page
 
 *2020-11-21*
 
-In the era of Covid, I've sharply limited my going out. Even though the fuel station branding business is unusually busy this year, there's still time that needs to be filled, and every now and then I try to fill some of it with something productive, or at least interesting.
+In this year of Covid, I've sharply limited my going out. Even though the fuel station branding business is unusually busy this year, there's still time that needs to be filled, and every now and then I try to fill some of it with something productive, or at least interesting.
 
-My latest little project was putting this website together, which I'd say I've just about completed for the moment. I've got the content I want on it basically up, except for an older half-finished project producing answers to the coding exercises in _How to Think Like a Computer Scientist: Learning with Python 3_. I had been working away at that, learning Python 3 in the process, when the Coronavirus hit. Then I started producing daily Covid updates, which I've also placed on this page. I stopped immediately before Ohio locked down, at which point Governor DeWine started giving daily Covid updates and I stopped doing that.
+My latest project was putting this website together. I'm continuing to polish it a bit, but I've basically got what I want up, except for an older half-finished project producing answers to the coding exercises in _How to Think Like a Computer Scientist: Learning with Python 3_. I had been working away at that, learning Python 3 in the process, when the Coronavirus hit. Then I started producing daily Covid updates ([here](/covid/index.html)). I stopped immediately before Ohio locked down, at which point Governor DeWine started giving daily Covid updates. I wouldn't try to compete with _that_.
 
 I suppose it's time to finish what I started with the Python 3 textbook, so I'll make that one of my current projects.
 
