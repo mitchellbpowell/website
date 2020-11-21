@@ -4,6 +4,8 @@ date: "2019-09-23"
 layout: page
 ---
 
+_2019-9-23_
+
 Today is September 23, 2019, and it is a Monday. September 3, 2001, was a Tuesday. And January 1, 1 CE was a Monday. At least, it was a Monday assuming we're talking about the Gregorian calendar, which we'll assume for the rest of this post. Can we write a function that takes a date and gives the day of the week automatically for any CE date?
 
 One approach is to create a single function that takes the month, day, and year of a given date, makes all the necessary manipulations, and spits out an answer. But that would be a pain to write and a pain to debug, especially for a newbie like myself. And I would be haunted by a nagging suspicion that, somewhere in the code, there's some screw-up I haven't discovered yet, even after poking around quite a bit.

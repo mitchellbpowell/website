@@ -4,6 +4,8 @@ description: A School Paper
 layout: page
 ---
 
+*Written in 2017; placed online 2020 with minor revisions.*
+
 ## Table of Contents
 * TOC
 {:toc}

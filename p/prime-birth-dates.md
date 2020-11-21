@@ -4,6 +4,8 @@ description: A silly math exercise
 layout: post
 ---
 
+_2020-10-24_
+
 Prime birth dates
 
 The excellent _How to Think Like a Computer Scientist: Learning with Python 3_, has a fascinating little wrinkle in exercise 10 of its [seventh chapter](http://openbookproject.net/thinkcs/python/english3e/iteration.html). It suggests that the number 19911121 could represent someone’s birth date, presumably someone born on November 21, 1991. 19911121 is a prime number so we could say that this person has a _prime birth date_. It’s a little silly, but then the text asks us how many students, out of a class of 100, might have a prime birth date.

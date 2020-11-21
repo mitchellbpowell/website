@@ -4,6 +4,8 @@ description: A dumping-place for random thoughts
 layout: post
 ---
 
+_2020-10-24 to 2020-11-21_
+
 >Ninety percent of *everything* is crud. -- Theodore Sturgeon
 
 Whether or not [Sturgeon's law](https://en.wikipedia.org/wiki/Sturgeon%27s_law) is correct, we are all faced with the challenge of endless claims on our attention. The sheer abundance of *stuff* out there forces us to pick and choose what we most want to pay attention to, whether that is Derek Parfit's *Reasons and Persons*, our jobs, or an ice cream cone. Every moment, we pay attention to either one thing or a few things, and ignore the rest.

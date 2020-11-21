@@ -3,7 +3,8 @@ title: Messing Around a Bit with Programming as a Kid
 description:
 layout: page
 ---
-*2019-9-13 - 2020-10-29*
+
+_2019-9-13 - 2020-10-29_
 
 My first foray into programming came when I read an *Encyclopedia Brown* book (I think that's what it was), in which the child detective solved a mystery by writing a program in BASIC. Then I took a bus down to Cincinnati's downtown public library and got myself a textbook in BASIC.
 

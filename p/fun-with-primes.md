@@ -4,6 +4,8 @@ date: "2019-09-26"
 layout: page
 ---
 
+*2019-09-26*
+
 Back in middle school, I had a fascination with prime numbers, and worked on creating lists of them in Visual Basic. I quickly ran into a problem: processors only work so fast, and if you create a large enough list of primes, you wind up waiting, and waiting, and waiting on the computer to finish up.
 
 Let's revisit this issue in Python 3.
