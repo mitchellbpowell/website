@@ -16,6 +16,10 @@ The tragedy of this is how easy it is to miss out on worthwhile things. Just in 
 * TOC
 {:toc}
 
+# BASIC
+
+My first programming language was BASIC. I wrote simple math programs, mostly. At first, I wrote them on paper, not having any kind of computer they could work on, and then I would mentally step through them. They were an interesting sort of logic puzzle. I did eventually learn that my grandmother had some sort of children's toy computer with a one-line console that one could enter BASIC programs into and have them run, and later I got a graphing calculator that used some variant of BASIC as well. Because I tended to get my information from libraries, I didn't realize at the time that BASIC had fallen out of widespread use a few years before I was born. When I found out, I promptly took a bus to the local public library, checked out a book on C++, and tried programming on paper with *that*, and boy, did that not go well! 
+
 # Berners-Lee, Tim
 
 It's widely known that Tim Berners-Lee produced the first modern website. However, it's perhaps not as well known that it's still online, and you can go see it [here](http://info.cern.ch/).
@@ -27,7 +31,15 @@ It's widely known that Tim Berners-Lee produced the first modern website. Howeve
 
 Daniel Dennett is one of the more interesting philosophers alive today. You might enjoy his _Intuition Pumps and Other Tools for Thinking_.
 
-# Exponential growth: back-of-envelope calculations
+# DOS
+
+*2020-11-22*
+
+I weep for the generation growing up now, as they might go their whole lives without interacting with DOS. Mind you, I'm no child of the DOS era myself -- I was born in 1991, and Microsoft had already released Windows back in 1985. But I did come into this world late enough that DOS was still hanging around -- on an old but still working computer in my grandfather's basement, running the electronic card catalogue at the Cincinnati Public Library, tracking orders at MacDonalds. It was around _just_ enough to make it obvious that GUI's weren't synonymous with operating systems; they were an innovation. They were a choice. And the basic, underlying systems that ran computers were made of something much like text -- the little buttons and menus were just a pretty shell over something more abstract.
+
+I don't really know that today's use will miss anything necessary by not seeing DOS in day-to-day life. It's possible I'm just being a cranky old geezer and that previous generations would have said similar things about smoke signals, or loud beeping noises, or punch cards, or whatever it was early computers ran on.
+
+# Exponential growth: <br>back-of-envelope calculations
 
 The world is made of numbers, among other things, and to understand it you've got to understand numbers, among other things. And in the study of living beings, whether you're talking about biology or economics, having a mental grasp on exponential growth is useful. And to start to intuitively grasp exponents, you're going to need to be able to do rough on-the-fly calculations in your head. And to do that, I think the easiest starting point is to get a little bit familiar with powers of two, powers of ten, and the law of 72.
 
@@ -81,7 +93,7 @@ Sam Harris, in _Waking Up_, takes Hoftstadter to task over a passage in which Ho
 
 [HyperCard](https://en.wikipedia.org/wiki/HyperCard) was a really neat program that used to ship on Mac computers, but now it is gone. There's an interesting [conspiracy theory](https://apple.slashdot.org/story/11/11/30/1720214/why-was-hypercard-killed) about it. Thanks to growing up with a couple 1983 Macs in the house, I got to experience HyperCard before we had the internet in the house. You could make little objects move about, and factor numbers, and produce lists of prime numbers, or what have you. Kids today don't have that chance. Rest in peace, HyperCard.
 
-# Jaynes, Juljkkjian
+# Jaynes, Julian
 
 Perhaps one of the more puzzling and interesting books I've ever read is Julian Jaynes's _The Origin of Consciousness in the Breakdown of the Bicameral Mind_. Drawing extensively on ancient literature, Jaynes outlines a theory of what consciousness is, where it came from, and how very ancient and more modern people's minds differ. I find it impossible to accept that his theory is correct -- it seems outlandish and difficult to prove -- but it's difficult not to think that Jaynes was on to _something_.
 
@@ -99,17 +111,13 @@ When I was perhaps ten, we got our first pair of computers, two Macs from 1983 w
 
 I learned about BASIC and HTML through physical books at public libraries, and would take a bus to get there. To make the money that paid for the web hosting and other things, I would deliver pizza, which I did without a cell phone or GPS. I had a physical map of my hometown, used flashcards to memorize the locations of all the streets, and that was that. None of this would make any sense to people ten years younger.
 
-# Reading direction in English
-
-It is a commonplace claim, and almost entirely true, that Hebrew is read from right to left, while English is read from left to right. But read this: "\$5". If you read it as "five dollars", you read the item on the right, then the item on the left. Language rules are made to be broken.
-
-# Life expectancy: average was not typical till recently
+# Life expectancy: <br>average was not typical till recently
 
 It is often said that, in 1850 or two thousand years ago or whenever, life expectancy was 28 or 43 or what have you, and that therefore a 25-five-year-old was "old" in those days. This is then used to make some sort of observation about early marriage, or divorce, or life insurance, or some other topic. This line of talking contains one truth and one major misconception, and it revolves around a confusion of the typical with the mathematical average (mean).
 
 Consider the case of a hypothetical society in which half of the people who are born die at two years old of the, say, _two-year-old flu_, while the other half survive their toldlerhood and die at sixty-eight. We would not say, in a society like that, that a thirty-three-year-old was an old person, with two years left to live. A thirty-three-year-old would still be fairly young.
 
-# Life expectancy: most people beat it these days
+# Life expectancy: <br>most people beat it these days
 
 One might be forgiven for thinking that life expectancy is how long a person can expect to live. As a crude approximation, that's right. But life expectancy is a product of current statistics, not a product of an intelligent forecast. Right now, as of 2020, there is a death rate for each age. So many one year-olds die out of the whole population, so many two-year-olds die out of the whole population, and so on.
 
@@ -128,6 +136,10 @@ Steven Pinker, in addition to his career as a psycholinguist, wrote _The Better 
 In middle school and hi school, I was what some might call a _mathlete_, one of the kids who was always running about to school math competitions. Lindsay Lohan introduces the concept [here](https://www.youtube.com/watch?v=EligNcjdyyI). Back in 2006, I somehow stumbled into being one of six Ohio high schoolers to qualify for the USAMO ([source](https://www.maa.org/math-competitions/2006-usamo-qualifiers-by-state#oh)), where I immediately found myself out of my depth and got something like two out of forty-two questions correct. I don't remember the exact figure.
 
 Anyhow, around age 15 I got swept into studying the Hebrew Bible, which I kept picking away at until 21, and mostly left math behind. However, last year I did pick up playing around with math questions again, with Project Euler, which combines math and programming to produce puzzles to solve. If you're a former mathlete who needs a little mental stimulation now and then, you might want to give Project Euler a look. The questions are graduated in difficulty, running from the very first problem, which has been solved by 965,090 users, to some of the latest, with less than 200 users solving.
+
+# Reading direction in English
+
+It is a commonplace claim, and almost entirely true, that Hebrew is read from right to left, while English is read from left to right. But read this: "\$5". If you read it as "five dollars", you read the item on the right, then the item on the left. Language rules are made to be broken.
 
 # Velikovsky, Immanuel
 
