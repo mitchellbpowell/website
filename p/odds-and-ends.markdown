@@ -141,6 +141,12 @@ Anyhow, around age 15 I got swept into studying the Hebrew Bible, which I kept p
 
 It is a commonplace claim, and almost entirely true, that Hebrew is read from right to left, while English is read from left to right. But read this: "\$5". If you read it as "five dollars", you read the item on the right, then the item on the left. Language rules are made to be broken.
 
+# Regression to the mean
+
+Suppose you take a population and look at, say, a group of people with very high math scores -- perhaps they average at the 95th percentile for the general population. Then look at their children. You'll find that those children tend to score above average in math scores, but not, on average, as high as their parents. A similar phenomenon will be found if you select people with very low math scores -- their children will also tend to have lower math scores than average, but higher than their parents.
+
+The point where this becomes counter-intuitive is that it works in both directions. If you take a group of children whose math scores deviate from the average -- above or below -- *their* parents will, on average, be closer to the average than their children. If you don't have an understanding of how regression works, you'll misunderstand some things: examples can be found on the [Wikipedia page](https://en.wikipedia.org/wiki/Regression_toward_the_mean#Misunderstandings).
+
 # Velikovsky, Immanuel
 
 One of the many interesting curiosities that my late grandfather Henderson pointed me towards was book called _Worlds in Collision_ by the extraordinarily eccentric Immanuel Velikovsky, who combined a creative and well-read mind with a fundamental inability to understand how the real world works and produced fascinating attempts at re-writing history. If you enjoy that sort of thing, you might enjoy _Worlds in Collision_.
