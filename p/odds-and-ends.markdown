@@ -16,6 +16,10 @@ The tragedy of this is how easy it is to miss out on worthwhile things. Just in 
 * TOC
 {:toc}
 
+# Berners-Lee, Tim
+
+It's widely known that Tim Berners-Lee produced the first modern website. However, it's perhaps not as well known that it's still online, and you can go see it [here](http://info.cern.ch/).
+
 # Cladistics
 [Cladistics](https://en.wikipedia.org/wiki/Cladistics) classifies living beings in terms of biological relatedness rather than the categories we intuitively use in English. See, for example, the title of Lulu Miller's _Why Fish Don't Exist_.
 
@@ -63,11 +67,21 @@ Wilhelm Gesenius was -- I am probably quoting someone who I can't remember any m
 
 In 1888, Robert Gregg invented a nifty way to write things down really, really fast. Even if you don't want to learn the whole system, you could learn the way to write some common words in it. If you find yourself needing to take notes while people talk frequently, it's very helpful. See [Wikipedia's article](https://en.wikipedia.org/wiki/Gregg_shorthand) on it, and a sample [here](https://en.wikipedia.org/wiki/Gregg_shorthand#/media/File:Gregg_shorthand_A_Christmas_Carol.jpg).
 
+# Harris, Judith Rich
+
+Judith Rich Harris wrote the groundbreaking _The Nurture Assumption_, in which she argued, with a great deal of evidence, that heredity is much more important than commonly imagined, and childrearing much less, in explaining personality variations in human beings. Her conclusions were by no means unanimously received without protest, and people continue to argue about these things, but the publication of her book did mark a milestone in the everlasting nature-nurture debate which has raged ever since Galton coined the term.
+
+# Hofstadter, Douglas
+
+Douglas Hofstadter wrote _[Gödel, Escher, Bach: An Eternal Golden Braid](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach)_. It is an absolutely fascinating look at meaning and self-reference. I really need to read it again and see if I can understand it next time. For those those who read _GEB_ and, like myself, are left perplexed, there's always his _I Am a Strange Loop_, which explains some of the underlying ideas in a much clearer format, although missing quite a bit of the entertainment value and acid-tripesque quality of _GEB_.
+
+Sam Harris, in _Waking Up_, takes Hoftstadter to task over a passage in which Hoftstadter dismisses as childish Douglas Harding's musings on "having no head". You can find Harris's defense of headlessness on p. 144 of _Waking Up_, and Hofstadter's attack on headlessness on pp. 23-33 of Hofstadter and Dennett's _The Mind's I: Fantasies and Reflections on Self and Soul_ (Basic Books, 1981). 
+
 # HyperCard
 
 [HyperCard](https://en.wikipedia.org/wiki/HyperCard) was a really neat program that used to ship on Mac computers, but now it is gone. There's an interesting [conspiracy theory](https://apple.slashdot.org/story/11/11/30/1720214/why-was-hypercard-killed) about it. Thanks to growing up with a couple 1983 Macs in the house, I got to experience HyperCard before we had the internet in the house. You could make little objects move about, and factor numbers, and produce lists of prime numbers, or what have you. Kids today don't have that chance. Rest in peace, HyperCard.
 
-# Jaynes, Julian
+# Jaynes, Juljkkjian
 
 Perhaps one of the more puzzling and interesting books I've ever read is Julian Jaynes's _The Origin of Consciousness in the Breakdown of the Bicameral Mind_. Drawing extensively on ancient literature, Jaynes outlines a theory of what consciousness is, where it came from, and how very ancient and more modern people's minds differ. I find it impossible to accept that his theory is correct -- it seems outlandish and difficult to prove -- but it's difficult not to think that Jaynes was on to _something_.
 
@@ -134,6 +148,6 @@ I used to edit quite a bit for Wikipedia, until I got tired of it. In that time,
 The classic "webcomic of romance sarcasm, math, and language" needs no introduction, unless you've never heard of it. You can find it [here](https://xkcd.com/) and in-depth explanations of the jokes [here](https://www.explainxkcd.com/wiki/index.php/Main_Page).
 
 ---
-
+sdfasdf
 _This page is released under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) license._
 
