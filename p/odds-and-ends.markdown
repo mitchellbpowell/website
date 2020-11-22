@@ -139,6 +139,12 @@ With a few very brief exceptions, I spent the first five years of my life in Ven
 
 The descent into total dysfunction did not happen all at once. One might date it from the time when Hugo Chávez declared an "economic war" on 2020-6-2, or to the accession of Venezuelan President and now dictator Nicolás Maduro in 2013. In any case, the vicious sociopath currently oppressing Venezuela has shown every indication throughout his entire tenure that he is fully prepared to starve people out of the country until Venezuela is emptied or he is dead.
 
+# Vim
+
+*2020-11-21*
+
+For years, my answer to "Vim or Emacs" has been "Whatever the default text editor in Ubuntu is -- is it still gedit?" However, a brother of mine has informed me that it's time to start acting like a grown-up and learn my way around Vim. So far, I've found that having to constantly look up the shortcuts makes the whole editing process inefficient, but I'm told that all those will eventually settle into my thick skull and everything will be quite smooth. Back in the eighth grade, I was informed by a typing teacher that it's not really the keyboard so much as it is the mouse that leads to repetitive stress injuries. Whether it's true or not, I do tend to find moving from keyboard to mouse annoying.
+
 # WP:PAG
 
 I used to edit quite a bit for Wikipedia, until I got tired of it. In that time, I became familiar with Wikipedia's Policies and Guidelines, known by the shortcut [WP:PAG](https://en.wikipedia.org/wiki/Wikipedia:Policies_and_guidelines). If you ever wondered how such a massive site maintains a more or less consistent styles and keeps a pretty decent quality, WP:PAG is part of it.
