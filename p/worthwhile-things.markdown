@@ -108,6 +108,10 @@ They've had a lot of time and seen a lot of things.
 
 They're better than individual polls, which let you fall into the trap of paying the most attention to whatever poll is most interesting.
 
+# Progress
+
+One of the curious facts about the last two hundred years is that, across a wide (though not universal) set of measurements, things just keep getting better and better. These improvements are enormous and pervasive in ways that people normally underestimate. If you want a very brief introduction to some of this in TED Talk format, you can always take a look at the late [Hans Rosling](https://www.youtube.com/results?search_query=hans+rosling). For books, see Steven Pinker's _Enlightenment Now_ and _The Better Angels of Our Nature_, Matt Ridley's _The Rational Optimist_, or Angus Maddison's _The World Economy: A Millennial Perspective_.
+
 # Plant-based meats
 
 Impossible Food, Beyond Meat, and others are doing some very interesting things with plant-based meat that could very well wind up changing the way food works. I try to check in on how they're doing every so often.
