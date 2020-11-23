@@ -24,6 +24,14 @@ My first programming language was BASIC. I wrote simple math programs, mostly. A
 
 It's widely known that Tim Berners-Lee produced the first modern website. However, it's perhaps not as well known that it's still online, and you can go see it [here](http://info.cern.ch/).
 
+# China's economy
+
+_2020-11-22_
+
+While Singapore's extremely fast transition from very poor to very wealthy has not been equalled by any country I know of, Singapore is a small country, with about six million inhabitants. For a country that has rapidly pulled a very large number of people out of deep poverty, the greatest example in the modern world is China. This nation of 1.4 billion people has a GDP per capita, in current US dollars, of \$11,429 as of 2019. This is up from \$452 in 1960, which comes to an average annual increase of 5.6%. However, the last ten years after seen a per capita growth rate of just 2.7% on average. (Values calculated from World Bank [numbers](https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?view=chart).)
+
+As China's transformation slows, perhaps the next major story to be told in the elimination of poverty is that of India. India still trails behind China, at about \$2,104 of per-capita income as of 2019, up from $82 in 1960. It started behind China and remains behind China -- its growth rate on average the last sixty years has been about the same. But over the last ten years, it's growth rate has been more than double China's. If this continues, we will see India catching up, year by year, closer to where China is. This would draw hundreds more millions of people out of poverty and readjust the global balance of power.
+
 # Cladistics
 [Cladistics](https://en.wikipedia.org/wiki/Cladistics) classifies living beings in terms of biological relatedness rather than the categories we intuitively use in English. See, for example, the title of Lulu Miller's _Why Fish Don't Exist_.
 
@@ -38,6 +46,22 @@ Daniel Dennett is one of the more interesting philosophers alive today. You migh
 I weep for the generation growing up now, as they might go their whole lives without interacting with DOS. Mind you, I'm no child of the DOS era myself -- I was born in 1991, and Microsoft had already released Windows back in 1985. But I did come into this world late enough that DOS was still hanging around -- on an old but still working computer in my grandfather's basement, running the electronic card catalogue at the Cincinnati Public Library, tracking orders at MacDonalds. It was around _just_ enough to make it obvious that GUI's weren't synonymous with operating systems; they were an innovation. They were a choice. And the basic, underlying systems that ran computers were made of something much like text -- the little buttons and menus were just a pretty shell over something more abstract.
 
 I don't really know that today's use will miss anything necessary by not seeing DOS in day-to-day life. It's possible I'm just being a cranky old geezer and that previous generations would have said similar things about smoke signals, or loud beeping noises, or punch cards, or whatever it was early computers ran on.
+
+# English as a global language
+
+_2020-11-22_
+
+Greece continued to be a language in widespread use in the Eastern Roman Empire well after Greek political power had been superseded by Rome. Latin continued to be the language of scholarship and international relations in Western Europe long after the fall of the Roman Empire. Indeed, Portuguese, Spanish, Italian, andFrench are all derived from Latin rather than from whatever pre-Latin languages were indigenously spoken in their areas. Some people think that the United States is on its way out as the leading superpower, but even if this is so, it does not mean that English will rapidly give way to some other language.
+
+One candidate for the language of the future that is sometimes proposed is Mandarin. And while I wouldn't discourage anyone from having their children study Mandarin, there is still little evidence of large numbers of people outside China adopting it. Meanwhile, in China itself hundreds of millions of people have had some kind of sustained exposure to English, whether or not they speak it fluently. Meanwhile, in India, the legal system conducts its business in English, and the use of English is rapidly spreading throughout the country. Pew Research ([source](https://www.pewresearch.org/fact-tank/2015/10/08/more-than-any-other-foreign-language-european-youths-learn-english/)) finds that the great bulk of European children are taught English in school (77%). 
+
+Globalization in general, and the internet in particular, have been forces strongly pushing towards the consolidation of languages. In a winner-takes all dynamic, a global world pushes people to learn more widely-spoken languages and leave behind less-used languages. A relative of mine is a missionary working to translate the Bible into a language in Papua New Guinea. A few decades ago, when she began, there were about seven hundred speakers. Today, most of the young people in the three villages where the language exists do not speak their parents' language very fluently, but speak a local variant of English. By the time she finishes her project, if she ever does, it is possible that her Bible will be the final piece of literature ever written in a language to die out over the next few decades.
+
+This story is repeating itself all over the world. Filipino teenagers frequently speak to one another in English, and President Duterte frequently gives speeches in which he veers back and forth between Tagalog and English apparently at random. Somewhere close to two billion people worldwide speak English, about a quarter of the world population. Meanwhile, the Chinese government [estimates](https://www.bbc.com/news/world-asia-china-23975037) that 30% of _Chinese_ people still do not speak Mandarin as of 2014.
+
+The future is hard to predict, but English has at this point acquired widespread enough use that I think it will continue to increase in use worldwide for the rest of my life. Even if the United States loses its status as a global leader -- even if every American somehow disappeared -- I think English has acquired enough status as a cornerstone of international relations, business, and the internet that it's too late to stop it from becoming a language spoken, to one degree or another, by almost everyone worldwide. It's a winner-take-all situation where widespread use begets more widespread use, and it looks to me like English has already won the battle for global dominance in principle. The quadrupling of English use still ahead is just two more doublings to go after the approximately eight doublings in English usage that have occurred in the past five centuries.
+
+There are some who say that widespread Spanish-speaking immigration is somehow going to remove English from its status as the language of the United States. This is nonsense. I came to the United States at five with a five-year-old's fluent command of Spanish, and now I don't talk Spanish too well. This is what happens when small children come to the US speaking Spanish. True, some adults never do quite get the hang of English, just as previous generations of Germans, Poles, and Italians didn't all become English-speakers. But their children did, and do. There is no realistic scenario in which huge numbers of Spanish-speaking immigrants and their children for multiple generations do not manage to learn English. Any increase in Hispanic immigration, from a language standpoint, is an increase in the number of English-speakers in the United States: if not immediately, then over the following decades. 
 
 # Exponential growth: <br>back-of-envelope calculations
 
@@ -146,6 +170,10 @@ It is a commonplace claim, and almost entirely true, that Hebrew is read from ri
 Suppose you take a population and look at, say, a group of people with very high math scores -- perhaps they average at the 95th percentile for the general population. Then look at their children. You'll find that those children tend to score above average in math scores, but not, on average, as high as their parents. A similar phenomenon will be found if you select people with very low math scores -- their children will also tend to have lower math scores than average, but higher than their parents.
 
 The point where this becomes counter-intuitive is that it works in both directions. If you take a group of children whose math scores deviate from the average -- above or below -- *their* parents will, on average, be closer to the average than their children. If you don't have an understanding of how regression works, you'll misunderstand some things: examples can be found on the [Wikipedia page](https://en.wikipedia.org/wiki/Regression_toward_the_mean#Misunderstandings).
+
+# Singapore's economy
+
+Lee Kuan Yew, the first leader of modern Singapore, held various positions in government from 1959 to his death in 2015. In 1960, Singapore's GDP per capita, measured in 2018 US dollars, was $428. Upon his death in 2015, it was $55,646, a 130-fold increase ([source](https://www.google.com/search?channel=fs&client=ubuntu&q=singapore+gdp+per+capita)). To the best of my knowledge, there is no other country with a growth record exceeding that. A worthwhile read is Lee Kuan Yew's autobiography, _The Singapore Story: Memoirs of Lee Kuan Yew_. 
 
 # Velikovsky, Immanuel
 
