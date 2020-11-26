@@ -6,11 +6,7 @@ layout: post
 
 _2020-10-24 to 2020-11-21_
 
->Ninety percent of *everything* is crud. -- Theodore Sturgeon
-
-Whether or not [Sturgeon's law](https://en.wikipedia.org/wiki/Sturgeon%27s_law) is correct, we all face the endless claims on our attention. The sheer abundance of *stuff* out there forces us to pick and choose what we most want to pay attention to, whether that is Derek Parfit's *Reasons and Persons*, our jobs, or an ice cream cone. Every moment, we pay attention to either one thing or a few things, and ignore the rest.
-
-The tragedy of this is how easy it is to miss out on worthwhile things. Just in case someone might find it useful, I've elsewhere produced a [list](worthwhile-things.html) of things worth paying attention to. But this page is not that page. This page is for oddities, curiosities, useless facts, and even some worthwhile things that didn't make the main list.
+I've elsewhere produced a [list](worthwhile-things.html) of things worth paying attention to. But this page is not that page. This page is a place to collect thoughts on all sorts of things, some of which might be spun off into their own pages at some point. 
 
 # Table of contents
 * TOC
@@ -23,6 +19,18 @@ My first programming language was BASIC. I wrote simple math programs, mostly. A
 # Berners-Lee, Tim
 
 It's widely known that Tim Berners-Lee produced the first modern website. However, it's perhaps not as well known that it's still online, and you can go see it [here](http://info.cern.ch/).
+
+# Bullard, Reuben
+
+When I was eleven, my grandfather, the late Ronald Henderson, professor of English at Cincinnati Christian University for forty years, had me audit a class in geology. This would have been about 2002. Reuben Bullard was the University's geology professor, a potentially sensitive spot to occupy in a social circle where the age of the earth was considered a theological issue. I never was able to figure out whether he agreed with the scientific consensus on the age of the earth. We learned about how rocks were formed, and their various types, and such, but never once did the age of these rocks come into the picture. He was a gifted man, and looking back I wonder what he really thought.
+
+Prof. Bullard died in 2004, and I had the privilege of taking his last geology class. What I did not fully understand as a child was that he had pioneered the use of geological principles in studying archaeological sites. The prominent archaeologist William Dever wrote in his forward to Bullard's Festschrift _My Father's World_:
+
+>How did we ever do without a geologist? Or more precisely, a "Geo-archaeologist," for that was the sub-discipline that Reuben created almost single-handedly in Israel (and later in Jordan).
+
+>Geo-archaeology is taken for granted today; but when Reuben appeared on the scene in the 1960s no one envisioned it or saw any need for it. Seldom does one individual contribute so much to changing the focus of a discipline, least of all one as traditional as biblical archaeology was back then.
+
+Prof. Bullard was a modest man, and did not give any indication, in that introductory geology course, that he'd had a part in inventing a new subdiscipline. I will always be grateful that I had the chance to study under him.
 
 # China's economy
 
