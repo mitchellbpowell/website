@@ -4,7 +4,7 @@ description:
 layout: page
 ---
 
-_2019-9-13 - 2020-10-29_
+_2019-9-13 to 2020-10-29_
 
 My first foray into programming came when I read an *Encyclopedia Brown* book
 (I think that's what it was), in which the child detective solved a mystery by
@@ -33,7 +33,7 @@ Visual Basic, which a local high school student gave us on a disk. Among other
 things, I wrote a program that would find successively closer approximations of
 *pi*. Unfortunately, the algorithm, which I found in David Blatner's *The Joy
 of Pi*, required exponentially more processor time for each additional digit of
-accuracy.
+accuracy. I don't think I got past a dozen digits.
 
 At about fifteen, I drifted away from programming and got into Greek, Hebrew,
 and Ancient Near Eastern literature. My interactions with computers narrowed a
