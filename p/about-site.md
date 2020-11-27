@@ -26,9 +26,11 @@ This website is a place to keep things I intend to have around and visible
 long-term. Taking a cue from Gwern, I'm trying to build the set of files that
 make up the site in a manner that makes them most likely to continue being
 useful throughout my lifetime. On the technical side, that means I'm writing
-them in Markdown, a format which I think is around to stay. 
+them in [Markdown](https://en.wikipedia.org/wiki/Markdown), a format which 
+I think is around to stay. 
 
-I'm using Jekyll to convert Markdown to HTML before uploading the files. In the
+I'm using [Jekyll](https://en.wikipedia.org/wiki/Jekyll_(software)) to 
+convert Markdown to HTML before uploading the files. In the
 long run, though, as long as I have the Markdown files, I can always use some
 other tool later. Markdown to HTML conversion is a problem with multiple
 solutions, so this system is unlikely to have major problems with software
@@ -42,8 +44,9 @@ equations or similar things might seem convenient, but images aren't going away.
 Software comes and goes, but text and images are more durable.
 
 I'm putting all this stuff up on my own domain rather than Wordpress or Blogspot
-or what have you because I don't want my content to depend on someone else's
-continuing to exist, and it lets me do this without adds. Likewise, I'm holding
+or what have you because I don't want my content to depend on someone else's 
+website
+continuing to exist, and it lets me do this without ads. Likewise, I'm holding
 the site in an Amazon S3 bucket because S3 is likely to stick around, I don't
 have to worry about maintaining a physical server, and if S3 ever does go away
 or change I've got a static collection of files I need to move somewhere else in
