@@ -63,6 +63,14 @@ Singapore's rapid transition from very poor to very wealthy has not been equalle
 
 As China's transformation slows, perhaps the next major story to be told in the elimination of poverty is that of India. India still trails behind China, at about \$2,104 of per-capita income as of 2019, up from $82 in 1960. It started behind China and remains behind China -- its growth rate on average the last sixty years has been about the same. But over the last ten years, its growth rate has been more than double China's. If this continues, we will see India catching up, year by year, closer to where China is. This would draw hundreds more millions of people out of poverty and readjust the global balance of power.
 
+# China's one-child policy
+
+_2020-11-26_
+
+Mao Zedong encouraged Chinese people to have as many children as possible, with the goal of increasing China's military capacity. Of course, high fertility is not sustainable in the long term in the modern world -- resource limits will come up at some point. In the 1970's, the Chinese government began putting downward pressure on births, and in 1979 rolled out the one-child policy. This lasted, with various modifications, loopholes, and exceptions, until 2015, when it was replaced with a two-child policy. The Chinese government is now hoping for birth rates to go _up_. 
+
+This may not work. China, by adopted a two-child policy, is still putting more pressure downward on births than Thailand, Japan, Singapore, and South Korea all have _lower_ rates than China despite allowing people to have as many children as they want. All over the modern world, birth rates have either dropped to below-replacement levels or seem to be headed in that direction. It is unclear if or when this trend will stabilize. China may find that it regrets having artificially pushed rates downward ahead of the natural trend-line. The Chinese workforce has already been shrinking since about 2013. Because any new births will not enter the workforce for about two decades, that means at least two decades of shrinking workforce are already "baked in". To turn things around would require a large increase in the number of children over the next two decades, at the same time that adult only children are facing the responsibility of caring alone for two parents and four grandparents. It may turn out to be impossible to get fertility rates up under those conditions. Time will tell.
+
 # Cincinnati Christian University
 
 While I am not a member of any religion, my family tree goes back into the group known widely as the Christian Churches / Churches of Christ. My parents met each other, and both sets of my grandparents met each other at the university whose final name was Cincinnati Christian University, and which had previously gone under the names of Cincinnati Bible Seminary and Cincinnati Bible College.
