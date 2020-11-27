@@ -6,7 +6,10 @@ layout: post
 
 _2020-10-24 to 2020-11-21_
 
-I've elsewhere produced a [list](worthwhile-things.html) of things worth paying attention to. But this page is not that page. This page is a place to collect thoughts on all sorts of things, some of which might be spun off into their own pages at some point. 
+I've elsewhere produced a [list](worthwhile-things.html) of things worth paying
+attention to. But this page is not that page. This page is a place to collect
+thoughts on all sorts of things, some of which might be spun off into their own
+pages at some point.
 
 # Table of contents
 * TOC
@@ -14,15 +17,35 @@ I've elsewhere produced a [list](worthwhile-things.html) of things worth paying 
 
 # BASIC
 
-My first programming language was BASIC. I wrote simple math programs, mostly. At first, I wrote them on paper, not having any kind of computer they could work on, and then I would mentally step through them. They were an interesting sort of logic puzzle. I did eventually learn that my grandmother had a sort of children's toy computer with a one-line console that one could enter BASIC programs into and have them run, and later I got a graphing calculator that used some variant of BASIC as well. Because I tended to get my information from libraries, I didn't realize at the time that BASIC had fallen out of widespread use a few years before I was born. When I found out, I promptly took a bus to the local public library, checked out a book on C++, and tried programming on paper with *that*, and boy, did that not go well! 
+My first programming language was BASIC. I wrote simple math programs, mostly.
+At first, I wrote them on paper, not having any kind of computer they could
+work on, and then I would mentally step through them. They were an interesting
+sort of logic puzzle. I did eventually learn that my grandmother had a sort of
+children's toy computer with a one-line console that one could enter BASIC
+programs into and have them run, and later I got a graphing calculator that
+used some variant of BASIC as well. Because I tended to get my information from
+libraries, I didn't realize at the time that BASIC had fallen out of widespread
+use a few years before I was born. When I found out, I promptly took a bus to
+the local public library, checked out a book on C++, and tried programming on
+paper with *that*, and boy, did that not go well! 
 
 # Berners-Lee, Tim
 
-It's widely known that Tim Berners-Lee produced the first modern website. However, it's perhaps not as well known that it's still online, and you can go see it [here](http://info.cern.ch/).
+It's widely known that Tim Berners-Lee produced the first modern website.
+However, it's perhaps not as well known that it's still online, and you can go
+see it [here](http://info.cern.ch/).
 
 # Bullard, Reuben
 
-When I was eleven, my grandfather, the late Ronald Henderson, professor of English at Cincinnati Christian University for forty years, had me audit a class in geology. This would have been about 2002. Reuben Bullard was the University's geology professor, a potentially sensitive spot to occupy in a social circle where the age of the earth was considered a theological issue. I never was able to figure out whether he agreed with the scientific consensus on the age of the earth. We learned about how rocks were formed, and their various types, and such, but never once did the age of these rocks come into the picture. He was a gifted man, and looking back I wonder what he really thought.
+When I was eleven, my grandfather, the late Ronald Henderson, professor of
+English at Cincinnati Christian University for forty years, had me audit a
+class in geology. This would have been about 2002. Reuben Bullard was the
+University's geology professor, a potentially sensitive spot to occupy in a
+social circle where the age of the earth was considered a theological issue. I
+never was able to figure out whether he agreed with the scientific consensus on
+the age of the earth. We learned about how rocks were formed, and their various
+types, and such, but never once did the age of these rocks come into the
+picture. He was a gifted man, and looking back I wonder what he really thought.
 
 Prof. Bullard died in 2004, and I had the privilege of taking his last geology class. What I did not fully understand as a child was that he had pioneered the use of geological principles in studying archaeological sites. The prominent archaeologist William Dever wrote in his forward to Bullard's Festschrift _My Father's World_:
 
@@ -39,6 +62,14 @@ _2020-11-22_
 Singapore's rapid transition from very poor to very wealthy has not been equalled by any country I know of. But Singapore is a small country, with about six million inhabitants. For a country that has rapidly pulled a very large number of people out of deep poverty, the greatest example in the modern world is China. This nation of 1.4 billion people has a GDP per capita, in current US dollars, of \$11,429 as of 2019. This is up from \$452 in 1960, which comes to an average annual increase of 5.6%. However, the last ten years after seen a per capita growth rate of just 2.7% on average. (Values calculated from World Bank [numbers](https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?view=chart).)
 
 As China's transformation slows, perhaps the next major story to be told in the elimination of poverty is that of India. India still trails behind China, at about \$2,104 of per-capita income as of 2019, up from $82 in 1960. It started behind China and remains behind China -- its growth rate on average the last sixty years has been about the same. But over the last ten years, its growth rate has been more than double China's. If this continues, we will see India catching up, year by year, closer to where China is. This would draw hundreds more millions of people out of poverty and readjust the global balance of power.
+
+# Cincinnati Christian University
+
+While I am not a member of any religion, my family tree goes back into the group known widely as the Christian Churches / Churches of Christ. My parents met each other, and both sets of my grandparents met each other at the university whose final name was Cincinnati Christian University, and which had previously gone under the names of Cincinnati Bible Seminary and Cincinnati Bible College.
+
+The college was founded in 1924, by the conservative side of a recent denominational split with the group that is now known as the Disciples of Christ. Protestant sects were splitting right and left those days, and it was on the right the founders of CCU fell. It grew to occupy an important social position in the Christian Churches as an intellectual center and training-ground for ministers. Opinions vary, but the mid-sixties must have been near its peak influence. You can see an old recruitment video, in which both my grandparents on one side of my family appear, [here](https://www.youtube.com/watch?v=lsKRQnpemYc).
+
+My grandfather, Ronald Henderson, was a professor there from 1961-2001, and through his influence and other family connections the social world of CCU continues to form a background to my family's world. The college eventually shut down in 2019 after facing a long and complex battle with the financial realities of running a traditional religious university in what is increasingly not a traditional religious world.
 
 # Cladistics
 [Cladistics](https://en.wikipedia.org/wiki/Cladistics) classifies living beings in terms of biological relatedness rather than the categories we intuitively use in English. See, for example, the title of Lulu Miller's _Why Fish Don't Exist_.
@@ -116,113 +147,415 @@ In 1888, Robert Gregg invented a nifty way to write things down really, really f
 
 Judith Rich Harris wrote the groundbreaking _The Nurture Assumption_, in which she argued, with a great deal of evidence, that heredity is much more important than commonly imagined, and childrearing much less, in explaining personality variations in human beings. Her conclusions were by no means unanimously received without protest, and people continue to argue about these things, but the publication of her book did mark a milestone in the everlasting nature-nurture debate which has raged ever since Galton coined the term.
 
+# Henderson, Ronald
+
+_2020-11-26_
+
+My grandfather, Ronald Henderson, passed away in October 2019 after over a decade of
+struggling with Alzheimer's and Parkinsons. He had always been a quiet, modest
+man, and in the last few years of his life he was even quieter. He was a man
+who figured out what he wanted to do early, and then simply did it. Immediatley
+upon completing his master's degree, he became a professor of English at
+what would later be called Cincinnati Christian University in 1961. He
+continued in that position for forty years, retiring at 65 in 2001. He then
+spent ten years volunteering to run correspondence courses for the Christian
+Restoration Association, a related institution, until stepping down from that
+position as well, just as his dementia was beginning to kick in.
+
+We spent a lot of time together in the last couple of years of his life, and at
+some point he lost track of who I was, although he recognized that he knew me
+somehow at was always glad to see me. He had always been someone who was very
+careful about picking his battles, someone who didn't welcome any unnecessary
+conflict, and his mild temperament served his well as a dementia patient.
+Often, when insisting that we help him stand well after he was bedridden and
+unable to do so, he would drop the issue and move on to another topic not
+because we convinced him we needed to stay in bed, but just because he wasn't
+the type to argue. Sometimes he would simply raise his eyebrows skeptically and
+move on.
+
+He was an early adopter of computers, which he used to continue a journaling
+practice he had carrried on for decades on paper. His journals were simple.
+Sometimes he would go for stretched where he would simply write down any small
+expenses he had come upon ("40 cents, candy"; "60 cents, lunch"), while
+sometimes he would write down where he went or who he had visited with.
+Sometimes he would only write a brief paragraph every week or so. But, bit by
+bit, unspectacular but steady effort adds up.
+
+A few years before he died, he collected up mentions he had made of me as a
+child up to when I was about nine years old, and handed me about sixty pages of
+material. It was an extraordinary gift for a young adult to receive, and it's
+the reason I keep a fitful journal myself. Hopefully someone will find it as
+interested when I'm eighty as I did when he was.
+
+He carefully worked to encourage my interest in science, literature, and math
+from a young age. He is probably where I got my enjoyment of finding typos in 
+published books. He complained to me once that once computers began to be used
+in editing books, he didn't have nearly as many typos to find anymore in books.
+
+One of his greatest superpowers was that he did not feel the need to loudly express
+his opinions. I was not given any hint, for example, of how he felt about any 
+particular political party or politician outside of one stray comment he once made
+when his dementia was quite advanced, and even then it was a perfectly reasonable 
+comment about a particularly awful individual.
+
+Although a quiet man, he was married to a very outgoing wife, and together they
+entertained upward of two thousand guests at their home in Cincinnati, which I 
+know because they kept a list of everyone who ever visited. They fed the hungry,
+visited the sick, rented out rooms to innumerable people, and frequently had dozens
+of students over simultaneously to play cards. As a young child, I thought that 
+this is what a professor was: a parental sort of figure who stood at the center
+of both the intellectual and personal lives of massive numbers of students.
+It was only later in life that I realized what extraordinary outliers they had
+been.
+
+His funeral, needless to say, was extremely well-attended. His obituary, which still
+exists online, gives only the slightest hint of the life he and my grandmother
+built together. The institutional to which he dedicated his entire career closed 
+down suddenly, after his death but before his funeral, which seemed somehow fitting.
+It may be childish, but some part of my mind would have found it incongrous for 
+Cincinnati Christian University to go on existing in a world without my
+grandfather. His influence, though, lives on in the minds of hundreds of people
+who saw a hardworking and very intelligent, but modest man going about his work
+faithfully and without fanfare.
+
+Even when he no longer knew where he was or who was visiting him, he welcomed
+his many visitors with a friendly and dignified demeanor that was amazing to
+watch. As painful as it was to watch a sharp mind like his unravelling until
+he could no longer speak, it was at the same time inspiring to learn that a 
+human mind could unravel so gracefully. He hung on longer than expected. Put 
+into hospice care with less than six months to live, he continued for about a
+year.
+
+One guest, probably unused to dealing with an advanced dementia, visited 
+shortly after his transfer to hospice, and said something like, "I heard that
+you were recently transferred to hospice."
+
+A brief expression of surprise flitted across my grandfathers face -- he no 
+longer could remember events for more than a few hours for the most part -- 
+and he said, "Oh, I hadn't realized." His guest looked striken with awkwardness
+for a moment, and then my grandfather asked him how he was doing and the
+conversation went on as if he hadn't just learned he was dying.
+
+My grandfather had watched the nightly news, Wheel of Fortune, and Jeopardy
+ever day through most of his adult life, but in his last few months he 
+lost interest. The only thing on television he seemed to like was Animal
+Planet. Once, after he had nearly entirely ceased speaking, he saw something
+that sparked his interest, turned to me, and said, "Curiosity. Fascinating."
+Those were the last words he said to me unprompted beyond simple one-word 
+answers to questions and "Hello."
+
+One fairly uneventful evening, I fed him dinner, which he finished, unusually
+for him -- he usually just ate a little bit of his food toward the end. I 
+did not realize that it would be his last; he simply stopped accepting food
+and liquid and passed away, surrounded by family, 
+about a week later. He died, his university
+died, coronavirus struck the world, and now Alex Trebeck, whose _Jeopardy_ he
+had watched so faithfully, is gone as well. It seems, in a way, like an entire
+era passed away with him.
+
 # Hofstadter, Douglas
 
-Douglas Hofstadter wrote _[Gödel, Escher, Bach: An Eternal Golden Braid](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach)_. It is an absolutely fascinating look at meaning and self-reference. I really need to read it again and see if I can understand it next time. For those those who read _GEB_ and, like myself, are left perplexed, there's always his _I Am a Strange Loop_, which explains some of the underlying ideas in a much clearer format, although missing quite a bit of the entertainment value and acid-tripesque quality of _GEB_.
+Douglas Hofstadter wrote _[Gödel, Escher, Bach: An Eternal Golden
+Braid](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach)_. It is an
+absolutely fascinating look at meaning and self-reference. I really need to
+read it again and see if I can understand it next time. For those those who
+read _GEB_ and, like myself, are left perplexed, there's always his _I Am a
+Strange Loop_, which explains some of the underlying ideas in a much clearer
+format, although missing quite a bit of the entertainment value and
+acid-tripesque quality of _GEB_.
 
-Sam Harris, in _Waking Up_, takes Hoftstadter to task over a passage in which Hoftstadter dismisses as childish Douglas Harding's musings on "having no head". You can find Harris's defense of headlessness on p. 144 of _Waking Up_, and Hofstadter's attack on headlessness on pp. 23-33 of Hofstadter and Dennett's _The Mind's I: Fantasies and Reflections on Self and Soul_ (Basic Books, 1981). 
+Sam Harris, in _Waking Up_, takes Hoftstadter to task over a passage in which
+Hoftstadter dismisses as childish Douglas Harding's musings on "having no
+head". You can find Harris's defense of headlessness on p. 144 of _Waking Up_,
+and Hofstadter's attack on headlessness on pp. 23-33 of Hofstadter and
+Dennett's _The Mind's I: Fantasies and Reflections on Self and Soul_ (Basic
+Books, 1981). 
 
 # HyperCard
 
-[HyperCard](https://en.wikipedia.org/wiki/HyperCard) was a really neat program that used to ship on Mac computers, but now it is gone. There's an interesting [conspiracy theory](https://apple.slashdot.org/story/11/11/30/1720214/why-was-hypercard-killed) about it. Thanks to growing up with a couple 1983 Macs in the house, I got to experience HyperCard before we had the internet in the house. You could make little objects move about, and factor numbers, and produce lists of prime numbers, or what have you. Kids today don't have that chance. Rest in peace, HyperCard.
+[HyperCard](https://en.wikipedia.org/wiki/HyperCard) was a really neat program
+that used to ship on Mac computers, but now it is gone. There's an interesting
+[conspiracy
+theory](https://apple.slashdot.org/story/11/11/30/1720214/why-was-hypercard-killed)
+about it. Thanks to growing up with a couple 1983 Macs in the house, I got to
+experience HyperCard before we had the internet in the house. You could make
+little objects move about, and factor numbers, and produce lists of prime
+numbers, or what have you. Kids today don't have that chance. Rest in peace,
+HyperCard.
 
 # Jaynes, Julian
 
-Perhaps one of the more puzzling and interesting books I've ever read is Julian Jaynes's _The Origin of Consciousness in the Breakdown of the Bicameral Mind_. Drawing extensively on ancient literature, Jaynes outlines a theory of what consciousness is, where it came from, and how very ancient and more modern people's minds differ. I find it impossible to accept that his theory is correct -- it seems outlandish and difficult to prove -- but it's difficult not to think that Jaynes was on to _something_.
+Perhaps one of the more puzzling and interesting books I've ever read is Julian
+Jaynes's _The Origin of Consciousness in the Breakdown of the Bicameral Mind_.
+Drawing extensively on ancient literature, Jaynes outlines a theory of what
+consciousness is, where it came from, and how very ancient and more modern
+people's minds differ. I find it impossible to accept that his theory is
+correct -- it seems outlandish and difficult to prove -- but it's difficult not
+to think that Jaynes was on to _something_.
 
 # Jimmy
 
-The English name *Jimmy* must be derived from *Jim*. And *Jim*, in turn, is a nickname for *James*. In older English, James was spelled *Iames*, before "J" was invented. That came from the French name *Iames*. The *-co-* just got swallowed up in the shortening, while the *-es* is just a common way for Old French masculine words to end. The French name, in turn, was a shortened version of the Vulgar Latin *Iacomus*. *Iacomus*, in turn, was a modified version of *Iacobus*, as it appeared in Late Latin. The Latin term comes from Greek Ἰάκωβος, *Iakobos*. And that comes from the Hebrew יַעֲקֹב, which is pronounced something like *Yaʿakov*. 
+The English name *Jimmy* must be derived from *Jim*. And *Jim*, in turn, is a
+nickname for *James*. In older English, James was spelled *Iames*, before "J"
+was invented. That came from the French name *Iames*. The *-co-* just got
+swallowed up in the shortening, while the *-es* is just a common way for Old
+French masculine words to end. The French name, in turn, was a shortened
+version of the Vulgar Latin *Iacomus*. *Iacomus*, in turn, was a modified
+version of *Iacobus*, as it appeared in Late Latin. The Latin term comes from
+Greek Ἰάκωβος, *Iakobos*. And that comes from the Hebrew יַעֲקֹב, which is
+pronounced something like *Yaʿakov*. 
 
 *Yaʿakov* to "Jimmy" is a long march, but it happens little by little.
 
 # Life before the internet
 
-I was born in 1991, and am seventeen years older than my youngest brother. In some ways we were raised similarly, but there's one major difference. I first had internet access at home when I was sixteen or so, while he has never known a world without the internet present. I am, from his standpoint, a dinosaur.
+I was born in 1991, and am seventeen years older than my youngest brother. In
+some ways we were raised similarly, but there's one major difference. I first
+had internet access at home when I was sixteen or so, while he has never known
+a world without the internet present. I am, from his standpoint, a dinosaur.
 
-When I was perhaps ten, we got our first pair of computers, two Macs from 1983 which couldn't connect to the internet or display color, but which worked fine and booted up in a few seconds. Most importantly, they had HyperCard, which me and another brother used to learn some rudimentary programming skills. Later, another computer, also old and unable to connect to the internet, allowed us to start messing around with visual basic. Internet connections, for me, came from the library. At fifteen, I started a website, oriented around religious topics. I paid for web hosting by check. I made my files in HTML, first raw and later with a free WYSIWYG editor called CoffeeCup. Because I still didn't have the internet at home, I would take a flashdrive to a public library computer, and each time I wanted to update the website I would install a program on the library computer that could handle FTP transfers, send my HTML files off to the internet, and leave them there.
+When I was perhaps ten, we got our first pair of computers, two Macs from 1983
+which couldn't connect to the internet or display color, but which worked fine
+and booted up in a few seconds. Most importantly, they had HyperCard, which me
+and another brother used to learn some rudimentary programming skills. Later,
+another computer, also old and unable to connect to the internet, allowed us to
+start messing around with Visual Basic. Internet connections, for me, came from
+the library. At fifteen, I started a website, oriented around religious topics.
+I paid for web hosting by check. I made my files in HTML, first raw and later
+with a free WYSIWYG editor called CoffeeCup. Because I still didn't have the
+internet at home, I would take a flash drive to a public library computer, and
+each time I wanted to update the website I would install a program on the
+library computer that could handle FTP transfers, send my HTML files off to the
+internet, and leave them there.
 
-I learned about BASIC and HTML through physical books at public libraries, and would take a bus to get there. To make the money that paid for the web hosting and other things, I would deliver pizza, which I did without a cell phone or GPS. I had a physical map of my hometown, used flashcards to memorize the locations of all the streets, and that was that. None of this would make any sense to people ten years younger.
+I learned about BASIC and HTML through physical books at public libraries, and
+would take a bus to get there. To make the money that paid for the web hosting
+and other things, I would deliver pizza, which I did without a cell phone or
+GPS. I had a physical map of my hometown, used flashcards to memorize the
+locations of all the streets, and that was that. None of this would make any
+sense to people ten years younger.
 
 # Life expectancy: <br>average was not typical till recently
 
-It is often said that, in 1850 or two thousand years ago or whenever, life expectancy was 28 or 43 or what have you, and that therefore a 25-five-year-old was "old" in those days. This is then used to make some sort of observation about early marriage, or divorce, or life insurance, or some other topic. This line of talking contains one truth and one major misconception, and it revolves around a confusion of the typical with the mathematical average (mean).
+It is often said that, in 1850 or two thousand years ago or whenever, life
+expectancy was 28, or 43, or what have you, and that therefore a 25-five-year-old
+was "old" in those days. This is then used to make some sort of observation
+about early marriage, or divorce, or life insurance, or some other topic. This
+line of talking contains one truth and one major misconception, and it revolves
+around a confusion of the typical with the mathematical average (mean).
 
-Consider the case of a hypothetical society in which half of the people who are born die at two years old of the, say, _two-year-old flu_, while the other half survive their toldlerhood and die at sixty-eight. We would not say, in a society like that, that a thirty-three-year-old was an old person, with two years left to live. A thirty-three-year-old would still be fairly young.
+Consider the case of a hypothetical society in which half of the people who are
+born die at two years old of the, say, _two-year-old flu_, while the other half
+survive their toldlerhood and die at sixty-eight. We would not say, in a
+society like that, that a thirty-three-year-old was an old person, with two
+years left to live. A thirty-three-year-old would still be fairly young. That
+hypothetical world is in fact very much like how the world was before 1800. 
+While there were significantly higher mortality rates across the lifespan, 
+mortality was concentrated in young children. Once one reached adulthood, 
+a fully normal lifespan was entirely plausible. While the _average_ person may 
+have died around thirty, the _typical_ person didn't die at thirty: they died
+quite a bit earlier or quite a bit later.
 
 # Life expectancy: <br>most people beat it these days
 
-One might be forgiven for thinking that life expectancy is how long a person can expect to live. As a crude approximation, that's right. But life expectancy is a product of current statistics, not a product of an intelligent forecast. Right now, as of 2020, there is a death rate for each age. So many one year-olds die out of the whole population, so many two-year-olds die out of the whole population, and so on.
+One might be forgiven for thinking that life expectancy is how long a person
+can expect to live. As a crude approximation, that's right. But life expectancy
+is a product of current statistics, not a product of an intelligent forecast.
+Right now, as of 2020, there is a death rate for each age. So many one
+year-olds die out of the whole population, so many two-year-olds die out of the
+whole population, and so on.
 
-The statistic we call a life expectancy is based on how long a person currently alive might be expected to live _on the assumption that today's numbers stay the same into the future_. But for the last two hundred years or so, today's numbers _don't_ usually hold true into the future. Death rates have usually been dropping, which means that life expectancy has usually been an _underestimate_ of how long a person will live.
+The statistic we call a life expectancy is based on how long a person currently
+alive might be expected to live _on the assumption that today's numbers stay
+the same into the future_. But for the last two hundred years or so, today's
+numbers _don't_ usually hold true into the future. Death rates have usually
+been dropping, which means that life expectancy has usually been an
+_underestimate_ of how long a person will live.
 
 # Logical quotations
 
-I am a proud American, and I love my country. Still, I don't like what we do with quotation marks, where commas and other bits that aren't part of the quotation in any logical sense. In the ongoing effort to promote a more perfect union for ourselves and our posterity, I plan on using [logical quotation](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style#Punctuation_inside_or_outside) whenever I can get away with it.
+I am a proud American, and I love my country. Still, I don't like what we do
+with quotation marks, where commas and other bits that aren't part of the
+quotation in any logical sense. In the ongoing effort to promote a more perfect
+union for ourselves and our posterity, I plan on using [logical
+quotation](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style#Punctuation_inside_or_outside)
+whenever I can get away with it.
 
 # Pinker, Steven
 
-Steven Pinker, in addition to his career as a psycholinguist, wrote _The Better Angels of Our Nature_ (2011), which chronicles the long-term reduction in violence that has occurred across human history. He followed this up with _Enlightenment Now_ (2018), which follows similar improvements across many other domains. Other books of his include _The Language Instinct_, _How the Mind Works_, and _The Sense of Style_.
+Steven Pinker, in addition to his career as a psycholinguist, wrote _The Better
+Angels of Our Nature_ (2011), which chronicles the long-term reduction in
+violence that has occurred across human history. He followed this up with
+_Enlightenment Now_ (2018), which follows similar improvements across many
+other domains. Other books of his include _The Language Instinct_, _How the
+Mind Works_, and _The Sense of Style_.
 
 # Poverty: good luck measuring it
 
-I spent the first sixteen years of my life in a household underneath the income level that the United States government calls "the poverty line". And there was some truth to it -- there was not a whole lot of money floating around the household. And now I live a comfortable middle-class existence, my brothers include a doctor and a lawyer, my three sisters are in college and on the path to bachelors' degrees, and the two boys still under eighteen are both on a promising path themselves. And yet the Powells are by no means an inspirational story of overcoming poverty, because we never really lived with the package of issues commonly known as poverty, at least not for the most part.
+I spent the first sixteen years of my life in a household underneath the income
+level that the United States government calls "the poverty line". And there was
+some truth to it -- there was not a whole lot of money floating around the
+household. And now I live a comfortable middle-class existence, my brothers
+include a doctor and a lawyer, my three sisters are in college and on the path
+to bachelors' degrees, and the two boys still under eighteen are both on a
+promising path themselves. And yet the Powells are by no means an inspirational
+story of overcoming poverty, because we never really lived with the package of
+issues commonly known as poverty, at least not for the most part.
 
-Among other things, both of my parents have bachelors degrees, all four grandparents are or were college-educated, two of the grandparents having master's degrees. Before I entered the public school system in the sixth grade, I had learned algebra from my father, learned to do square roots by hand from my grandfather, and done fairly well in a college geology class I audited. My parents were and are happily married throughout my childhood and after, I had access to excellent schooling, and my childhood was free of the evictions, debt collectors, and financial desperation that tend to characterize poverty.
+Among other things, both of my parents have bachelors degrees, all four
+grandparents are or were college-educated, two of the grandparents having
+master's degrees. Before I entered the public school system in the sixth grade,
+I had learned algebra from my father, learned to do square roots by hand from
+my grandfather, and done fairly well in a college geology class I audited. My
+parents were and are happily married throughout my childhood and after, I had
+access to excellent schooling, and my childhood was free of the evictions, debt
+collectors, and financial desperation that tend to characterize poverty.
 
-We spoke middle-class English at home -- gerunds ended in "-ing" rather than "-in", double negatives and non-standard past tenses were nowhere to be found, and, unlike half of Harvard graduates, every Powell child probably knows that seasons are caused by the tilt of the earth's axis. We can all -- including the one Powell sibling who has frequent psychotic episodes -- walk into a job interview without worrying about making the kinds of subtle class tells that many of our childhood neighbors have to worry about.
+We spoke middle-class English at home --  double negatives and non-standard 
+past tenses were nowhere to be found,
+and, unlike half of Harvard graduates, every Powell child probably knows that
+seasons are caused by the tilt of the earth's axis. We can all -- including the
+one Powell sibling who has frequent psychotic episodes -- walk into a job
+interview without worrying about making the kinds of subtle class tells that
+many of our childhood neighbors have to worry about.
 
-We were, in short, raised in a middle-class family that happened to be poor. When a Raj Chetty or combs through data on social mobility, the Powells will probably be counted as an exceptionally upwardly mobile "poor" family. I suspect that a fair number of the "high-achieving poor", if looked at carefully, are cases like ours. The data on social mobility may exaggerate how easy it is to escape poverty.
+We were, in short, raised in a middle-class family that happened to be poor.
+When a Raj Chetty or some other social scientist 
+combs through data on social mobility, the Powells will
+probably be counted as an exceptionally upwardly mobile "poor" family. I
+suspect that a fair number of the "high-achieving poor", if looked at
+carefully, are cases like ours. The data on social mobility may exaggerate how
+easy it is to escape poverty.
 
-This sort of thing is part of why I distrust the tendency in academic publishing to use the term "socio-economic status" when "income" is really meant. Even when we lived in a low-income neighborhood, we were always in some sense tourists in poverty, placed there by religious beliefs that caused my parents to have nine children and to make different career decisions than most mothers and fathers do. We were, in fact, raised in privilege, not compared to the American upper-middle class by any stretch, but definitely in comparison to most children in Cincinnati's Price Hill. 
+This sort of thing is part of why I distrust the tendency in academic
+publishing to use the term "socio-economic status" when "income" is really
+meant. Even when we lived in a low-income neighborhood, we were always in some
+sense tourists in poverty, placed there by religious beliefs that caused my
+parents to have nine children and to make different career decisions than most
+mothers and fathers do. We were, in fact, raised in privilege, not compared to
+the American upper-middle class by any stretch, but definitely in comparison to
+most children in Cincinnati's Price Hill. 
 
-All this is to say, when you talk about poverty, try and think about what you mean. Income is part of it, but so is education, dialect, neighborhood, family structure, and worldview. And it wouldn't hurt to read _Hillbilly Elegy_.
+All this is to say, when you talk about poverty, try and think about what you
+mean. Income is part of it, but so is education, dialect, neighborhood, family
+structure, and worldview. And it wouldn't hurt to read _Hillbilly Elegy_.
 
 # Project Euler
 
-In middle school and hi school, I was what some might call a _mathlete_, one of the kids who was always running about to school math competitions. Lindsay Lohan introduces the concept [here](https://www.youtube.com/watch?v=EligNcjdyyI). Back in 2006, I somehow stumbled into being one of six Ohio high schoolers to qualify for the USAMO ([source](https://www.maa.org/math-competitions/2006-usamo-qualifiers-by-state#oh)), where I immediately found myself out of my depth and got something like two out of forty-two questions correct. I don't remember the exact figure.
+In middle school and high school, I was what some might call a _mathlete_, one of
+the kids who was always running about to school math competitions. Lindsay
+Lohan introduces the concept
+[here](https://www.youtube.com/watch?v=EligNcjdyyI). Back in 2006, I somehow
+stumbled into being one of six Ohio high schoolers to qualify for the USAMO
+([source](https://www.maa.org/math-competitions/2006-usamo-qualifiers-by-state#oh)),
+where I immediately found myself out of my depth and got something like two out
+of forty-two questions correct. I don't remember the exact figure.
 
-Anyhow, around age 15 I got swept into studying the Hebrew Bible, which I kept picking away at until 21, and mostly left math behind. However, last year I did pick up playing around with math questions again, with Project Euler, which combines math and programming to produce puzzles to solve. If you're a former mathlete who needs a little mental stimulation now and then, you might want to give Project Euler a look. The questions are graduated in difficulty, running from the very first problem, which has been solved by 965,090 users, to some of the latest, with less than 200 users solving.
+Anyhow, around age 15 I got swept into studying the Hebrew Bible, which I kept
+picking away at until 21, and mostly left math behind. However, last year I did
+pick up playing around with math questions again, with Project Euler, which
+combines math and programming to produce puzzles to solve. If you're a former
+mathlete who needs a little mental stimulation now and then, you might want to
+give Project Euler a look. The questions are graduated in difficulty, running
+from the very first problem, which has been solved by 965,090 users, to some of
+the latest, with less than 200 users solving.
 
 # Reading direction in English
 
-It is a commonplace claim, and almost entirely true, that Hebrew is read from right to left, while English is read from left to right. But read this: "\$5". If you read it as "five dollars", you read the item on the right, then the item on the left. Language rules are made to be broken.
+It is a commonplace claim, and almost entirely true, that Hebrew is read from
+right to left, while English is read from left to right. But read this: "\$5".
+If you read it as "five dollars", you read the item on the right, then the item
+on the left. Language rules are made to be broken.
 
 # Regression to the mean
 
-Suppose you take a population and look at, say, a group of people with very high math scores -- perhaps they average at the 95th percentile for the general population. Then look at their children. You'll find that those children tend to score above average in math scores, but not, on average, as high as their parents. A similar phenomenon will be found if you select people with very low math scores -- their children will also tend to have lower math scores than average, but higher than their parents.
+Suppose you take a population and look at, say, a group of people with very
+high math scores -- perhaps they average at the 95th percentile for the general
+population. Then look at their children. You'll find that those children tend
+to score above average in math scores, but not, on average, as high as their
+parents. A similar phenomenon will be found if you select people with very low
+math scores -- their children will also tend to have lower math scores than
+average, but higher than their parents.
 
-The point where this becomes counter-intuitive is that it works in both directions. If you take a group of children whose math scores deviate from the average -- above or below -- *their* parents will, on average, be closer to the average than their children. If you don't have an understanding of how regression works, you'll misunderstand some things: examples can be found on the [Wikipedia page](https://en.wikipedia.org/wiki/Regression_toward_the_mean#Misunderstandings).
+The point where this becomes counter-intuitive is that it works in both
+directions. If you take a group of children whose math scores deviate from the
+average -- above or below -- *their* parents will, on average, be closer to the
+average than their children. If you don't have an understanding of how
+regression works, you'll misunderstand some things: examples can be found on
+the [Wikipedia
+page](https://en.wikipedia.org/wiki/Regression_toward_the_mean#Misunderstandings).
 
 # Singapore's economy
 
-Lee Kuan Yew, the first leader of modern Singapore, held various positions in government from 1959 to his death in 2015. In 1960, Singapore's GDP per capita, measured in 2018 US dollars, was $428. Upon his death in 2015, it was $55,646, a 130-fold increase ([source](https://www.google.com/search?channel=fs&client=ubuntu&q=singapore+gdp+per+capita)). To the best of my knowledge, there is no other country with a growth record exceeding that. A worthwhile read is Lee Kuan Yew's autobiography, _The Singapore Story: Memoirs of Lee Kuan Yew_. 
+Lee Kuan Yew, the first leader of modern Singapore, held various positions in
+government from 1959 to his death in 2015. In 1960, Singapore's GDP per capita,
+measured in 2018 US dollars, was $428. Upon his death in 2015, it was $55,646,
+a 130-fold increase
+([source](https://www.google.com/search?channel=fs&client=ubuntu&q=singapore+gdp+per+capita)).
+To the best of my knowledge, there is no other country with a growth record
+exceeding that. A worthwhile read is Lee Kuan Yew's autobiography, _The
+Singapore Story: Memoirs of Lee Kuan Yew_. 
 
 # Velikovsky, Immanuel
 
-One of the many interesting curiosities that my late grandfather Henderson pointed me towards was book called _Worlds in Collision_ by the extraordinarily eccentric Immanuel Velikovsky, who combined a creative and well-read mind with a fundamental inability to understand how the real world works and produced fascinating attempts at re-writing history. If you enjoy that sort of thing, you might enjoy _Worlds in Collision_.
+One of the many interesting curiosities that my late grandfather Henderson
+pointed me towards was book called _Worlds in Collision_ by the extraordinarily
+eccentric Immanuel Velikovsky, who combined a creative and well-read mind with
+a fundamental inability to understand how the real world works and produced
+fascinating attempts at re-writing history. If you enjoy that sort of thing,
+you might enjoy _Worlds in Collision_.
 
 # Venezuela
 
-With a few very brief exceptions, I spent the first five years of my life in Venezuela, which was a more or less functional country in the early 1990's. It had poverty, it had violence, and it had corruption, but the stores generally had food in them, the water was turned on at least part of the day, and one could walk around Venezuela for ten years through some fairly rough neighborhoods on a regular basis and only have a gun pointed at one twice. My family continues to have friends who live in the slums of Caracas, and the incredibly bleak picture of starvation, hyperinflation, and mass flight from the country that you often see in media outlets is accurate.
+With a few very brief exceptions, I spent the first five years of my life in
+Venezuela, which was a more or less functional country in the early 1990's. It
+had poverty, it had violence, and it had corruption, but the stores generally
+had food in them, the water was turned on at least part of the day, and one
+could walk around Venezuela for ten years through some fairly rough
+neighborhoods on a regular basis and only have a gun pointed at one twice. My
+family continues to have friends who live in the slums of Caracas, and the
+incredibly bleak picture of starvation, hyperinflation, and mass flight from
+the country that you often see in media outlets is accurate.
 
-The descent into total dysfunction did not happen all at once. One might date it from the time when Hugo Chávez declared an "economic war" on 2020-6-2, or to the accession of Venezuelan President and now dictator Nicolás Maduro in 2013. In any case, the vicious sociopath currently oppressing Venezuela has shown every indication throughout his entire tenure that he is fully prepared to starve people out of the country until Venezuela is emptied or he is dead.
+The descent into total dysfunction did not happen all at once. One might date
+it from the time when Hugo Chávez declared an "economic war" on 2010-6-2, or to
+the accession of Venezuelan President and now dictator Nicolás Maduro in 2013.
+In any case, the vicious sociopath currently oppressing Venezuela has shown
+every indication throughout his entire tenure that he is fully prepared to
+starve people out of the country until Venezuela is emptied or he is dead.
 
 # Vim
 
 *2020-11-21*
 
-For years, my answer to "Vim or Emacs" has been "Whatever the default text editor in Ubuntu is -- is it still gedit?" However, a brother of mine has informed me that it's time to start acting like a grown-up and learn my way around Vim. So far, I've found that having to constantly look up the shortcuts makes the whole editing process inefficient, but I'm told that all those will eventually settle into my thick skull and everything will be quite smooth. Back in the eighth grade, I was informed by a typing teacher that it's not really the keyboard so much as it is the mouse that leads to repetitive stress injuries. Whether it's true or not, I do tend to find moving from keyboard to mouse annoying.
+For years, my answer to "Vim or Emacs" has been "Whatever the default text
+editor in Ubuntu is -- is it still gedit?" However, a brother of mine has
+informed me that it's time to start acting like a grown-up and learn my way
+around Vim. So far, I've found that having to constantly look up the shortcuts
+makes the whole editing process inefficient, but I'm told that all those will
+eventually settle into my thick skull and everything will be quite smooth. Back
+in the eighth grade, I was informed by a typing teacher that it's not really
+the keyboard so much as it is the mouse that leads to repetitive stress
+injuries. Whether it's true or not, I do tend to find moving from keyboard to
+mouse annoying.
 
 # WP:PAG
 
-I used to edit quite a bit for Wikipedia, until I got tired of it. In that time, I became familiar with Wikipedia's Policies and Guidelines, known by the shortcut [WP:PAG](https://en.wikipedia.org/wiki/Wikipedia:Policies_and_guidelines). If you ever wondered how such a massive site maintains a more or less consistent styles and keeps a pretty decent quality, WP:PAG is part of it.
+I used to edit quite a bit for Wikipedia, until I got tired of it. In that
+time, I became familiar with Wikipedia's Policies and Guidelines, known by the
+shortcut
+[WP:PAG](https://en.wikipedia.org/wiki/Wikipedia:Policies_and_guidelines). If
+you ever wondered how such a massive site maintains a more or less consistent
+styles and keeps a pretty decent quality, WP:PAG is part of it.
 
 # XKCD
 
-The classic "webcomic of romance sarcasm, math, and language" needs no introduction, unless you've never heard of it. You can find it [here](https://xkcd.com/) and in-depth explanations of the jokes [here](https://www.explainxkcd.com/wiki/index.php/Main_Page).
+The classic "webcomic of romance, sarcasm, math, and language" needs no
+introduction, unless you've never heard of it. You can find it
+[here](https://xkcd.com/) and in-depth explanations of the jokes
+[here](https://www.explainxkcd.com/wiki/index.php/Main_Page).
 
 ---
-sdfasdf
-_This page is released under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) license._
+_This page is released under the [CC0
+1.0](https://creativecommons.org/publicdomain/zero/1.0/) license._
 
