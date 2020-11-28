@@ -37,6 +37,8 @@ see it [here](http://info.cern.ch/).
 
 # Bullard, Reuben
 
+_2020-11-26_
+
 When I was eleven, my grandfather, the late Ronald Henderson, professor of
 English at Cincinnati Christian University for forty years, had me audit a
 class in geology. This would have been about 2002. Reuben Bullard was the
@@ -47,67 +49,199 @@ the age of the earth. We learned about how rocks were formed, and their various
 types, and such, but never once did the age of these rocks come into the
 picture. He was a gifted man, and looking back I wonder what he really thought.
 
-Prof. Bullard died in 2004, and I had the privilege of taking his last geology class. What I did not fully understand as a child was that he had pioneered the use of geological principles in studying archaeological sites. The prominent archaeologist William Dever wrote in his forward to Bullard's Festschrift _My Father's World_:
+Prof. Bullard died in 2004, and I had the privilege of taking his last geology
+class. What I did not fully understand as a child was that he had pioneered the
+use of geological principles in studying archaeological sites. The prominent
+archaeologist William Dever wrote in his forward to Bullard's Festschrift, _My
+Father's World_:
 
->How did we ever do without a geologist? Or more precisely, a "Geo-archaeologist," for that was the sub-discipline that Reuben created almost single-handedly in Israel (and later in Jordan).
+>How did we ever do without a geologist? Or more precisely, a
+>"Geo-archaeologist," for that was the sub-discipline that Reuben created
+>almost single-handedly in Israel (and later in Jordan).
 
->Geo-archaeology is taken for granted today; but when Reuben appeared on the scene in the 1960s no one envisioned it or saw any need for it. Seldom does one individual contribute so much to changing the focus of a discipline, least of all one as traditional as biblical archaeology was back then.
+>Geo-archaeology is taken for granted today; but when Reuben appeared on the
+>scene in the 1960s no one envisioned it or saw any need for it. Seldom does
+>one individual contribute so much to changing the focus of a discipline, least
+>of all one as traditional as biblical archaeology was back then.
 
-Prof. Bullard was a modest man, and did not give any indication, in that introductory geology course, that he'd had a part in inventing a new subdiscipline. I will always be grateful that I had the chance to study under him.
+Prof. Bullard was a modest man, and did not give any indication, in that
+introductory geology course, that he'd had a part in inventing a new
+subdiscipline. I will always be grateful that I had the chance to study under
+him.
 
 # China's economy
 
 _2020-11-22_
 
-Singapore's rapid transition from very poor to very wealthy has not been equalled by any country I know of. But Singapore is a small country, with about six million inhabitants. For a country that has rapidly pulled a very large number of people out of deep poverty, the greatest example in the modern world is China. This nation of 1.4 billion people has a GDP per capita, in current US dollars, of \$11,429 as of 2019. This is up from \$452 in 1960, which comes to an average annual increase of 5.6%. However, the last ten years after seen a per capita growth rate of just 2.7% on average. (Values calculated from World Bank [numbers](https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?view=chart).)
+Singapore's rapid transition from very poor to very wealthy has not been
+equalled by any country I know of. But Singapore is a small country, with about
+six million inhabitants. For a country that has rapidly pulled a very large
+number of people out of deep poverty, the greatest example in the modern world
+is China. This nation of 1.4 billion people has a GDP per capita, in current US
+dollars, of \$11,429 as of 2019. This is up from \$452 in 1960, which comes to
+an average annual increase of 5.6%. However, the last ten years after seen a
+per capita growth rate of just 2.7% on average. (Values calculated from World
+Bank
+[numbers](https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?view=chart).)
 
-As China's transformation slows, perhaps the next major story to be told in the elimination of poverty is that of India. India still trails behind China, at about \$2,104 of per-capita income as of 2019, up from $82 in 1960. It started behind China and remains behind China -- its growth rate on average the last sixty years has been about the same. But over the last ten years, its growth rate has been more than double China's. If this continues, we will see India catching up, year by year, closer to where China is. This would draw hundreds more millions of people out of poverty and readjust the global balance of power.
+As China's transformation slows, perhaps the next major story to be told in the
+elimination of poverty is that of India. India still trails behind China, at
+about \$2,104 of per-capita income as of 2019, up from $82 in 1960. It started
+behind China and remains behind China -- its growth rate on average the last
+sixty years has been about the same. But over the last ten years, its growth
+rate has been more than double China's. If this continues, we will see India
+catching up, year by year, closer to where China is. This would draw hundreds
+more millions of people out of poverty and readjust the global balance of
+power.
 
 # China's one-child policy
 
 _2020-11-26_
 
-Mao Zedong encouraged Chinese people to have as many children as possible, with the goal of increasing China's military capacity. Of course, high fertility is not sustainable in the long term in the modern world -- resource limits will come up at some point. In the 1970's, the Chinese government began putting downward pressure on births, and in 1979 rolled out the one-child policy. This lasted, with various modifications, loopholes, and exceptions, until 2015, when it was replaced with a two-child policy. The Chinese government is now hoping for birth rates to go _up_. 
+Mao Zedong encouraged Chinese people to have as many children as possible, with
+the goal of increasing China's military capacity. Of course, high fertility is
+not sustainable in the long term in the modern world -- resource limits will
+come up at some point. In the 1970's, the Chinese government began putting
+downward pressure on births, and in 1979 rolled out the one-child policy. This
+lasted, with various modifications, loopholes, and exceptions, until 2015, when
+it was replaced with a two-child policy. The Chinese government is now hoping
+for birth rates to go _up_. 
 
-This may not work. China, by adopted a two-child policy, is still putting more pressure downward on births than Thailand, Japan, Singapore, and South Korea all have _lower_ rates than China despite allowing people to have as many children as they want. All over the modern world, birth rates have either dropped to below-replacement levels or seem to be headed in that direction. It is unclear if or when this trend will stabilize. China may find that it regrets having artificially pushed rates downward ahead of the natural trend-line. The Chinese workforce has already been shrinking since about 2013. Because any new births will not enter the workforce for about two decades, that means at least two decades of shrinking workforce are already "baked in". To turn things around would require a large increase in the number of children over the next two decades, at the same time that adult only children are facing the responsibility of caring alone for two parents and four grandparents. It may turn out to be impossible to get fertility rates up under those conditions. Time will tell.
+This may not work. China, by adopting a two-child policy, is still putting more
+pressure downward on births than Thailand, Japan, Singapore, and South Korea, 
+which
+all have _lower_ rates than China despite allowing people to have as many
+children as they want. All over the modern world, birth rates have either
+dropped to below-replacement levels or seem to be headed in that direction. It
+is unclear if or when this trend will stabilize. China may find that it regrets
+having artificially pushed rates downward ahead of the natural trend-line. The
+Chinese workforce has already been shrinking since about 2013. Because any new
+births will not enter the workforce for about two decades, that means at least
+two decades of shrinking workforce are already baked in. To turn things
+around would require a large increase in the number of children over the next
+two decades, at the same time that adult only children are facing the
+responsibility of caring alone for two parents and four grandparents. It may
+turn out to be impossible to get fertility rates up under those conditions.
+Time will tell.
 
 # Cincinnati Christian University
 
-While I am not a member of any religion, my family tree goes back into the group known widely as the Christian Churches / Churches of Christ. My parents met each other, and both sets of my grandparents met each other at the university whose final name was Cincinnati Christian University, and which had previously gone under the names of Cincinnati Bible Seminary and Cincinnati Bible College.
+While I am not personally religious, my family tree goes back into the
+group known widely as the Christian Churches / Churches of Christ. My parents
+met each other, and both sets of my grandparents met each other, at the
+university whose final name was Cincinnati Christian University, and which had
+previously gone under the names of Cincinnati Bible Seminary and Cincinnati
+Bible College.
 
-The college was founded in 1924, by the conservative side of a recent denominational split with the group that is now known as the Disciples of Christ. Protestant sects were splitting right and left those days, and it was on the right the founders of CCU fell. It grew to occupy an important social position in the Christian Churches as an intellectual center and training-ground for ministers. Opinions vary, but the mid-sixties must have been near its peak influence. You can see an old recruitment video, in which both my grandparents on one side of my family appear, [here](https://www.youtube.com/watch?v=lsKRQnpemYc).
+The college was founded in 1924, by the conservative side of a recent
+denominational split with the group that is now known as the Disciples of
+Christ. Protestant sects were 
+[splitting right and
+left](https://en.wikipedia.org/wiki/Fundamentalist%E2%80%93Modernist_controversy)
+in those days, and it was
+on the right that the founders of CCU fell. It grew to occupy an important social
+position in the Christian Churches as an intellectual center and
+training-ground for ministers. Opinions vary, but the mid-sixties must have
+been near its peak influence. You can see an old recruitment video, in which
+both my grandparents on one side of my family appear,
+[here](https://www.youtube.com/watch?v=lsKRQnpemYc).
 
-My grandfather, Ronald Henderson, was a professor there from 1961-2001, and through his influence and other family connections the social world of CCU continues to form a background to my family's world. The college eventually shut down in 2019 after facing a long and complex battle with the financial realities of running a traditional religious university in what is increasingly not a traditional religious world.
+My grandfather, Ronald Henderson, was a professor there from 1961-2001, and
+through his influence and other family connections the social world of CCU
+continues to form a background to my family's world. The college eventually
+shut down in 2019 after facing a long and complex battle with the financial
+realities of running a traditional religious university in what is increasingly
+not a traditional religious world.
 
 # Cladistics
-[Cladistics](https://en.wikipedia.org/wiki/Cladistics) classifies living beings in terms of biological relatedness rather than the categories we intuitively use in English. See, for example, the title of Lulu Miller's _Why Fish Don't Exist_.
+
+[Cladistics](https://en.wikipedia.org/wiki/Cladistics) classifies living beings
+in terms of biological relatedness rather than the categories we intuitively
+use in English. See, for example, the title of Lulu Miller's _Why Fish Don't
+Exist_.
 
 # Dennett, Daniel
 
-Daniel Dennett is one of the more interesting philosophers alive today. You might enjoy his _Intuition Pumps and Other Tools for Thinking_.
+Daniel Dennett is one of the more interesting philosophers alive today. You
+might enjoy his _Intuition Pumps and Other Tools for Thinking_.
 
 # DOS
 
 *2020-11-22*
 
-I weep for the generation growing up now, as they might go their whole lives without interacting with DOS. Mind you, I'm no child of the DOS era myself -- I was born in 1991, and Microsoft had already released Windows back in 1985. But I did come into this world late enough that DOS was still hanging around -- on an old but still working computer in my grandfather's basement, running the electronic card catalogue at the Cincinnati Public Library, tracking orders at MacDonalds. It was around _just_ enough to make it obvious that GUI's weren't synonymous with operating systems; they were an innovation. They were a choice. And the basic, underlying systems that ran computers were made of something much like text -- the little buttons and menus were just a pretty shell over something more abstract.
+I weep for the generation growing up now, as they might go their whole lives
+without interacting with DOS. Mind you, I'm no child of the DOS era myself -- I
+was born in 1991, and Microsoft had already released Windows back in 1985. But
+I did come into this world late enough that DOS was still hanging around -- on
+an old but still working computer in my grandfather's basement, running the
+electronic card catalogue at the Cincinnati Public Library, tracking orders at
+MacDonalds. It was around _just_ enough to make it obvious that GUI's weren't
+synonymous with operating systems; they were an innovation. They were a choice.
+And the basic, underlying systems that ran computers were made of something
+much like text -- the little buttons and menus were just a pretty shell over
+something more abstract.
 
-I don't really know that today's youth will miss anything necessary by not seeing DOS in day-to-day life. It's possible I'm just being a cranky old geezer and that previous generations would have said similar things about smoke signals, or loud beeping noises, or punch cards, or whatever it was early computers ran on.
+I don't really know that today's youth will miss anything necessary by not
+seeing DOS in day-to-day life. It's possible I'm just being a cranky old geezer
+and that previous generations would have said similar things about smoke
+signals, or loud beeping noises, or punch cards, or whatever it was early
+computers ran on.
 
 # English as a global language
 
 _2020-11-22_
 
-Greek continued to be a language in widespread use in the Eastern Roman Empire well after Greek political power had been superseded by Rome. Latin continued to be the language of scholarship and international relations in Western Europe long after the fall of the Roman Empire. Indeed, Portuguese, Spanish, Italian, and French are all derived from Latin rather than from whatever pre-Latin languages were indigenously spoken in those regions. Some people think that the United States is on its way out as the leading superpower, but even if this is so, it does not mean that English will rapidly give way to some other language.
+Greek continued to be a language in widespread use in the Eastern Roman Empire
+well after Greek political power had been superseded by Rome. Latin continued
+to be the language of scholarship and international relations in Western Europe
+long after the fall of the Roman Empire. Indeed, Portuguese, Spanish, Italian,
+and French are all derived from Latin rather than from whatever pre-Latin
+languages were indigenously spoken in those regions. Some people think that the
+United States is on its way out as the leading superpower, but even if this is
+so, it does not mean that English will rapidly give way to some other language.
 
-Some people think Mandarin Chinese is the future global language. But there is still little evidence of large numbers of people outside China adopting it. Meanwhile, in China itself hundreds of millions of people have had some kind of sustained exposure to English, even if fluency is less common. Meanwhile, in India, the legal system conducts its business in English, and the use of English is rapidly spreading throughout the country. Pew Research ([source](https://www.pewresearch.org/fact-tank/2015/10/08/more-than-any-other-foreign-language-european-youths-learn-english/)) finds that the great bulk of European children are taught English in school (77%). 
+Some people think Mandarin Chinese is the future global language. But there is
+still little evidence of large numbers of people outside China adopting it.
+Meanwhile, in China itself hundreds of millions of people have had some kind of
+sustained exposure to English, even if fluency is less common. Meanwhile, in
+India, the legal system conducts its business in English, and the use of
+English is rapidly spreading throughout the country. Pew Research
+([source](https://www.pewresearch.org/fact-tank/2015/10/08/more-than-any-other-foreign-language-european-youths-learn-english/))
+finds that the great bulk of European children are taught English in school
+(77%). 
 
-The internet and globalization more broadly are leading to an incredible consolidation of languages. 
-In a winner-takes all dynamic, a global world pushes people to learn more widely-spoken languages and leave behind less-used languages. A relative of mine is a missionary working to translate the Bible into a language in Papua New Guinea. A few decades ago, when she began, there were about seven hundred speakers. Today, most of the young people in the three villages where the language exists do not speak their parents' language very fluently, but speak a local variant of English. By the time she finishes her project, if she ever does, it is possible that her Bible will be the last, and first, piece of literature ever written in a language to die out over the next few decades.
+The internet and globalization more broadly are leading to an incredible
+consolidation of languages. 
+In a winner-takes all dynamic, a global world pushes people to learn more
+widely-spoken languages and leave behind less-used languages. A relative of
+mine is a missionary working to translate the Bible into a language in Papua
+New Guinea. A few decades ago, when she began, there were about seven hundred
+speakers. Today, most of the young people in the three villages where the
+language exists do not speak their parents' language very fluently, but speak a
+local language based on English. By the time she finishes her project, if she ever
+does, it is possible that her Bible will be the last, and first, piece of
+literature ever written in a language to die out over the next few decades.
 
-This story is repeating itself all over the world. Filipino teenagers frequently speak to one another in English, and President Duterte frequently gives speeches in which he veers back and forth between Tagalog and English apparently at random. Somewhere close to two billion people worldwide speak English, about a quarter of the world population. Meanwhile, the Chinese government [estimates](https://www.bbc.com/news/world-asia-china-23975037) that 30% of _Chinese_ people still do not speak Mandarin as of 2014.
+This story is repeating itself all over the world. Filipino teenagers
+frequently speak to one another in English, and President Duterte frequently
+gives speeches in which he veers back and forth between Tagalog and English
+apparently at random. Somewhere close to two billion people worldwide speak
+English, about a quarter of the world population. Meanwhile, the Chinese
+government [estimates](https://www.bbc.com/news/world-asia-china-23975037) that
+30% of _Chinese_ people still do not speak Mandarin as of 2014.
 
-The future is hard to predict, but English has at this point acquired widespread enough use that I think it will continue to increase in use worldwide for the rest of my life. Even if the United States loses its status as a global leader -- even if every American somehow disappeared -- I think English has acquired enough status as a cornerstone of international relations, business, and the internet that it's too late to stop it from becoming a language spoken, to one degree or another, by almost everyone worldwide. It's a winner-take-all situation where widespread use begets more widespread use, and it looks to me like English has already won the battle for global dominance in principle. The quadrupling of English use still ahead is just two more doublings to go after the approximately eight doublings in English usage that have occurred in the past five centuries.
+The future is hard to predict, but English has at this point acquired
+widespread enough use that I think it will continue to increase in use
+worldwide for the rest of my life. Even if the United States loses its status
+as a global leader -- even if every American somehow disappeared -- I think
+English has acquired enough status as a cornerstone of international relations,
+business, and the internet that it's too late to stop it from becoming a
+language spoken, to one degree or another, by almost everyone worldwide. It's a
+winner-take-all situation where widespread use begets more widespread use, and
+it looks to me like English has already won the battle for global dominance in
+principle. The quadrupling of English use still ahead is just two more
+doublings to go after the approximately eight doublings in English usage that
+have occurred in the past five centuries.
 
 There are some who say that widespread Spanish-speaking immigration is somehow going to remove English from its status as the language of the United States. This is nonsense. I came to the United States at five with a five-year-old's fluent command of Spanish, and now I don't talk Spanish too well. This is what happens when small children come to the US speaking Spanish. True, some adults never do quite get the hang of English, just as previous generations of Germans, Poles, and Italians didn't all become English-speakers. But their children did, and do. There is no realistic scenario in which huge numbers of Spanish-speaking immigrants and their children for multiple generations do not manage to learn English. Any increase in Hispanic immigration, from a language standpoint, is an increase in the number of English-speakers in the United States: if not immediately, then over the following decades. 
 
