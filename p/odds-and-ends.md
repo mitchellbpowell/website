@@ -160,6 +160,35 @@ in terms of biological relatedness rather than the categories we intuitively
 use in English. See, for example, the title of Lulu Miller's _Why Fish Don't
 Exist_.
 
+# Darwin, Charles
+
+Everybody knows about Charles Darwin, and I'm not here to defend his theories. 
+The case for evolution is made ably by Jerry Coyne in _Why Evolution is True_, 
+and I'd direct anyone curious to read it. There'll be no relitigating a dead 
+controversy here. 
+
+What is sometimes not appreciated is that Darwin's theory of natural selection 
+is an outgrowth of Thomas Malthus's theories on the principles of population 
+growth. Thomas Malthus observed that because populations, both human and 
+animal, tend to grow exponentially when unchecked, they will grow until they 
+bump up against resource limits strict enough to make survival difficult. Once 
+limits are in play and survival is difficult, some survive and produce 
+offspring, while others do not. Here it is that Darwin had his crucial insight. 
+If the survivors vary from those who perish in certain traits, and if those 
+traits are heritable, then over time the frequency of these more "fit" traits 
+-- traits suitable to the task of surviving -- will increase throughout a 
+given population. 
+
+This provided a mechanism for a population to become better adapted to an 
+environmental niche over time. The mathematics of inheritance would not be 
+worked out by the broader scientific community (despite the forgotten work 
+of Mendel) until the early twentieth century, and the DNA molecule itself 
+wouldn't give up its basic structure in the 1950's. The project of recording 
+the human genetic sequence wouldn't be complete until 2003. But back in 1859, 
+when _The Origin of Species_ was published, the basic implication of Malthus's 
+work was clear. And it was the much-maligned Malthus who got the ball rolling 
+in 1798 with his _Essay_.
+
 # Dennett, Daniel
 
 Daniel Dennett is one of the more interesting philosophers alive today. You
@@ -243,57 +272,148 @@ principle. The quadrupling of English use still ahead is just two more
 doublings to go after the approximately eight doublings in English usage that
 have occurred in the past five centuries.
 
-There are some who say that widespread Spanish-speaking immigration is somehow going to remove English from its status as the language of the United States. This is nonsense. I came to the United States at five with a five-year-old's fluent command of Spanish, and now I don't talk Spanish too well. This is what happens when small children come to the US speaking Spanish. True, some adults never do quite get the hang of English, just as previous generations of Germans, Poles, and Italians didn't all become English-speakers. But their children did, and do. There is no realistic scenario in which huge numbers of Spanish-speaking immigrants and their children for multiple generations do not manage to learn English. Any increase in Hispanic immigration, from a language standpoint, is an increase in the number of English-speakers in the United States: if not immediately, then over the following decades. 
+There are some who say that widespread Spanish-speaking immigration is somehow
+going to remove English from its status as the language of the United States.
+This is nonsense. I came to the United States at five with a five-year-old's
+fluent command of Spanish, and now I don't talk Spanish too well. This is what
+happens when small children come to the US speaking Spanish. True, some adults
+never do quite get the hang of English, just as previous generations of
+Germans, Poles, and Italians didn't all become English-speakers. But their
+children did, and do. There is no realistic scenario in which huge numbers of
+Spanish-speaking immigrants and their children for multiple generations do not
+manage to learn English. Any increase in Hispanic immigration, from a language
+standpoint, is an increase in the number of English-speakers in the United
+States: if not immediately, then over the following decades. 
 
 # Exponential growth: <br>back-of-envelope calculations
 
-The world is made of numbers, among other things, and to understand it you've got to understand numbers, among other things. And in the study of living beings, whether you're talking about biology or economics, having a mental grasp on exponential growth is useful. And to start to intuitively grasp exponents, you're going to need to be able to do rough on-the-fly calculations in your head. And to do that, I think the easiest starting point is to get a little bit familiar with powers of two, powers of ten, and the law of 72.
+The world is made of numbers, among other things, and to understand it you've
+got to understand numbers, among other things. And in the study of living
+beings, whether you're talking about biology or economics, having a mental
+grasp on exponential growth is useful. And to start to intuitively grasp
+exponents, you're going to need to be able to do rough on-the-fly calculations
+in your head. And to do that, I think the easiest starting point is to get a
+little bit familiar with powers of two, powers of ten, and the law of 72.
 
-The powers of ten are well-known, and our numerical system is based on them: 1, 10, 100, 1000, 10,000, ...
+The powers of ten are well-known, and our numerical system is based on them: 1,
+10, 100, 1000, 10,000, ...
 
-The powers of two are a bit harder, but you'd do well to memorize at least the first ten and perhaps the first twenty: 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, and maybe also 2048, 4096, 8192, 16,384, 32,768, 65,536, 131,072, 262,144, 524,288, and 1,048,576. The really critical thing to notice, for mental-math purposes, is that 1000 is about 1024 and 1,000,000 is about 1,048,576. Or, to round things off a bit: 2^10 = 10^3, 2^20 = 10^6, and so on.
+The powers of two are a bit harder, but you'd do well to memorize at least the
+first ten and perhaps the first twenty: 1, 2, 4, 8, 16, 32, 64, 128, 256, 512,
+1024, and maybe also 2048, 4096, 8192, 16,384, 32,768, 65,536, 131,072,
+262,144, 524,288, and 1,048,576. The really critical thing to notice, for
+mental-math purposes, is that 1000 is about 1024 and 1,000,000 is about
+1,048,576. Or, to round things off a bit: 2^10 = 10^3, 2^20 = 10^6, and so on.
 
-This allows you to move back and forth between doublings and common numbers with a little practice. Thus, 2^23 must equal 2^3 times 2^10 times 2^10, and by substituting 10^3 for 2^10, we can say that 2^23 = 2^3 times 10^6, or eight million. If you're following along with a calculator, you'll notice the errors, but don't worry about them for now.
+This allows you to move back and forth between doublings and powers of ten
+with a little practice. Thus, 2^23 must equal 2^3 times 2^10 times 2^10, and by
+substituting 10^3 for 2^10, we can say that 2^23 = 2^3 times 10^6, or eight
+million. If you're following along with a calculator, you'll notice the errors,
+but don't worry about them for now.
 
-Likewise, you can do the same thing backwards. For something to multiply by 7 billion, for example, how many times must it double? 7 billion is 7 times 10^9, and thus 7 times 2^30. And since 7 is between 2^2 and 2^3, multiplying something by 7 billion requires between 22 and 23 doublings. So a process by which something doubles once a century will take 2200 years and change to multiply 7-billion-fold.
+Likewise, you can do the same thing backwards. For something to multiply by 7
+billion, for example, how many times must it double? 7 billion is 7 times 10^9,
+and thus 7 times 2^30. And since 7 is between 2^2 and 2^3, multiplying
+something by 7 billion requires between 22 and 23 doublings. So a process by
+which something doubles once a century will take 2200 years and change to
+multiply 7-billion-fold.
 
-The next tool is the rule of 72, which is the key to converting to and from percentage changes and doubling. The rule is that, if something growth at x percent per unit, then it will take 72 over x units to double. So something that grows 2% per year, like the hourly productivity of workers in technologically leading modern societies, it will double every 36 years. That's about three doublings per century, so in the 200 years of modern economic growth, the richest countries will have seen six doublings of productivity, or 64-fold growth over 200 years.
+The next tool is the rule of 72, which is the key to converting to and from
+percentage changes and doubling. The rule is that, if something grows at x
+percent per unit of time, then it will take 72 over x units to double. So something
+that grows 2% per year, like the hourly productivity of workers in
+technologically leading modern societies, will double every 36 years. That's
+about three doublings per century, so in the 200 years of modern economic
+growth, the richest countries will have seen six doublings of productivity, or
+64-fold growth over 200 years.
 
-So you can start working out, in your head, the way that relatively small incremental changes add up to the fundamental transformation of the world. Here's another. Suppose one person has a communicable disease, and the number of people with it grows an average of 10% per week. By the law of 72, that's about a doubling every 10 weeks, five doublings a year, and thus ten doublings every two years. Ten doublings is multiplication by one thousand, so it would take a little over six years for the entire world to catch the disease in question.
+So you can start working out, in your head, the way that relatively small
+incremental changes add up to the fundamental transformation of the world.
+Here's another. Suppose one person has a communicable disease, and the number
+of people with it grows an average of 10% per week. By the law of 72, that's
+about a doubling every 10 weeks, five doublings a year, and thus ten doublings
+every two years. Ten doublings is multiplication by one thousand, so it would
+take a little over six years for the entire world to catch the disease in
+question.
 
-More relevantly, consider the coronavirus. If one person had it in November 2019, and it doubled its number of hosts every week, to reach all the world, given unconstrained growth, would have taken 22 to 23 weeks. Of course, there are in the real world complications, like mitigation strategies, contact tracing, weather, masks, and vaccines. But a little simple mental math can help give you an intuition for where things are going if something doesn't stop them.
+More relevantly, consider the coronavirus. If one person had it in November
+2019, and it doubled its number of hosts every week, to reach all the world,
+given unconstrained growth, would have taken 22 to 23 weeks. Of course, there
+are in the real world complications, like mitigation strategies, contact
+tracing, weather, masks, and vaccines. But a little simple mental math can help
+give you an intuition for where things are going if something doesn't stop
+them.
 
 # Far Side, The
 
-Gary Larson's _The Far Side_ is one of the various curiosities that my grandfather Henderson introduced me to when I was young. He had a book of Gary Larson's comics as part of the his massive personal library. Like many good things, _The Far Side_ has found its way to the internet, where it can be seen here.
+Gary Larson's _The Far Side_ is one of the various curiosities that my
+grandfather Henderson introduced me to when I was young. He had a book of Gary
+Larson's comics as part of the his massive personal library. Like many good
+things, _The Far Side_ has found its way to the internet, where it can be seen
+[here](https://www.thefarside.com/).
 
 # FSI Language Courses
 
-There is a provision in law -- I'm not intimately familiar with the details -- that has the effect of causing works produced by the US government to fall into the public domain. The US government, after all, is funded by tax-payers, and copyright is generally intended to protect the financial interests of authors, so there is an argument that the public has already bought the rights to things produced by the federal government.
+There is a provision in law -- I'm not intimately familiar with the details --
+that has the effect of causing works produced by the US government to fall into
+the public domain. The US government, after all, is funded by tax-payers, and
+copyright is generally intended to protect the financial interests of authors,
+so there is an argument that the public has already bought the rights to things
+produced by the federal government.
 
-The result of this is that certain language self-study courses, originally used for government officials, are allowed to circulate freely on the internet. An example is the [Hebrew course](https://fsi-languages.yojik.eu/languages/FSI/fsi-hebrew.html), which I found very useful back in my Hebrew-studying days. They are not trendy, or beautiful, or complete -- they consist of a text which introduces simple conversations in the language, and a set of tapes, along with instructions on how to study. But if the Hebrew text is any indication, they really do help with grasping the very basics of a language when you're starting.
+The result of this is that certain language self-study courses, originally used
+for government officials, are allowed to circulate freely on the internet. An
+example is the [Hebrew
+course](https://fsi-languages.yojik.eu/languages/FSI/fsi-hebrew.html), which I
+found very useful back in my Hebrew-studying days. They are not trendy, or
+beautiful, or complete -- they consist of a text which introduces simple
+conversations in the language, and a set of tapes, along with instructions on
+how to study. But if the Hebrew text is any indication, they really do help
+with grasping the very basics of a language when you're starting.
 
 # Gesenius, Wilhelm
 
-Wilhelm Gesenius was -- I am probably quoting someone who I can't remember any more verbatim -- the father of biblical Hebrew lexicography. He produced a celebrated grammar of biblical Hebrew in 1813, which continued to go through various editions during his life. Strikingly for such an early academic work in a well-studied field, his _Grammar_ continues to be used in contemporary academic settings despite the publication of a number of other worthy grammars since.
+Wilhelm Gesenius was -- I am probably quoting someone who I can't remember any
+more verbatim -- the father of biblical Hebrew lexicography. He produced a
+celebrated grammar of biblical Hebrew in 1813, which continued to go through
+various editions during his life. Strikingly for such an early academic work in
+a well-studied field, his _Grammar_ continues to be used in contemporary
+academic settings despite the publication of a number of other worthy grammars
+since.
 
 # GitHub tutorial
 
-(2020-11-5) I recently started keeping track of my website on GitHub ([here](https://github.com/mitchellbpowell/website)), and getting up and running was made easier by a nifty [tutorial](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) produced by Meghan Nelson.
+(2020-11-5) I recently started keeping track of my website on GitHub
+([here](https://github.com/mitchellbpowell/website)), and getting up and
+running was made easier by a nifty
+[tutorial](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
+produced by Meghan Nelson.
 
 # Gregg shorthand
 
-In 1888, Robert Gregg invented a nifty way to write things down really, really fast. Even if you don't want to learn the whole system, you could learn the way to write some common words in it. If you find yourself needing to take notes while people talk frequently, it's very helpful. See [Wikipedia's article](https://en.wikipedia.org/wiki/Gregg_shorthand) on it, and a sample [here](https://en.wikipedia.org/wiki/Gregg_shorthand#/media/File:Gregg_shorthand_A_Christmas_Carol.jpg).
+In 1888, Robert Gregg invented a nifty way to write things down really, really
+fast. Even if you don't want to learn the whole system, you could learn the way
+to write some common words in it. If you find yourself needing to take notes
+while people talk frequently, it's very helpful. See [Wikipedia's
+article](https://en.wikipedia.org/wiki/Gregg_shorthand) on it, and a sample
+[here](https://en.wikipedia.org/wiki/Gregg_shorthand#/media/File:Gregg_shorthand_A_Christmas_Carol.jpg).
 
 # Harris, Judith Rich
 
-Judith Rich Harris wrote the groundbreaking _The Nurture Assumption_, in which she argued, with a great deal of evidence, that heredity is much more important than commonly imagined, and childrearing much less, in explaining personality variations in human beings. Her conclusions were by no means unanimously received without protest, and people continue to argue about these things, but the publication of her book did mark a milestone in the everlasting nature-nurture debate which has raged ever since Galton coined the term.
+Judith Rich Harris wrote the groundbreaking _The Nurture Assumption_, in which
+she argued, with a great deal of evidence, that heredity is much more important
+than commonly imagined, and childrearing much less, in explaining personality
+variations in human beings. Her conclusions were by no means unanimously
+received without protest, and people continue to argue about these things, but
+the publication of her book did mark a milestone in the everlasting
+nature-nurture debate which has raged ever since Galton coined the term.
 
 # Henderson, Ronald
 
 _2020-11-26_
 
-My grandfather, Ronald Henderson, passed away in October 2019 after over a decade of
+My grandfather, Ronald Henderson, passed away in October 2019 after over a
+decade of
 struggling with Alzheimer's and Parkinsons. He had always been a quiet, modest
 man, and in the last few years of his life he was even quieter. He was a man
 who figured out what he wanted to do early, and then simply did it. Immediatley
@@ -522,6 +642,64 @@ quotation in any logical sense. In the ongoing effort to promote a more perfect
 union for ourselves and our posterity, I plan on using [logical
 quotation](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style#Punctuation_inside_or_outside)
 whenever I can get away with it.
+
+# Malthus, Thomas
+
+[Thomas Malthus](https://en.wikipedia.org/wiki/Thomas_Robert_Malthus#An_Essay_on_the_Principle_of_Population) noticed that, if human population grows exponentially in the 
+presence of sufficient food, no amount of resources can be sufficient for 
+long. Any population with a surplus of food will simply grow until the food 
+becomes scarce enough to constrain population growth. In Malthus' thinking, 
+then, there was no point to any attempt at easing the position of the poor. 
+They would simply reproduce away any surplus one might give them, and then 
+you'd be left with a larger population, as miserable as ever. If you were 
+somehow to double the output of England's farms, human population could easily 
+double in the next twenty-five years and the poor would once again be 
+balancing on the knife's edge of hunger.
+
+Malthus published his _[Essay](https://en.wikipedia.org/wiki/An_Essay_on_the_Principle_of_Population)_ 
+in 1798, and if one looks backward, his basic thesis was true for the entire 
+history of humanity up to his time. By and large, humans prior to 1800 or so 
+lived at the subsistence level, at least since the Neolithic revolution, and 
+wherever there was plenty population increased until there was not. Econimists 
+have since filled out the picture with perhaps more variables than Malthus 
+expected, but there was quite a bit of truth to his picture of stagnant living 
+standards. According to Table 1-2 of Angus Maddison's _The World Economy: A 
+Millennial Perspective_, in 1990 international dollars world GDP per capita 
+was $444 in 0 AD. (Ignore the fact that there was no such year; Maddison's 
+book treats it as existing.) By 1000 AD, almost no change had occurred. Food 
+production and population had risen about 15%, but real income was flat at 
+$435. By 1820, a little movement had occurred. Incomes were up to $667. 
+
+A Malthusian outlook might than expect population to rise, and population did 
+in fact rise. Taking for a minute the data at
+[Worldometer](https://www.worldometers.info/world-population/world-population-by-year/) 
+for convenience, world population roughly doubled between 1804 and 1927. 
+Between 1927 and 1974, it doubled again. Since 1974, it has very nearly 
+doubled again. As an empirical matter, we can say that food production is 
+capable of growing much more quickly than Malthus imagined. And despite the 
+growth in population, income has sky-rocketed. Returning to Maddison's table, 
+it has grown from $667 in 1820 to $5,709 in 1998. A chart from the [World Bank], 
+using a slightly different definition of "dollar", puts global GDP per capita 
+at $5,273 in 1998, rising to $11,429 today. Roughly speaking, income per person 
+has grown nineteen-fold since 1820 despite a great deal of population growth. 
+
+The production of calories, as it turns out, has been a more tractable problem 
+than previously imagined. And we appear to be escaping the Malthusian trap 
+the other side as well: human fertility is falling. In the 1950's and 1960's, 
+TFR (a statistic than approximately captures "children per woman per lifetime") 
+stood at about 5, but has since dropped to below 2.5. According to the 
+Worldometers table, the global population growth rate peaked at 2.09% in 1968-9 
+and has been dropping since. It now stands at 1.05%, and the UN Projects it 
+to reach zero [around
+2100](https://population.un.org/wpp/Graphs/Probabilistic/POP/TOT/900).
+
+Malthus was working with the history that existed up to 1798. It would have 
+been very difficult to anticipate that both food production and human 
+reproduction would start growing in ways different from anything ever seen 
+before. And it is possible that Thomas Malthus himself contributed to the 
+human exit from the Malthusian trap. Perhaps, without Malthus' warnings, 
+people would not have embraced agricultural technology and contraception 
+to the extent that they have. 
 
 # Pinker, Steven
 
