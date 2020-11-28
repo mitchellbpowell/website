@@ -66,12 +66,26 @@ or smoking habit. It’s doable for a lot of people, if they wanted it.
 
 But let’s go even further, and consider the storage capacity of the entire human brain. Due to a very different architecture from computers, which is still only beginning to be understood, there are varying estimates for the quantity of storage a brain has.
 
-Yadin Dudai (1997) reviewed [estimates](https://www.google.com/search?sxsrf=ALeKk02_U4rxpsH5DA-8UQGyoxFDfhN5sg%3A1603577143385&source=hp&ei=N6WUX431FMPLtQar4rmQDA&q=yadin+dudai+how+big+is+human+memory&oq=yadin+dudai+how+big+is+human+memory&gs_lcp=CgZwc3ktYWIQAzIFCCEQqwIyBQghEKsCMgUIIRCrAjoLCAAQsQMQgwEQkQI6BQgAEJECOgoIABCxAxCDARBDOggIABCxAxCDAToFCAAQsQM6CwguELEDEMcBEKMCOg4ILhCxAxCDARDHARCvAToFCC4QsQM6CwguELEDEMkDEJMCOgcIABCxAxBDOgoILhDHARCvARBDOgIIADoKCC4QsQMQgwEQCjoNCC4QyQMQFBCHAhCTAjoCCC46CAguEMcBEK8BOgcIABAUEIcCOgYIABAWEB46CAgAEBYQChAeOggILhDJAxCTAjoFCAAQyQM6BQghEKABOgUIABDNAjoICCEQFhAdEB46BwghEAoQoAFQNVjzNGDtN2gAcAB4AIAB7gGIAaUdkgEHMTEuMjIuMZgBAKABAaoBB2d3cy13aXo&sclient=psy-ab&ved=0ahUKEwjN7P6vns7sAhXDZc0KHStxDsIQ4dUDCAg&uact=5) of human storage capacity expressed in bits, and pointed toward somewhere between 1 terabyte and 1 petabyte of information being stored in a given brain. An [estimate](https://www.salk.edu/news-release/memory-capacity-of-brain-is-10-times-more-than-previously-thought/) in 2016 suggests at least a petabyte of storage, while acknowledging “conservative” estimates of about a tenth that. For Amazon deep glacier storage, the cost of storing one petabyte comes to about $1,000 per month. This comes in at just under the US federal poverty level for a one-person household.
+Yadin Dudai (1997) reviewed
+[estimates](https://www.google.com/search?sxsrf=ALeKk02_U4rxpsH5DA-8UQGyoxFDfhN5sg%3A1603577143385&source=hp&ei=N6WUX431FMPLtQar4rmQDA&q=yadin+dudai+how+big+is+human+memory&oq=yadin+dudai+how+big+is+human+memory&gs_lcp=CgZwc3ktYWIQAzIFCCEQqwIyBQghEKsCMgUIIRCrAjoLCAAQsQMQgwEQkQI6BQgAEJECOgoIABCxAxCDARBDOggIABCxAxCDAToFCAAQsQM6CwguELEDEMcBEKMCOg4ILhCxAxCDARDHARCvAToFCC4QsQM6CwguELEDEMkDEJMCOgcIABCxAxBDOgoILhDHARCvARBDOgIIADoKCC4QsQMQgwEQCjoNCC4QyQMQFBCHAhCTAjoCCC46CAguEMcBEK8BOgcIABAUEIcCOgYIABAWEB46CAgAEBYQChAeOggILhDJAxCTAjoFCAAQyQM6BQghEKABOgUIABDNAjoICCEQFhAdEB46BwghEAoQoAFQNVjzNGDtN2gAcAB4AIAB7gGIAaUdkgEHMTEuMjIuMZgBAKABAaoBB2d3cy13aXo&sclient=psy-ab&ved=0ahUKEwjN7P6vns7sAhXDZc0KHStxDsIQ4dUDCAg&uact=5)
+of human storage capacity expressed in bits, and pointed toward somewhere
+between 1 terabyte and 1 petabyte of information being stored in a given brain.
+An
+[estimate](https://www.salk.edu/news-release/memory-capacity-of-brain-is-10-times-more-than-previously-thought/)
+in 2016 suggests at least a petabyte of storage, while acknowledging
+“conservative” estimates of about a tenth that. For Amazon deep glacier
+storage, the cost of storing one petabyte comes to about $1,000 per month. This
+comes in at just under the US federal poverty level for a one-person household.
 
-It is strange to think it, but one could argue we have recently passed the point where it is cheaper to keep a full human being’s memories in the cloud than it is to keep them in a person. The data transfer itself, on the other hand, is — to put it mildly — *limited*, by bandwidth, formatting, and retrieval issues.
+It is strange to think it, but one could argue we have recently passed the
+point where it is cheaper to keep a full human being’s memories in the cloud
+than it is to keep them in a person. The data transfer itself, on the other
+hand, is — to put it mildly — *limited*, by bandwidth, formatting, and
+retrieval issues.
 
 ---
 
-_This page is released under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) license._
+_This page is released under the [CC0
+1.0](https://creativecommons.org/publicdomain/zero/1.0/) license._
 
 
