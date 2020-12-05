@@ -701,6 +701,44 @@ human exit from the Malthusian trap. Perhaps, without Malthus' warnings,
 people would not have embraced agricultural technology and contraception 
 to the extent that they have. 
 
+# National population
+
+If you want to understand the world, it helps to have an idea of how many people live in all the various places. [According to Lawrence Krauss](https://quillette.com/2020/11/23/why-is-scientific-illiteracy-so-acceptable/) about thirty-five person of his students at Yale think the United States has less than ten million inhabitants. If it's that bad at Yale, it's probably much worse in the general population. So here's a brief rule of thumb, and some suggested best practices.
+
+First, global population: a bit under 8 billion. So any group of 80 million people is about 1\% of the world.
+
+First, it's good to have some idea about the big groupings of humans that 
+are around a billion or two people. Two countries: China, and India, each have 
+more than a billion people: about 1.4 billion for both. The entire continent 
+of Africa likewise has about 1.4 billion people. While "Europe" is a little 
+fuzzy to define, it has about 700 million -- so India and China are each 
+about twice the size of Europe by population.
+
+North America has little under 600 million inhabitants -- this includes Mexico 
+and Central America. Meanwhile, South America has about 430 million 
+inhabitants. On the other hand, if you want to divide the Americas into 
+English-speaking countries and Latin America, there's about 370 million 
+Americans and Canadians and 650 million people in Latin America. There's about 
+600 million people in the Middle East and North Africa.
+
+The Middle East, incidentally, is not where most Muslims live. There are about 
+1.8 billion Muslims, making that religion just a bit smaller than the 2.3 
+billion Christians. And the 4.1 million Muslims and Christians, therefore, 
+make up a little over half the world. The next largest groups are Hinduism, 
+with 1.2 billion adherents -- this group is largely but not entirely 
+coterminous with the population of India -- and 500 million Buddhists, about half in China, with the rest elsewhere. All other religions are considerably smaller.
+
+Let's return to countries. After India and China, the largest country is the United States, with 330 million people. For quick mental math, you can round it to 320, which has the advantage of being divisible by 80, which is about how long people in the United States live. So, dividing across ages, we could very roughly guess that are about 4 million one-year-olds, four million two-year-olds, etc. How many high-schoolers? Well, that's a four-year period, so about 16 million.
+Real numbers will vary, but that should give a rough sense of proportion.
+
+Moving quickly through the next countries, Indonesia, Pakistan, and Brazil all 
+have between two and three hundred million inhabitants. Bangladesh and Russia 
+have about 170 and 150, respectively. Mexico and Japan are near 125 million. 
+The Philipines, DRC, Egypt, Ethiopia, and Vietnam all have about 100 million, 
+while Iran, Turkey, and Germany are all at about 80. France, the UK, Thailand, Italy, Thailand, South Africa, and Tanzania are all in the ballpark of 60 million. 
+
+Everything else is smaller.
+
 # Pinker, Steven
 
 Steven Pinker, in addition to his career as a psycholinguist, wrote _The Better
