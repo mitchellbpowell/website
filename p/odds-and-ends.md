@@ -35,6 +35,32 @@ It's widely known that Tim Berners-Lee produced the first modern website.
 However, it's perhaps not as well known that it's still online, and you can go
 see it [here](http://info.cern.ch/).
 
+# Borlaug, Norman
+
+_2020-12-12_
+
+Today, the world has seen about half a century of declining population 
+growth, moving closer to population stability, while adequate nutrition 
+is available to an increasing fraction of the world's population. It was by 
+no means clear, fifty years ago, that things would turn out so well. 
+Between 1965 and 1970, world annual population passed 2%, which is an 
+incredible rate -- it would result in a doubling of population every 35 
+years. It was in this environment that Paul Ehrlich published his famous 1968 
+_Population Bomb_ warning that world death rates would increase amidst the 
+starvation of hundreds of millions during the 1970's and 1980's.
+
+Norman Borlaug, among others, ensured that Ehrlich's predictions of doom 
+did not come to pass. This is not to say Borlaug was unsympathetic to Ehrlich's concerns -- Borlaug continued for a long time to express concerns about global population. But his work on dwarf varieties of wheat helped Mexico, Pakistan, India, and the developing world more generally to avoid food shortages.
+
+Since then, Mexican and Indian Total Fertility Rates have fallen to between 
+2.1 and 2.2 -- about 2.1 being the rate needed for a stable population 
+long-term. And while Pakistan's fertility has not yet stablized, 
+[I read]([200~https://www.indexmundi.com/g/g.aspx?c=pk&v=31) that from 2000 to 
+2020 it has dropped from 5.0 to 3.6, which is significant movement in that 
+direction. The world more broadly has seen a decrease in TFR from 4.96 in 
+the early 1950's to around 2.5 this decade. In other words, the bulk of the 
+fertility changes needed to stabilize world population have already occurred.
+
 # Bullard, Reuben
 
 _2020-11-26_
