@@ -4,7 +4,7 @@ date: "2020-12-30"
 layout: page
 ---
 
-_This page originally written 2020-12-30. Last major edit 2020-1-2_
+_This page originally written 2020-12-30. Last major edit 2020-1-2._
 
 This page is a place to collect bits and pieces of news and information 
 as I follow the spread of the new coronavirus variant originally found in the 
@@ -12,6 +12,10 @@ UK: [Variant of Concern 202012/01](https://en.wikipedia.org/wiki/Variant_of_Conc
 
 I'm interested in keeping a rough timeline of its spread worldwide as well as 
 its spread in the United States.
+
+## Table of Contents
+* TOC
+{:toc}
 
 ## Countries
 
@@ -36,7 +40,8 @@ by many news sources.
 
 * 29 December: one case reported in Colorado.
 * 30 December: another in Colorado, one in Southern California.
-* 31 December: one in Florida [source](https://www.wfla.com/8-on-your-side/new-covid-19-virus-strain-in-florida-what-you-need-to-know/)
+* 31 December: one in Florida 
+([source](https://www.wfla.com/8-on-your-side/new-covid-19-virus-strain-in-florida-what-you-need-to-know/)).
 
 ## Estimate of Prevalance in United States
 
@@ -58,14 +63,14 @@ On December 31st, Helix reported that testing a subset of 31 of those
 S-dropout cases showed that four of them were the new UK strain. 
 ([Source](https://blog.helix.com/sars-cov-2-uk-variant-b-1-1-7-in-the-us-four-cases-identified-in-florida-and-california/).)
 
-Multiplying 0.5\% by four and dividing by thirty-one yields an estimate 
-that 0.065\% of US cases are the new UK strain. If this data is going on two 
+Multiplying 0.5% by four and dividing by thirty-one yields an estimate 
+that 0.065% of US cases are the new UK strain. If this data is going on two 
 weeks old, then, given UK data indicating that the prevalence ratio of 
-Covid-UK to Covid-Classic seems to double about weekly, then perhaps 0.2\% 
+Covid-UK to Covid-Classic seems to double about weekly, then perhaps 0.2% 
 of more of US Covid cases as of January 2 are Covid-UK. On the other hand, 
-if the data is newer, perhaps the number is currently closer to 0.1\%. 
+if the data is newer, perhaps the number is currently closer to 0.1%. 
 
-My best guess, then, as of January 2, is that 0.1\% to 0.2\% of US cases are 
+My best guess, then, as of January 2, is that 0.1% to 0.2% of US cases are 
 of the new UK strain. 
 
 In further extrapolation from rough numbers, Youyang Gu's 
@@ -156,3 +161,6 @@ catching the virus. It will also be informative to see whether the
 healthcare system collapses -- and what "collapse" would mean in this 
 context. It is a vague term, after all. 
 
+---
+
+_This page is released under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) license._
