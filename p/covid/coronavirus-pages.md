@@ -31,6 +31,8 @@ pandemic. If you find taking a peak at that interesting at all, take a look. It
 can also serve as a very basic introduction to spinning up simple graphs in
 Python 3.
 
+[2020 Jan 2: UK Strain](covid-uk.html)
+
 [2020 March 22](2020-3-22.html)  
 [2020 March 21](2020-3-21.html)  
 [2020 March 20](2020-3-20.html)  
