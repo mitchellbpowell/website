@@ -39,6 +39,7 @@ layout: page
 
 #### COVID-19
 * [Summary](p/covid/coronavirus-pages.html)
+* [Covid: UK Strain](p/covid/covid-uk.html)
 * Daily updates (2020)
     * February [16](p/covid/thinking-covid.html), [17](p/covid/2020-2-17.html), [18](p/covid/2020-2-18.html), [19](p/covid/2020-2-19.html), [20](p/covid/2020-2-20.html), [21](p/covid/2020-2-21.html), [22](p/covid/2020-2-22.html)
     * February [23](p/covid/2020-2-23.html), [24](p/covid/2020-2-24.html), [25](p/covid/2020-2-25.html), [26](p/covid/2020-2-26.html), [27](p/covid/2020-2-27.html), [28](p/covid/2020-2-28.html), [29](p/covid/2020-2-29.html)
