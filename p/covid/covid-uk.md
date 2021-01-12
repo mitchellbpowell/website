@@ -42,8 +42,14 @@ by many news sources.
 * 30 December: another in Colorado, one in Southern California.
 * 31 December: one in Florida 
 ([source](https://www.wfla.com/8-on-your-side/new-covid-19-virus-strain-in-florida-what-you-need-to-know/)).
+* 7 January 2021: at least 52 cases nationwide so far 
+([source](https://www.cnn.com/2021/01/06/health/coronavirus-variant-us-cdc-cases/index.html)).
+* 9 January: at least 63 cases nationwide 
+([source](https://www.lohud.com/story/news/2021/01/09/three-more-cases-uk-covid-strain-found-new-york-heres-where/6608573002/)).
 
-## Estimate of Prevalance in United States
+## Thoughts: January 2, 2021
+
+### Estimate of Prevalance in United States
 
 As of January 2, 2020, I have not yet seen an estimate of how many actual 
 UK strain cases there are in the United States, except for a vague CNN 
@@ -84,7 +90,7 @@ new cases of the UK variant spreading each day in the United States is
 on the correct order of magnitude, though any kind of accurate reading will 
 have to await further research.
 
-## Projecting Covid-UK in the US forward
+### Projecting Covid-UK in the US forward
 
 If it is the case that the US is currently (Jan 2, 2020) 
  experiencing 1,000 cases per 
@@ -128,7 +134,7 @@ The assumptions are not good enough to treat them as a crystal ball, but
 they are plausible enough to suggest that the UK strain is worth paying 
 very careful attention to over the coming days. 
 
-## Gathering more information
+### Gathering more information
 
 For both my current (Jan 2, 2020) guesses about Covid-UK prevalance and my 
 sketchy calculations about possible future spread, I am very interested 
@@ -160,6 +166,73 @@ and re-establish some kind of equilibrium without most of the country
 catching the virus. It will also be informative to see whether the 
 healthcare system collapses -- and what "collapse" would mean in this 
 context. It is a vague term, after all. 
+
+## Thoughts: January 7th, 2021
+
+Taking my initial wildly-unreliable guess of 0.1-0.2% of US infections being 
+B.1.1.7, and also the possibly alarmist assumption of the virus doubling its 
+prevalence weekly, we would expect to see about 0.2-0.4% of US cases being 
+Covid-UK as of about January 9th. I still haven't seen anything to clearly 
+indicate whether this is too high or too low, though I haven't researched much.
+
+I do see a 
+[CNN story](https://www.cnn.com/2021/01/06/health/coronavirus-variant-us-cdc-cases/index.html) 
+announcing that as of January 6th, at least 52 cases of Covid-UK have been 
+found in the US. The same story also implies that the CDC is sequencing about 
+3,250 (or thereabouts) virus genomes per week. This suggests that in the week 
+preceding the 6th, something like 49 new cases were found. 49 divided by 3,250 
+yields about 1.5% of the cases sequenced being Covid-UK. What I haven't seen is 
+a claim that this is a representative sample. If the CDC is deliberately looking 
+for Covid-UK, then it's entirely possible that less than 1.5% of the infections 
+are B.1.1.7. Perhaps we could say that 1.5% is something like an upper bound -- 
+there are most likely less than 1.5% of cases coming back with Covid-UK, 
+especially when we consider Helix Research's numbers suggesting that as of 
+late December B.1.1.7 was a small fraction of a percent of national cases.
+
+## Thoughts: January 9th, 2021
+
+On January 7th, NPR published 
+[a piece](https://www.npr.org/2021/01/07/954562132/what-happens-if-u-k-variant-of-the-coronavirus-spreads-in-the-u-s) 
+in which Trevor Bedford, a computational biologist, floated the figure of 
+perhaps 1 in 1000 US cases being Covid-UK. Because it was a short radio 
+piece, it did not contain a detailed justification for that number. So I 
+went and found Trevor Bedford's Twitter and found 
+[this](https://twitter.com/trvrb/status/1347594957960273923), in which
+Bedford indicates agreement with numbers produced by Alexandre Bolze, a 
+member of the Helix research team. Clicking through leads on to 
+[this](https://twitter.com/alexbolze/status/1345105562237870081), in which 
+Bolze implies that multiplies 4/31 by 0.5% is the source of the number. 
+In other words, the same computation I did January 2nd, but a day earlier. 
+
+So it looks like the raw number is 0.065%, which has been rounded to 0.1%, or 
+perhaps 0.1% is an increase to account for time elapsed. Now, my previous 
+math, on January 2nd, was based on the assumption that the 0.065% figure 
+was for perhaps December 20th or so. But Bolze indicates that the samples 
+involved were from "early December". This is a bit earlier. 
+
+Meanwhile, 
+[Zvi Mowshowitz](https://thezvi.wordpress.com/2021/01/06/fourth-wave-covid-toy-modeling/) 
+seems to have concluded that the best way to model the growth of the UK 
+strain is to estimate 50% greater reproduction per five-day period. He's 
+better informed generally than I am on coronavirus, so for now I figure I'll 
+borrow his figure. 
+
+And as of today, those numbers would suggest we're at about 0.37% of the 
+nations cases are Covid-UK.
+
+If we plug in the "50% more infectious over a 5 year period" used in Zvi's 
+toy model, then, unless I'm mistaken, we'd be looking at about 18 cycles 
+from December 8th for Covid-UK to equal Covid-Classic in prevalence. 
+That's 90 days, so 
+calculating from the guess of December 8th as the starting point, March 
+8th becomes about the day Covid-UK overtakes Covid-Classic in the US.
+
+How prepared are we for that day, if it comes? The UK is continuing to fail 
+to contain Covid-UK. They've gone so far from about 53,000 cases per day at 
+the beginning of the year to 68,000 as of yesterday. However, by March 8, 
+Youyang Gu's model, as of right now, suggests that about 39% of Americans will 
+have already become immune to the virus. One might hope that would give us 
+some breathing room, but I don't know too much about these things. 
 
 ---
 
