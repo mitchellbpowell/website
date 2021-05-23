@@ -68,30 +68,39 @@ calmer.
 
 # DuckDuckGo
 
+*2020 - 2021-5-23*
+
 [DuckDuckGo](https://duckduckgo.com/) is a search engine that places an
-emphasis on user privacy, in an attempt to provide an alternative to Google's
-business model of extracting data about people who search.
+emphasis on user privacy, in an attempt to provide an alternative to 
+Google's business model of extracting data about people who search.
 
-As of 2020, the number of searches performed daily on DuckDuckGo is growing
-rapidly. This upstart competitor to Google, according to a
-[chart](https://en.wikipedia.org/wiki/DuckDuckGo#/media/File:DuckDuckGo_Daily_Traffic_2010-2020.png)
-on Wikipedia. It looks like this year DuckDuckGo is receiving about 60 million
-search queries per day, up from about 40 million last year, up from about 25
-million in 2018, up from about 17 million in 2017, up from about 11 million in
-2016. In other words, that's relatively smooth exponential growth of about 50%
-per year. Google, on the other hand, processes about 3.5 billion searces per
-day. That means that, roughly speaking, DuckDuckGo is about 1.7% of Google
-size. If DuckDuckGo were to sustain that rate of growth into the future,
-DuckDuckGo would overtake Google around 2030.
+DuckDuckGo continues to see rapid growth in its share of search 
+space. As of May 2021, their 
+[website](https://duckduckgo.com/traffic)
+reports that about 97 million queries are being processed daily, 
+which would suggest they're heading for 35 billion or more queries. 
+Last year they fielded 24 billion, the year before 15, and before that 
+9, 6, 4, 3, 2, and 1 in 2013. In 2012 they had about 500 million; 
+in 2011, 100 million; and in 2010, 16 million. Each year is seeing 
+significantly more traffic than the one before. Over the last eight 
+years, growth has been surprisingly close to an exponential 50%, year 
+over year. 
 
-However, there are some new developments that could conceivably shake things up
-further. Right now (2020-11-11), Google is in the crosshairs of some major
-antitrust legal action, which could conceivably undermine its business model of
-paying technology firms to push Google as a default setting to customers. If
+Still, Google is processing something like 4 billion searches per 
+day -- estimates vary -- meaning that DuckDuckGo still handles a mere 
+2.5% or so of what Google does. Still a growth rate of 50% annual, 
+carried forward, would see DuckDuckGo overtake Google around 2030.
+
+However, there are some new developments that could conceivably shake 
+things up further. Right now (2021-5-23), Google is in the crosshairs 
+of some major antitrust legal action, 
+[continuing its long march through the court system](https://californiaglobe.com/section-2/eastern-texas-judge-denies-googles-request-to-move-location-of-antitrust-lawsuit/) 
+which could conceivably undermine its business model of paying 
+technology firms to push Google as a default setting to customers. If
 this is successful, DuckDuckGo might have an easier time. Alternately,
-DuckDuckGo might just run out of steam and stagnate or disappear. But it's
-worth watching to find out what happens next, especially for people who are
-concerned about what happens to private information online.
+DuckDuckGo might just run out of steam and stagnate or disappear. But 
+it's worth watching to find out what happens next, especially for 
+people who are concerned about what happens to private information online.
 
 # Economics
 
